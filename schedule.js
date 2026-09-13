@@ -1,4 +1,4 @@
-window.SCHEDULE_VERSION = "2026-09-16 BETA;
+window.SCHEDULE_VERSION = "2026-09-16 00:00:00;
 window.SCHEDULE_DATA = {
   "Центральный рынок": {
     "от центра": {
