@@ -1,8 +1,8 @@
 {
-  "id": "none",
-  "active": false,
-  "title": "",
-  "text": "",
+  "id": "ann_1789587135",
+  "active": true,
+  "title": "Важное объявление",
+  "text": "страшна вырубай",
   "type": "info",
-  "timestamp": 1789587001
+  "timestamp": 1789587135
 }
