@@ -1,4 +1,5 @@
-const SCHEDULE_DATA = {
+window.SCHEDULE_VERSION = "2026-09-16";
+window.SCHEDULE_DATA = {
   "Центральный рынок": {
     "от центра": {
       "будни": {
