@@ -1,8 +1,1 @@
-{
-  "id": "ann_1789645010",
-  "active": true,
-  "title": "Важное объявление",
-  "text": "С 17 сентября движение по 15 маршруту временно приостановлено.",
-  "type": "warning",
-  "timestamp": 1789645010
-}
+{"id": "ann_test", "active": false, "title": "", "text": "", "type": "info", "timestamp": 0}
