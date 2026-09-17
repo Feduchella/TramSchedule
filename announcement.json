@@ -1,8 +1,8 @@
 {
-  "id": "ann_1789651087",
-  "active": true,
-  "title": "Важное объявление",
-  "text": "С 16.09.2026 открыто движение на ЦР",
+  "id": "none",
+  "active": false,
+  "title": "",
+  "text": "",
   "type": "info",
-  "timestamp": 1789651087
+  "timestamp": 1789651407
 }
