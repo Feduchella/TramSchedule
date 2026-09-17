@@ -1,1 +1,8 @@
-{"id": "ann_test", "active": false, "title": "", "text": "", "type": "info", "timestamp": 0}
+{
+  "id": "ann_1789648109",
+  "active": true,
+  "title": "Важное объявление",
+  "text": "СУСЛОПА",
+  "type": "warning",
+  "timestamp": 1789648109
+}
