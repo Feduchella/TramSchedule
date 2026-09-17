@@ -1,8 +1,8 @@
 {
-  "id": "ann_1789650656",
-  "active": true,
-  "title": "Внимание пассажирам",
-  "text": "ЛЮСЯ СЕКЦИОН!",
-  "type": "alert",
-  "timestamp": 1789650656
+  "id": "none",
+  "active": false,
+  "title": "",
+  "text": "",
+  "type": "info",
+  "timestamp": 1789651022
 }
