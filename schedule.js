@@ -37572,3 +37572,65 @@ window.SCHEDULE_DATA = {
     }
   }
 };
+
+// ======================================================================
+// Совместимость со старыми версиями (< X1.5)
+// Если клиент старый, скрываем 5 маршрут и его уникальные остановки
+// ======================================================================
+(function() {
+    var win = (typeof window !== 'undefined') ? window : (typeof globalThis !== 'undefined' ? globalThis : this);
+    var glob = (typeof globalThis !== 'undefined') ? globalThis : (typeof window !== 'undefined' ? window : this);
+    var v = (win && win.APP_VERSION) || 
+            (glob && glob.APP_VERSION) || 
+            (typeof APP_VERSION !== 'undefined' ? APP_VERSION : null);
+
+    var isSupported = false;
+    if (v && typeof v === 'string') {
+        var m = v.match(/(\d+)\.?(\d+)?/);
+        if (m) {
+            var major = parseInt(m[1], 10);
+            var minor = m[2] !== undefined ? parseInt(m[2], 10) : 0;
+            if (major > 1 || (major === 1 && minor >= 5)) {
+                isSupported = true;
+            }
+        }
+    }
+
+    if (!isSupported) {
+        var d = (win && win.SCHEDULE_DATA) || (typeof SCHEDULE_DATA !== 'undefined' ? SCHEDULE_DATA : null);
+        if (!d) return;
+
+        for (var s in d) {
+            if (!Object.prototype.hasOwnProperty.call(d, s)) continue;
+            var dirs = d[s];
+            for (var dir in dirs) {
+                if (!Object.prototype.hasOwnProperty.call(dirs, dir)) continue;
+                var days = dirs[dir];
+                for (var day in days) {
+                    if (!Object.prototype.hasOwnProperty.call(days, day)) continue;
+                    var hours = days[day];
+                    for (var h in hours) {
+                        if (!Object.prototype.hasOwnProperty.call(hours, h)) continue;
+                        if (Array.isArray(hours[h])) {
+                            hours[h] = hours[h].filter(function(dep) {
+                                return String(dep && dep.route).trim() !== '5';
+                            });
+                            if (hours[h].length === 0) {
+                                delete hours[h];
+                            }
+                        }
+                    }
+                    if (Object.keys(days[day]).length === 0) {
+                        delete days[day];
+                    }
+                }
+                if (Object.keys(dirs[dir]).length === 0) {
+                    delete dirs[dir];
+                }
+            }
+            if (Object.keys(d[s]).length === 0) {
+                delete d[s];
+            }
+        }
+    }
+})();
