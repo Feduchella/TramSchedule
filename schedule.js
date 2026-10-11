@@ -34746,7 +34746,7 @@ window.SCHEDULE_DATA = {
       }
     }
   },
-  "СТАН-2000": {
+  "Стан-2000": {
     "в центр": {
       "будни": {
         "6": [
@@ -52618,89 +52618,3 @@ window.SCHEDULE_DATA = {
     }
   }
 };
-
-// ======================================================================
-// Совместимость со старыми версиями (< X1.5)
-// Если клиент старый, скрываем 4 и 5 маршруты и их уникальные остановки
-// ======================================================================
-(function() {
-    var win = (typeof window !== 'undefined') ? window : (typeof globalThis !== 'undefined' ? globalThis : this);
-    var glob = (typeof globalThis !== 'undefined') ? globalThis : (typeof window !== 'undefined' ? window : this);
-    var v = (win && win.APP_VERSION) || 
-            (glob && glob.APP_VERSION) || 
-            (typeof APP_VERSION !== 'undefined' ? APP_VERSION : null);
-
-    var isSupported = false;
-    if (v && typeof v === 'string') {
-        var m = v.match(/(\d+)\.?(\d+)?/);
-        if (m) {
-            var major = parseInt(m[1], 10);
-            var minor = m[2] !== undefined ? parseInt(m[2], 10) : 0;
-            if (major > 1 || (major === 1 && minor >= 5)) {
-                isSupported = true;
-            }
-        }
-    }
-
-    if (isSupported && glob && glob.eval) {
-        try {
-            if (typeof glob.getNextStopsForStopDir === 'function') {
-                var nextSrc = glob.getNextStopsForStopDir.toString();
-                if (nextSrc.indexOf('topNext') !== -1) {
-                    glob.eval('getNextStopsForStopDir = function getNextStopsForStopDir(stop, dir) { const routes = getRoutesAtStop(stop, dir); const nextStops = []; for (const r of routes) { const nextMap = _networkTransitions[r]?.[dir]?.[stop]; if (nextMap && nextMap.size > 0) { for (const [nextStop] of Array.from(nextMap.entries()).sort((a, b) => b[1] - a[1])) { if (nextStop && nextStop !== stop && !nextStops.includes(nextStop)) { nextStops.push(nextStop); } } } } return nextStops; };');
-                }
-            }
-            if (typeof glob.analyzeTransitNetwork === 'function') {
-                var fnSrc = glob.analyzeTransitNetwork.toString();
-                if (fnSrc.indexOf('_getLegStart') === -1) {
-                    var updatedSrc = fnSrc
-                        .replace('nextStart.totalMin - last.totalMin <= 30', 'nextStart.totalMin - last.totalMin <= 60')
-                        .replace(
-                            /const\s+routeDirLegs\s*=\s*\{\};[\s\S]*?_shortenedCache\[key\]\s*=\s*legDest;\s*\}\s*\}\s*\}/,
-                            'function _getLegStart(l) { const leg = allLegs[l]; if (l > 0) { const prevLeg = allLegs[l - 1]; const prevLast = prevLeg[prevLeg.length - 1]; const curStart = leg[0]; if (prevLast.route === curStart.route && prevLast.run === curStart.run && prevLast.dayType === curStart.dayType && (curStart.totalMin - prevLast.totalMin <= 3) && prevLeg.length > 2 && leg.length > 2) { return prevLast.stop; } } return leg[0].stop; } function _getLegDest(l) { const leg = allLegs[l]; const route = leg[0].route; const dir = leg[0].dir; const lastDep = leg[leg.length - 1]; if (l + 1 < allLegs.length) { const nextLeg = allLegs[l + 1]; const nextStart = nextLeg[0]; if (lastDep.route === nextStart.route && lastDep.run === nextStart.run && lastDep.dayType === nextStart.dayType && (nextStart.totalMin - lastDep.totalMin <= 3) && leg.length > 2 && nextLeg.length > 2) { return lastDep.stop; } } const nextMap = _networkTransitions[route]?.[dir]?.[lastDep.stop]; let legDest = lastDep.stop; if (nextMap && nextMap.size > 0) { legDest = Array.from(nextMap.entries()).sort((a, b) => b[1] - a[1])[0][0]; } return legDest; } const routeDirLegs = {}; for (let l = 0; l < allLegs.length; l++) { const leg = allLegs[l]; const r = leg[0].route; const d = leg[0].dir; if (!routeDirLegs[r]) routeDirLegs[r] = {}; if (!routeDirLegs[r][d]) routeDirLegs[r][d] = []; routeDirLegs[r][d].push(l); } for (const [route, dirs] of Object.entries(routeDirLegs)) { ROUTE_INFO[route] = { name: route, endpoints: {}, destinations: {} }; for (const [dir, legIndices] of Object.entries(dirs)) { const startCounts = {}; const destCounts = {}; for (const l of legIndices) { const startStop = _getLegStart(l); const finalStop = _getLegDest(l); startCounts[startStop] = (startCounts[startStop] || 0) + 1; destCounts[finalStop] = (destCounts[finalStop] || 0) + 1; } const topStart = Object.entries(startCounts).sort((a, b) => b[1] - a[1])[0][0]; const topDest = Object.entries(destCounts).sort((a, b) => b[1] - a[1])[0][0]; ROUTE_INFO[route].destinations[dir] = topDest; const epStr = "«" + topStart + "» — «" + topDest + "»"; ROUTE_INFO[route].endpoints[dir] = epStr; ROUTE_INFO[route][dir] = epStr; } } for (let l = 0; l < allLegs.length; l++) { const leg = allLegs[l]; const route = leg[0].route; const dir = leg[0].dir; let normalDest = ROUTE_INFO[route]?.destinations?.[dir]; if (!normalDest) continue; let legDest = _getLegDest(l); if (l + 1 < allLegs.length) { const nextLeg = allLegs[l + 1]; const lastDep = leg[leg.length - 1]; const nextStart = nextLeg[0]; if (lastDep.route === nextStart.route && lastDep.run === nextStart.run && lastDep.dayType === nextStart.dayType && (nextStart.totalMin - lastDep.totalMin <= 3) && (leg.length <= 2 || nextLeg.length <= 2)) { legDest = _getLegDest(l + 1); if (leg.length <= 2) { normalDest = ROUTE_INFO[route]?.destinations?.[nextLeg[0].dir] || normalDest; } } } if (legDest !== normalDest) { for (const dep of leg) { const key = dep.stop + "|" + dep.dir + "|" + dep.dayType + "|" + dep.hour + "|" + dep.minute + "|" + dep.route + "|" + dep.run; _shortenedCache[key] = legDest; } } }'
-                        );
-                    glob.eval('analyzeTransitNetwork = ' + updatedSrc);
-                }
-            }
-        } catch (e) {}
-    }
-
-    if (!isSupported) {
-        var d = (win && win.SCHEDULE_DATA) || (typeof SCHEDULE_DATA !== 'undefined' ? SCHEDULE_DATA : null);
-        if (!d) return;
-
-        for (var s in d) {
-            if (!Object.prototype.hasOwnProperty.call(d, s)) continue;
-            var dirs = d[s];
-            for (var dir in dirs) {
-                if (!Object.prototype.hasOwnProperty.call(dirs, dir)) continue;
-                var days = dirs[dir];
-                for (var day in days) {
-                    if (!Object.prototype.hasOwnProperty.call(days, day)) continue;
-                    var hours = days[day];
-                    for (var h in hours) {
-                        if (!Object.prototype.hasOwnProperty.call(hours, h)) continue;
-                        if (Array.isArray(hours[h])) {
-                            hours[h] = hours[h].filter(function(dep) {
-                                var r = String(dep && dep.route).trim();
-                                return r !== '4' && r !== '5';
-                            });
-                            if (hours[h].length === 0) {
-                                delete hours[h];
-                            }
-                        }
-                    }
-                    if (Object.keys(days[day]).length === 0) {
-                        delete days[day];
-                    }
-                }
-                if (Object.keys(dirs[dir]).length === 0) {
-                    delete dirs[dir];
-                }
-            }
-            if (Object.keys(d[s]).length === 0) {
-                delete d[s];
-            }
-        }
-    }
-})();
