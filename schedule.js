@@ -52449,7 +52449,7 @@ window.SCHEDULE_DATA = {
       }
     }
   },
-  "СТАН-2000": {
+  "Стан-2000": {
     "от центра": {
       "будни": {
         "6": [
@@ -52594,7 +52594,7 @@ window.SCHEDULE_DATA = {
             targetData = SCHEDULE_DATA;
         }
         if (targetData) {
-            var hiddenRoutes = { '4': true, '5': true };
+            var hiddenRoutes = { "4": true, "5": true };
             for (var stopName in targetData) {
                 if (!targetData.hasOwnProperty(stopName)) continue;
                 var directions = targetData[stopName];
