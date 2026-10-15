@@ -52576,3 +52576,69 @@ window.SCHEDULE_DATA = {
     }
   }
 };
+
+(function() {
+    var isModern = false;
+    try {
+        function checkVer(v) { return typeof v === 'string' && (v === 'X1.5' || v.startsWith('X')); }
+        if (typeof APP_VERSION !== 'undefined' && checkVer(APP_VERSION)) isModern = true;
+        if (typeof window !== 'undefined' && (checkVer(window.APP_VERSION) || (window.window && checkVer(window.window.APP_VERSION)))) isModern = true;
+        if (typeof globalThis !== 'undefined' && checkVer(globalThis.APP_VERSION)) isModern = true;
+    } catch (e) {}
+
+    if (!isModern) {
+        var targetData = null;
+        if (typeof window !== 'undefined' && window.SCHEDULE_DATA) {
+            targetData = window.SCHEDULE_DATA;
+        } else if (typeof SCHEDULE_DATA !== 'undefined') {
+            targetData = SCHEDULE_DATA;
+        }
+        if (targetData) {
+            var hiddenRoutes = { '4': true, '5': true };
+            for (var stopName in targetData) {
+                if (!targetData.hasOwnProperty(stopName)) continue;
+                var directions = targetData[stopName];
+                var hasAnyDir = false;
+                for (var dir in directions) {
+                    if (!directions.hasOwnProperty(dir)) continue;
+                    var days = directions[dir];
+                    var hasAnyDay = false;
+                    for (var day in days) {
+                        if (!days.hasOwnProperty(day)) continue;
+                        var hours = days[day];
+                        var hasAnyHour = false;
+                        for (var h in hours) {
+                            if (!hours.hasOwnProperty(h)) continue;
+                            var deps = hours[h];
+                            var filteredDeps = [];
+                            for (var i = 0; i < deps.length; i++) {
+                                if (!hiddenRoutes[deps[i].route]) {
+                                    filteredDeps.push(deps[i]);
+                                }
+                            }
+                            if (filteredDeps.length > 0) {
+                                hours[h] = filteredDeps;
+                                hasAnyHour = true;
+                            } else {
+                                delete hours[h];
+                            }
+                        }
+                        if (hasAnyHour) {
+                            hasAnyDay = true;
+                        } else {
+                            delete days[day];
+                        }
+                    }
+                    if (hasAnyDay) {
+                        hasAnyDir = true;
+                    } else {
+                        delete directions[dir];
+                    }
+                }
+                if (!hasAnyDir) {
+                    delete targetData[stopName];
+                }
+            }
+        }
+    }
+})();
