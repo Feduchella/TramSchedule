@@ -10876,19 +10876,9 @@ window.SCHEDULE_DATA = {
             "run": "2"
           },
           {
-            "minute": "45",
-            "route": "4",
-            "run": "1"
-          },
-          {
             "minute": "48",
             "route": "1",
             "run": "3"
-          },
-          {
-            "minute": "56",
-            "route": "4",
-            "run": "2"
           }
         ],
         "6": [
@@ -10898,18 +10888,8 @@ window.SCHEDULE_DATA = {
             "run": "1"
           },
           {
-            "minute": "06",
-            "route": "4",
-            "run": "3"
-          },
-          {
             "minute": "07",
             "route": "1",
-            "run": "4"
-          },
-          {
-            "minute": "16",
-            "route": "4",
             "run": "4"
           },
           {
@@ -11050,29 +11030,9 @@ window.SCHEDULE_DATA = {
         ],
         "12": [
           {
-            "minute": "14",
-            "route": "4",
-            "run": "1"
-          },
-          {
-            "minute": "25",
-            "route": "4",
-            "run": "2"
-          },
-          {
             "minute": "28",
             "route": "1",
             "run": "3"
-          },
-          {
-            "minute": "35",
-            "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "45",
-            "route": "4",
-            "run": "4"
           },
           {
             "minute": "48",
@@ -11208,24 +11168,9 @@ window.SCHEDULE_DATA = {
             "run": "3"
           },
           {
-            "minute": "29",
-            "route": "4",
-            "run": "1"
-          },
-          {
             "minute": "33",
             "route": "1",
             "run": "2"
-          },
-          {
-            "minute": "40",
-            "route": "4",
-            "run": "2"
-          },
-          {
-            "minute": "50",
-            "route": "4",
-            "run": "3"
           },
           {
             "minute": "52",
@@ -11234,11 +11179,6 @@ window.SCHEDULE_DATA = {
           }
         ],
         "17": [
-          {
-            "minute": "00",
-            "route": "4",
-            "run": "4"
-          },
           {
             "minute": "11",
             "route": "1",
@@ -11349,32 +11289,12 @@ window.SCHEDULE_DATA = {
             "run": "2"
           },
           {
-            "minute": "45",
-            "route": "4",
-            "run": "1"
-          },
-          {
             "minute": "48",
             "route": "1",
-            "run": "2"
-          },
-          {
-            "minute": "56",
-            "route": "4",
             "run": "2"
           }
         ],
         "6": [
-          {
-            "minute": "06",
-            "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "16",
-            "route": "4",
-            "run": "4"
-          },
           {
             "minute": "21",
             "route": "1",
@@ -11468,29 +11388,9 @@ window.SCHEDULE_DATA = {
             "run": "1"
           },
           {
-            "minute": "14",
-            "route": "4",
-            "run": "1"
-          },
-          {
-            "minute": "25",
-            "route": "4",
-            "run": "2"
-          },
-          {
             "minute": "35",
             "route": "1",
             "run": "2"
-          },
-          {
-            "minute": "35",
-            "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "45",
-            "route": "4",
-            "run": "4"
           },
           {
             "minute": "52",
@@ -11566,24 +11466,9 @@ window.SCHEDULE_DATA = {
             "run": "1"
           },
           {
-            "minute": "29",
-            "route": "4",
-            "run": "1"
-          },
-          {
-            "minute": "40",
-            "route": "4",
-            "run": "2"
-          },
-          {
             "minute": "43",
             "route": "2",
             "run": "2"
-          },
-          {
-            "minute": "50",
-            "route": "4",
-            "run": "3"
           },
           {
             "minute": "59",
@@ -11592,11 +11477,6 @@ window.SCHEDULE_DATA = {
           }
         ],
         "17": [
-          {
-            "minute": "00",
-            "route": "4",
-            "run": "4"
-          },
           {
             "minute": "32",
             "route": "1",
@@ -11684,9 +11564,19 @@ window.SCHEDULE_DATA = {
             "run": "4"
           },
           {
+            "minute": "45",
+            "route": "4",
+            "run": "1"
+          },
+          {
             "minute": "49",
             "route": "2",
             "run": "1"
+          },
+          {
+            "minute": "56",
+            "route": "4",
+            "run": "2"
           }
         ],
         "6": [
@@ -11696,9 +11586,19 @@ window.SCHEDULE_DATA = {
             "run": "6"
           },
           {
+            "minute": "06",
+            "route": "4",
+            "run": "3"
+          },
+          {
             "minute": "15",
             "route": "2",
             "run": "3"
+          },
+          {
+            "minute": "16",
+            "route": "4",
+            "run": "4"
           },
           {
             "minute": "24",
@@ -11823,9 +11723,29 @@ window.SCHEDULE_DATA = {
             "run": "1"
           },
           {
+            "minute": "14",
+            "route": "4",
+            "run": "1"
+          },
+          {
             "minute": "25",
             "route": "1",
             "run": "5"
+          },
+          {
+            "minute": "25",
+            "route": "4",
+            "run": "2"
+          },
+          {
+            "minute": "35",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "45",
+            "route": "4",
+            "run": "4"
           },
           {
             "minute": "46",
@@ -11931,14 +11851,29 @@ window.SCHEDULE_DATA = {
             "run": "4"
           },
           {
+            "minute": "29",
+            "route": "4",
+            "run": "1"
+          },
+          {
             "minute": "39",
             "route": "2",
             "run": "1"
           },
           {
+            "minute": "40",
+            "route": "4",
+            "run": "2"
+          },
+          {
             "minute": "48",
             "route": "1",
             "run": "5"
+          },
+          {
+            "minute": "50",
+            "route": "4",
+            "run": "3"
           },
           {
             "minute": "58",
@@ -11947,6 +11882,11 @@ window.SCHEDULE_DATA = {
           }
         ],
         "17": [
+          {
+            "minute": "00",
+            "route": "4",
+            "run": "4"
+          },
           {
             "minute": "07",
             "route": "1",
@@ -12047,6 +11987,16 @@ window.SCHEDULE_DATA = {
             "run": "3"
           },
           {
+            "minute": "45",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "56",
+            "route": "4",
+            "run": "2"
+          },
+          {
             "minute": "57",
             "route": "2",
             "run": "1"
@@ -12054,8 +12004,18 @@ window.SCHEDULE_DATA = {
         ],
         "6": [
           {
+            "minute": "06",
+            "route": "4",
+            "run": "3"
+          },
+          {
             "minute": "16",
             "route": "1",
+            "run": "4"
+          },
+          {
+            "minute": "16",
+            "route": "4",
             "run": "4"
           },
           {
@@ -12146,14 +12106,34 @@ window.SCHEDULE_DATA = {
             "run": "1"
           },
           {
+            "minute": "14",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "25",
+            "route": "4",
+            "run": "2"
+          },
+          {
             "minute": "26",
             "route": "1",
+            "run": "3"
+          },
+          {
+            "minute": "35",
+            "route": "4",
             "run": "3"
           },
           {
             "minute": "44",
             "route": "2",
             "run": "2"
+          },
+          {
+            "minute": "45",
+            "route": "4",
+            "run": "4"
           },
           {
             "minute": "59",
@@ -12219,12 +12199,32 @@ window.SCHEDULE_DATA = {
             "run": "2"
           },
           {
+            "minute": "29",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "40",
+            "route": "4",
+            "run": "2"
+          },
+          {
             "minute": "50",
             "route": "1",
+            "run": "3"
+          },
+          {
+            "minute": "50",
+            "route": "4",
             "run": "3"
           }
         ],
         "17": [
+          {
+            "minute": "00",
+            "route": "4",
+            "run": "4"
+          },
           {
             "minute": "07",
             "route": "2",
@@ -12339,35 +12339,15 @@ window.SCHEDULE_DATA = {
             "run": "2"
           },
           {
-            "minute": "47",
-            "route": "4",
-            "run": "1"
-          },
-          {
             "minute": "50",
             "route": "1",
             "run": "3"
-          },
-          {
-            "minute": "58",
-            "route": "4",
-            "run": "2"
           }
         ],
         "6": [
           {
-            "minute": "08",
-            "route": "4",
-            "run": "3"
-          },
-          {
             "minute": "09",
             "route": "1",
-            "run": "4"
-          },
-          {
-            "minute": "18",
-            "route": "4",
             "run": "4"
           },
           {
@@ -12452,14 +12432,34 @@ window.SCHEDULE_DATA = {
         ],
         "9": [
           {
+            "minute": "08",
+            "route": "4",
+            "run": "1"
+          },
+          {
             "minute": "17",
             "route": "1",
             "run": "7"
           },
           {
+            "minute": "19",
+            "route": "4",
+            "run": "2"
+          },
+          {
+            "minute": "29",
+            "route": "4",
+            "run": "3"
+          },
+          {
             "minute": "34",
             "route": "1",
             "run": "1"
+          },
+          {
+            "minute": "39",
+            "route": "4",
+            "run": "4"
           },
           {
             "minute": "46",
@@ -12493,29 +12493,9 @@ window.SCHEDULE_DATA = {
         ],
         "12": [
           {
-            "minute": "16",
-            "route": "4",
-            "run": "1"
-          },
-          {
-            "minute": "27",
-            "route": "4",
-            "run": "2"
-          },
-          {
             "minute": "30",
             "route": "1",
             "run": "3"
-          },
-          {
-            "minute": "37",
-            "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "47",
-            "route": "4",
-            "run": "4"
           },
           {
             "minute": "50",
@@ -12594,9 +12574,19 @@ window.SCHEDULE_DATA = {
             "run": "5"
           },
           {
+            "minute": "37",
+            "route": "4",
+            "run": "1"
+          },
+          {
             "minute": "39",
             "route": "1",
             "run": "6"
+          },
+          {
+            "minute": "48",
+            "route": "4",
+            "run": "2"
           },
           {
             "minute": "49",
@@ -12607,6 +12597,11 @@ window.SCHEDULE_DATA = {
             "minute": "58",
             "route": "1",
             "run": "7"
+          },
+          {
+            "minute": "58",
+            "route": "4",
+            "run": "3"
           }
         ],
         "16": [
@@ -12614,6 +12609,11 @@ window.SCHEDULE_DATA = {
             "minute": "07",
             "route": "2",
             "run": "2"
+          },
+          {
+            "minute": "08",
+            "route": "4",
+            "run": "4"
           },
           {
             "minute": "16",
@@ -12626,24 +12626,9 @@ window.SCHEDULE_DATA = {
             "run": "3"
           },
           {
-            "minute": "31",
-            "route": "4",
-            "run": "1"
-          },
-          {
             "minute": "35",
             "route": "1",
             "run": "2"
-          },
-          {
-            "minute": "42",
-            "route": "4",
-            "run": "2"
-          },
-          {
-            "minute": "52",
-            "route": "4",
-            "run": "3"
           },
           {
             "minute": "54",
@@ -12652,11 +12637,6 @@ window.SCHEDULE_DATA = {
           }
         ],
         "17": [
-          {
-            "minute": "02",
-            "route": "4",
-            "run": "4"
-          },
           {
             "minute": "13",
             "route": "1",
@@ -12710,9 +12690,29 @@ window.SCHEDULE_DATA = {
             "minute": "52",
             "route": "1",
             "run": "5"
+          },
+          {
+            "minute": "52",
+            "route": "4",
+            "run": "1"
           }
         ],
         "20": [
+          {
+            "minute": "03",
+            "route": "4",
+            "run": "2"
+          },
+          {
+            "minute": "13",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "23",
+            "route": "4",
+            "run": "4"
+          },
           {
             "minute": "32",
             "route": "1",
@@ -12767,32 +12767,12 @@ window.SCHEDULE_DATA = {
             "run": "2"
           },
           {
-            "minute": "47",
-            "route": "4",
-            "run": "1"
-          },
-          {
             "minute": "50",
             "route": "1",
-            "run": "2"
-          },
-          {
-            "minute": "58",
-            "route": "4",
             "run": "2"
           }
         ],
         "6": [
-          {
-            "minute": "08",
-            "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "18",
-            "route": "4",
-            "run": "4"
-          },
           {
             "minute": "23",
             "route": "1",
@@ -12845,8 +12825,28 @@ window.SCHEDULE_DATA = {
         ],
         "9": [
           {
+            "minute": "08",
+            "route": "4",
+            "run": "1"
+          },
+          {
             "minute": "14",
             "route": "1",
+            "run": "4"
+          },
+          {
+            "minute": "19",
+            "route": "4",
+            "run": "2"
+          },
+          {
+            "minute": "29",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "39",
+            "route": "4",
             "run": "4"
           },
           {
@@ -12886,29 +12886,9 @@ window.SCHEDULE_DATA = {
             "run": "1"
           },
           {
-            "minute": "16",
-            "route": "4",
-            "run": "1"
-          },
-          {
-            "minute": "27",
-            "route": "4",
-            "run": "2"
-          },
-          {
             "minute": "37",
             "route": "1",
             "run": "2"
-          },
-          {
-            "minute": "37",
-            "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "47",
-            "route": "4",
-            "run": "4"
           },
           {
             "minute": "54",
@@ -12967,12 +12947,32 @@ window.SCHEDULE_DATA = {
             "run": "3"
           },
           {
+            "minute": "37",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "48",
+            "route": "4",
+            "run": "2"
+          },
+          {
             "minute": "55",
             "route": "1",
             "run": "4"
+          },
+          {
+            "minute": "58",
+            "route": "4",
+            "run": "3"
           }
         ],
         "16": [
+          {
+            "minute": "08",
+            "route": "4",
+            "run": "4"
+          },
           {
             "minute": "12",
             "route": "2",
@@ -12984,24 +12984,9 @@ window.SCHEDULE_DATA = {
             "run": "1"
           },
           {
-            "minute": "31",
-            "route": "4",
-            "run": "1"
-          },
-          {
-            "minute": "42",
-            "route": "4",
-            "run": "2"
-          },
-          {
             "minute": "45",
             "route": "2",
             "run": "2"
-          },
-          {
-            "minute": "52",
-            "route": "4",
-            "run": "3"
           }
         ],
         "17": [
@@ -13009,11 +12994,6 @@ window.SCHEDULE_DATA = {
             "minute": "01",
             "route": "1",
             "run": "2"
-          },
-          {
-            "minute": "02",
-            "route": "4",
-            "run": "4"
           },
           {
             "minute": "34",
@@ -13053,9 +13033,29 @@ window.SCHEDULE_DATA = {
             "minute": "44",
             "route": "1",
             "run": "3"
+          },
+          {
+            "minute": "52",
+            "route": "4",
+            "run": "1"
           }
         ],
         "20": [
+          {
+            "minute": "03",
+            "route": "4",
+            "run": "2"
+          },
+          {
+            "minute": "13",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "23",
+            "route": "4",
+            "run": "4"
+          },
           {
             "minute": "29",
             "route": "1",
@@ -13095,13 +13095,33 @@ window.SCHEDULE_DATA = {
             "minute": "47",
             "route": "2",
             "run": "1"
+          },
+          {
+            "minute": "47",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "58",
+            "route": "4",
+            "run": "2"
           }
         ],
         "6": [
           {
+            "minute": "08",
+            "route": "4",
+            "run": "3"
+          },
+          {
             "minute": "13",
             "route": "2",
             "run": "3"
+          },
+          {
+            "minute": "18",
+            "route": "4",
+            "run": "4"
           },
           {
             "minute": "38",
@@ -13195,18 +13215,8 @@ window.SCHEDULE_DATA = {
             "run": "3"
           },
           {
-            "minute": "08",
-            "route": "4",
-            "run": "1"
-          },
-          {
             "minute": "09",
             "route": "1",
-            "run": "2"
-          },
-          {
-            "minute": "19",
-            "route": "4",
             "run": "2"
           },
           {
@@ -13215,19 +13225,9 @@ window.SCHEDULE_DATA = {
             "run": "1"
           },
           {
-            "minute": "29",
-            "route": "4",
-            "run": "3"
-          },
-          {
             "minute": "32",
             "route": "1",
             "run": "3"
-          },
-          {
-            "minute": "39",
-            "route": "4",
-            "run": "4"
           },
           {
             "minute": "51",
@@ -13276,9 +13276,29 @@ window.SCHEDULE_DATA = {
         ],
         "12": [
           {
+            "minute": "16",
+            "route": "4",
+            "run": "1"
+          },
+          {
             "minute": "23",
             "route": "1",
             "run": "5"
+          },
+          {
+            "minute": "27",
+            "route": "4",
+            "run": "2"
+          },
+          {
+            "minute": "37",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "47",
+            "route": "4",
+            "run": "4"
           }
         ],
         "13": [
@@ -13342,11 +13362,6 @@ window.SCHEDULE_DATA = {
             "run": "1"
           },
           {
-            "minute": "37",
-            "route": "4",
-            "run": "1"
-          },
-          {
             "minute": "40",
             "route": "2",
             "run": "3"
@@ -13357,19 +13372,9 @@ window.SCHEDULE_DATA = {
             "run": "2"
           },
           {
-            "minute": "48",
-            "route": "4",
-            "run": "2"
-          },
-          {
             "minute": "49",
             "route": "1",
             "run": "2"
-          },
-          {
-            "minute": "58",
-            "route": "4",
-            "run": "3"
           }
         ],
         "16": [
@@ -13384,14 +13389,14 @@ window.SCHEDULE_DATA = {
             "run": "3"
           },
           {
-            "minute": "08",
-            "route": "4",
-            "run": "4"
-          },
-          {
             "minute": "27",
             "route": "1",
             "run": "4"
+          },
+          {
+            "minute": "31",
+            "route": "4",
+            "run": "1"
           },
           {
             "minute": "37",
@@ -13399,9 +13404,19 @@ window.SCHEDULE_DATA = {
             "run": "1"
           },
           {
+            "minute": "42",
+            "route": "4",
+            "run": "2"
+          },
+          {
             "minute": "46",
             "route": "1",
             "run": "5"
+          },
+          {
+            "minute": "52",
+            "route": "4",
+            "run": "3"
           },
           {
             "minute": "56",
@@ -13410,6 +13425,11 @@ window.SCHEDULE_DATA = {
           }
         ],
         "17": [
+          {
+            "minute": "02",
+            "route": "4",
+            "run": "4"
+          },
           {
             "minute": "03",
             "route": "5",
@@ -13495,11 +13515,6 @@ window.SCHEDULE_DATA = {
             "run": "2"
           },
           {
-            "minute": "52",
-            "route": "4",
-            "run": "1"
-          },
-          {
             "minute": "55",
             "route": "1",
             "run": "1"
@@ -13507,24 +13522,9 @@ window.SCHEDULE_DATA = {
         ],
         "20": [
           {
-            "minute": "03",
-            "route": "4",
-            "run": "2"
-          },
-          {
             "minute": "09",
             "route": "15",
             "run": "2"
-          },
-          {
-            "minute": "13",
-            "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "23",
-            "route": "4",
-            "run": "4"
           },
           {
             "minute": "37",
@@ -13579,12 +13579,32 @@ window.SCHEDULE_DATA = {
       "выходные": {
         "5": [
           {
+            "minute": "47",
+            "route": "4",
+            "run": "1"
+          },
+          {
             "minute": "55",
             "route": "2",
             "run": "1"
+          },
+          {
+            "minute": "58",
+            "route": "4",
+            "run": "2"
           }
         ],
         "6": [
+          {
+            "minute": "08",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "18",
+            "route": "4",
+            "run": "4"
+          },
           {
             "minute": "27",
             "route": "2",
@@ -13637,34 +13657,14 @@ window.SCHEDULE_DATA = {
             "run": "1"
           },
           {
-            "minute": "08",
-            "route": "4",
-            "run": "1"
-          },
-          {
-            "minute": "19",
-            "route": "4",
-            "run": "2"
-          },
-          {
             "minute": "28",
             "route": "1",
             "run": "2"
           },
           {
-            "minute": "29",
-            "route": "4",
-            "run": "3"
-          },
-          {
             "minute": "35",
             "route": "2",
             "run": "2"
-          },
-          {
-            "minute": "39",
-            "route": "4",
-            "run": "4"
           },
           {
             "minute": "49",
@@ -13698,9 +13698,29 @@ window.SCHEDULE_DATA = {
         ],
         "12": [
           {
+            "minute": "16",
+            "route": "4",
+            "run": "1"
+          },
+          {
             "minute": "24",
             "route": "1",
             "run": "3"
+          },
+          {
+            "minute": "27",
+            "route": "4",
+            "run": "2"
+          },
+          {
+            "minute": "37",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "47",
+            "route": "4",
+            "run": "4"
           },
           {
             "minute": "57",
@@ -13754,24 +13774,9 @@ window.SCHEDULE_DATA = {
             "run": "1"
           },
           {
-            "minute": "37",
-            "route": "4",
-            "run": "1"
-          },
-          {
             "minute": "42",
             "route": "1",
             "run": "1"
-          },
-          {
-            "minute": "48",
-            "route": "4",
-            "run": "2"
-          },
-          {
-            "minute": "58",
-            "route": "4",
-            "run": "3"
           },
           {
             "minute": "59",
@@ -13781,22 +13786,37 @@ window.SCHEDULE_DATA = {
         ],
         "16": [
           {
-            "minute": "08",
-            "route": "4",
-            "run": "4"
-          },
-          {
             "minute": "15",
             "route": "1",
+            "run": "2"
+          },
+          {
+            "minute": "31",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "42",
+            "route": "4",
             "run": "2"
           },
           {
             "minute": "48",
             "route": "1",
             "run": "3"
+          },
+          {
+            "minute": "52",
+            "route": "4",
+            "run": "3"
           }
         ],
         "17": [
+          {
+            "minute": "02",
+            "route": "4",
+            "run": "4"
+          },
           {
             "minute": "05",
             "route": "2",
@@ -13845,33 +13865,13 @@ window.SCHEDULE_DATA = {
             "minute": "42",
             "route": "1",
             "run": "4"
-          },
-          {
-            "minute": "52",
-            "route": "4",
-            "run": "1"
           }
         ],
         "20": [
           {
-            "minute": "03",
-            "route": "4",
-            "run": "2"
-          },
-          {
             "minute": "06",
             "route": "1",
             "run": "1"
-          },
-          {
-            "minute": "13",
-            "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "23",
-            "route": "4",
-            "run": "4"
           },
           {
             "minute": "38",
@@ -38385,13 +38385,6 @@ window.SCHEDULE_DATA = {
   "58 школа": {
     "от центра": {
       "будни": {
-        "5": [
-          {
-            "minute": "59",
-            "route": "4",
-            "run": "1"
-          }
-        ],
         "6": [
           {
             "minute": "09",
@@ -38399,24 +38392,9 @@ window.SCHEDULE_DATA = {
             "run": "1"
           },
           {
-            "minute": "10",
-            "route": "4",
-            "run": "2"
-          },
-          {
-            "minute": "20",
-            "route": "4",
-            "run": "3"
-          },
-          {
             "minute": "20",
             "route": "4",
             "run": "2"
-          },
-          {
-            "minute": "30",
-            "route": "4",
-            "run": "4"
           },
           {
             "minute": "30",
@@ -38491,38 +38469,40 @@ window.SCHEDULE_DATA = {
             "minute": "43",
             "route": "4",
             "run": "4"
+          },
+          {
+            "minute": "53",
+            "route": "4",
+            "run": "1"
+          }
+        ],
+        "9": [
+          {
+            "minute": "04",
+            "route": "4",
+            "run": "2"
+          },
+          {
+            "minute": "14",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "24",
+            "route": "4",
+            "run": "4"
           }
         ],
         "12": [
-          {
-            "minute": "28",
-            "route": "4",
-            "run": "1"
-          },
           {
             "minute": "38",
             "route": "4",
             "run": "1"
           },
           {
-            "minute": "39",
-            "route": "4",
-            "run": "2"
-          },
-          {
-            "minute": "49",
-            "route": "4",
-            "run": "3"
-          },
-          {
             "minute": "49",
             "route": "4",
             "run": "2"
-          },
-          {
-            "minute": "59",
-            "route": "4",
-            "run": "4"
           },
           {
             "minute": "59",
@@ -38599,40 +38579,40 @@ window.SCHEDULE_DATA = {
             "minute": "12",
             "route": "4",
             "run": "4"
-          }
-        ],
-        "16": [
+          },
+          {
+            "minute": "22",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "33",
+            "route": "4",
+            "run": "2"
+          },
           {
             "minute": "43",
             "route": "4",
-            "run": "1"
+            "run": "3"
           },
           {
             "minute": "53",
             "route": "4",
-            "run": "1"
-          },
+            "run": "4"
+          }
+        ],
+        "16": [
           {
-            "minute": "54",
+            "minute": "53",
             "route": "4",
-            "run": "2"
+            "run": "1"
           }
         ],
         "17": [
           {
             "minute": "04",
             "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "04",
-            "route": "4",
             "run": "2"
-          },
-          {
-            "minute": "14",
-            "route": "4",
-            "run": "4"
           },
           {
             "minute": "14",
@@ -38705,19 +38685,34 @@ window.SCHEDULE_DATA = {
           },
           {
             "minute": "27",
+            "route": "4",
+            "run": "4"
+          },
+          {
+            "minute": "37",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "48",
+            "route": "4",
+            "run": "2"
+          },
+          {
+            "minute": "58",
+            "route": "4",
+            "run": "3"
+          }
+        ],
+        "20": [
+          {
+            "minute": "08",
             "route": "4",
             "run": "4"
           }
         ]
       },
       "выходные": {
-        "5": [
-          {
-            "minute": "59",
-            "route": "4",
-            "run": "1"
-          }
-        ],
         "6": [
           {
             "minute": "09",
@@ -38725,24 +38720,9 @@ window.SCHEDULE_DATA = {
             "run": "1"
           },
           {
-            "minute": "10",
-            "route": "4",
-            "run": "2"
-          },
-          {
-            "minute": "20",
-            "route": "4",
-            "run": "3"
-          },
-          {
             "minute": "20",
             "route": "4",
             "run": "2"
-          },
-          {
-            "minute": "30",
-            "route": "4",
-            "run": "4"
           },
           {
             "minute": "30",
@@ -38817,38 +38797,40 @@ window.SCHEDULE_DATA = {
             "minute": "43",
             "route": "4",
             "run": "4"
+          },
+          {
+            "minute": "53",
+            "route": "4",
+            "run": "1"
+          }
+        ],
+        "9": [
+          {
+            "minute": "04",
+            "route": "4",
+            "run": "2"
+          },
+          {
+            "minute": "14",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "24",
+            "route": "4",
+            "run": "4"
           }
         ],
         "12": [
-          {
-            "minute": "28",
-            "route": "4",
-            "run": "1"
-          },
           {
             "minute": "38",
             "route": "4",
             "run": "1"
           },
           {
-            "minute": "39",
-            "route": "4",
-            "run": "2"
-          },
-          {
-            "minute": "49",
-            "route": "4",
-            "run": "3"
-          },
-          {
             "minute": "49",
             "route": "4",
             "run": "2"
-          },
-          {
-            "minute": "59",
-            "route": "4",
-            "run": "4"
           },
           {
             "minute": "59",
@@ -38925,40 +38907,40 @@ window.SCHEDULE_DATA = {
             "minute": "12",
             "route": "4",
             "run": "4"
-          }
-        ],
-        "16": [
+          },
+          {
+            "minute": "22",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "33",
+            "route": "4",
+            "run": "2"
+          },
           {
             "minute": "43",
             "route": "4",
-            "run": "1"
+            "run": "3"
           },
           {
             "minute": "53",
             "route": "4",
-            "run": "1"
-          },
+            "run": "4"
+          }
+        ],
+        "16": [
           {
-            "minute": "54",
+            "minute": "53",
             "route": "4",
-            "run": "2"
+            "run": "1"
           }
         ],
         "17": [
           {
             "minute": "04",
             "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "04",
-            "route": "4",
             "run": "2"
-          },
-          {
-            "minute": "14",
-            "route": "4",
-            "run": "4"
           },
           {
             "minute": "14",
@@ -39031,6 +39013,28 @@ window.SCHEDULE_DATA = {
           },
           {
             "minute": "27",
+            "route": "4",
+            "run": "4"
+          },
+          {
+            "minute": "37",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "48",
+            "route": "4",
+            "run": "2"
+          },
+          {
+            "minute": "58",
+            "route": "4",
+            "run": "3"
+          }
+        ],
+        "20": [
+          {
+            "minute": "08",
             "route": "4",
             "run": "4"
           }
@@ -39039,7 +39043,29 @@ window.SCHEDULE_DATA = {
     },
     "в центр": {
       "будни": {
+        "5": [
+          {
+            "minute": "59",
+            "route": "4",
+            "run": "1"
+          }
+        ],
         "6": [
+          {
+            "minute": "10",
+            "route": "4",
+            "run": "2"
+          },
+          {
+            "minute": "20",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "30",
+            "route": "4",
+            "run": "4"
+          },
           {
             "minute": "40",
             "route": "4",
@@ -39110,11 +39136,6 @@ window.SCHEDULE_DATA = {
             "run": "1"
           },
           {
-            "minute": "53",
-            "route": "4",
-            "run": "1"
-          },
-          {
             "minute": "54",
             "route": "4",
             "run": "2"
@@ -39127,22 +39148,29 @@ window.SCHEDULE_DATA = {
             "run": "3"
           },
           {
-            "minute": "04",
+            "minute": "14",
+            "route": "4",
+            "run": "4"
+          }
+        ],
+        "12": [
+          {
+            "minute": "28",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "39",
             "route": "4",
             "run": "2"
           },
           {
-            "minute": "14",
-            "route": "4",
-            "run": "4"
-          },
-          {
-            "minute": "14",
+            "minute": "49",
             "route": "4",
             "run": "3"
           },
           {
-            "minute": "24",
+            "minute": "59",
             "route": "4",
             "run": "4"
           }
@@ -39218,11 +39246,6 @@ window.SCHEDULE_DATA = {
             "run": "1"
           },
           {
-            "minute": "22",
-            "route": "4",
-            "run": "1"
-          },
-          {
             "minute": "23",
             "route": "4",
             "run": "2"
@@ -39233,27 +39256,34 @@ window.SCHEDULE_DATA = {
             "run": "3"
           },
           {
-            "minute": "33",
-            "route": "4",
-            "run": "2"
-          },
-          {
             "minute": "43",
-            "route": "4",
-            "run": "4"
-          },
-          {
-            "minute": "43",
-            "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "53",
             "route": "4",
             "run": "4"
           }
         ],
+        "16": [
+          {
+            "minute": "43",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "54",
+            "route": "4",
+            "run": "2"
+          }
+        ],
         "17": [
+          {
+            "minute": "04",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "14",
+            "route": "4",
+            "run": "4"
+          },
           {
             "minute": "24",
             "route": "4",
@@ -39324,11 +39354,6 @@ window.SCHEDULE_DATA = {
             "run": "1"
           },
           {
-            "minute": "37",
-            "route": "4",
-            "run": "1"
-          },
-          {
             "minute": "38",
             "route": "4",
             "run": "2"
@@ -39339,31 +39364,36 @@ window.SCHEDULE_DATA = {
             "run": "3"
           },
           {
-            "minute": "48",
-            "route": "4",
-            "run": "2"
-          },
-          {
             "minute": "58",
-            "route": "4",
-            "run": "4"
-          },
-          {
-            "minute": "58",
-            "route": "4",
-            "run": "3"
-          }
-        ],
-        "20": [
-          {
-            "minute": "08",
             "route": "4",
             "run": "4"
           }
         ]
       },
       "выходные": {
+        "5": [
+          {
+            "minute": "59",
+            "route": "4",
+            "run": "1"
+          }
+        ],
         "6": [
+          {
+            "minute": "10",
+            "route": "4",
+            "run": "2"
+          },
+          {
+            "minute": "20",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "30",
+            "route": "4",
+            "run": "4"
+          },
           {
             "minute": "40",
             "route": "4",
@@ -39434,11 +39464,6 @@ window.SCHEDULE_DATA = {
             "run": "1"
           },
           {
-            "minute": "53",
-            "route": "4",
-            "run": "1"
-          },
-          {
             "minute": "54",
             "route": "4",
             "run": "2"
@@ -39451,22 +39476,29 @@ window.SCHEDULE_DATA = {
             "run": "3"
           },
           {
-            "minute": "04",
+            "minute": "14",
+            "route": "4",
+            "run": "4"
+          }
+        ],
+        "12": [
+          {
+            "minute": "28",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "39",
             "route": "4",
             "run": "2"
           },
           {
-            "minute": "14",
-            "route": "4",
-            "run": "4"
-          },
-          {
-            "minute": "14",
+            "minute": "49",
             "route": "4",
             "run": "3"
           },
           {
-            "minute": "24",
+            "minute": "59",
             "route": "4",
             "run": "4"
           }
@@ -39542,11 +39574,6 @@ window.SCHEDULE_DATA = {
             "run": "1"
           },
           {
-            "minute": "22",
-            "route": "4",
-            "run": "1"
-          },
-          {
             "minute": "23",
             "route": "4",
             "run": "2"
@@ -39557,27 +39584,34 @@ window.SCHEDULE_DATA = {
             "run": "3"
           },
           {
-            "minute": "33",
-            "route": "4",
-            "run": "2"
-          },
-          {
             "minute": "43",
-            "route": "4",
-            "run": "4"
-          },
-          {
-            "minute": "43",
-            "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "53",
             "route": "4",
             "run": "4"
           }
         ],
+        "16": [
+          {
+            "minute": "43",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "54",
+            "route": "4",
+            "run": "2"
+          }
+        ],
         "17": [
+          {
+            "minute": "04",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "14",
+            "route": "4",
+            "run": "4"
+          },
           {
             "minute": "24",
             "route": "4",
@@ -39648,11 +39682,6 @@ window.SCHEDULE_DATA = {
             "run": "1"
           },
           {
-            "minute": "37",
-            "route": "4",
-            "run": "1"
-          },
-          {
             "minute": "38",
             "route": "4",
             "run": "2"
@@ -39663,24 +39692,7 @@ window.SCHEDULE_DATA = {
             "run": "3"
           },
           {
-            "minute": "48",
-            "route": "4",
-            "run": "2"
-          },
-          {
             "minute": "58",
-            "route": "4",
-            "run": "4"
-          },
-          {
-            "minute": "58",
-            "route": "4",
-            "run": "3"
-          }
-        ],
-        "20": [
-          {
-            "minute": "08",
             "route": "4",
             "run": "4"
           }
@@ -39691,38 +39703,16 @@ window.SCHEDULE_DATA = {
   "Улица Артёмова": {
     "от центра": {
       "будни": {
-        "5": [
-          {
-            "minute": "58",
-            "route": "4",
-            "run": "1"
-          }
-        ],
         "6": [
-          {
-            "minute": "09",
-            "route": "4",
-            "run": "2"
-          },
           {
             "minute": "11",
             "route": "4",
             "run": "1"
           },
           {
-            "minute": "19",
-            "route": "4",
-            "run": "3"
-          },
-          {
             "minute": "22",
             "route": "4",
             "run": "2"
-          },
-          {
-            "minute": "29",
-            "route": "4",
-            "run": "4"
           },
           {
             "minute": "32",
@@ -39797,38 +39787,40 @@ window.SCHEDULE_DATA = {
             "minute": "45",
             "route": "4",
             "run": "4"
-          }
-        ],
-        "12": [
-          {
-            "minute": "27",
-            "route": "4",
-            "run": "1"
           },
           {
-            "minute": "38",
+            "minute": "55",
+            "route": "4",
+            "run": "1"
+          }
+        ],
+        "9": [
+          {
+            "minute": "06",
             "route": "4",
             "run": "2"
           },
+          {
+            "minute": "16",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "26",
+            "route": "4",
+            "run": "4"
+          }
+        ],
+        "12": [
           {
             "minute": "40",
             "route": "4",
             "run": "1"
           },
           {
-            "minute": "48",
-            "route": "4",
-            "run": "3"
-          },
-          {
             "minute": "51",
             "route": "4",
             "run": "2"
-          },
-          {
-            "minute": "58",
-            "route": "4",
-            "run": "4"
           }
         ],
         "13": [
@@ -39905,19 +39897,29 @@ window.SCHEDULE_DATA = {
             "minute": "14",
             "route": "4",
             "run": "4"
-          }
-        ],
-        "16": [
+          },
           {
-            "minute": "42",
+            "minute": "24",
             "route": "4",
             "run": "1"
           },
           {
-            "minute": "53",
+            "minute": "35",
             "route": "4",
             "run": "2"
           },
+          {
+            "minute": "45",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "55",
+            "route": "4",
+            "run": "4"
+          }
+        ],
+        "16": [
           {
             "minute": "55",
             "route": "4",
@@ -39926,19 +39928,9 @@ window.SCHEDULE_DATA = {
         ],
         "17": [
           {
-            "minute": "03",
-            "route": "4",
-            "run": "3"
-          },
-          {
             "minute": "06",
             "route": "4",
             "run": "2"
-          },
-          {
-            "minute": "13",
-            "route": "4",
-            "run": "4"
           },
           {
             "minute": "16",
@@ -40011,44 +40003,44 @@ window.SCHEDULE_DATA = {
           },
           {
             "minute": "29",
+            "route": "4",
+            "run": "4"
+          },
+          {
+            "minute": "39",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "50",
+            "route": "4",
+            "run": "2"
+          }
+        ],
+        "20": [
+          {
+            "minute": "00",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "10",
             "route": "4",
             "run": "4"
           }
         ]
       },
       "выходные": {
-        "5": [
-          {
-            "minute": "58",
-            "route": "4",
-            "run": "1"
-          }
-        ],
         "6": [
-          {
-            "minute": "09",
-            "route": "4",
-            "run": "2"
-          },
           {
             "minute": "11",
             "route": "4",
             "run": "1"
           },
           {
-            "minute": "19",
-            "route": "4",
-            "run": "3"
-          },
-          {
             "minute": "22",
             "route": "4",
             "run": "2"
-          },
-          {
-            "minute": "29",
-            "route": "4",
-            "run": "4"
           },
           {
             "minute": "32",
@@ -40123,38 +40115,40 @@ window.SCHEDULE_DATA = {
             "minute": "45",
             "route": "4",
             "run": "4"
-          }
-        ],
-        "12": [
-          {
-            "minute": "27",
-            "route": "4",
-            "run": "1"
           },
           {
-            "minute": "38",
+            "minute": "55",
+            "route": "4",
+            "run": "1"
+          }
+        ],
+        "9": [
+          {
+            "minute": "06",
             "route": "4",
             "run": "2"
           },
+          {
+            "minute": "16",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "26",
+            "route": "4",
+            "run": "4"
+          }
+        ],
+        "12": [
           {
             "minute": "40",
             "route": "4",
             "run": "1"
           },
           {
-            "minute": "48",
-            "route": "4",
-            "run": "3"
-          },
-          {
             "minute": "51",
             "route": "4",
             "run": "2"
-          },
-          {
-            "minute": "58",
-            "route": "4",
-            "run": "4"
           }
         ],
         "13": [
@@ -40231,19 +40225,29 @@ window.SCHEDULE_DATA = {
             "minute": "14",
             "route": "4",
             "run": "4"
-          }
-        ],
-        "16": [
+          },
           {
-            "minute": "42",
+            "minute": "24",
             "route": "4",
             "run": "1"
           },
           {
-            "minute": "53",
+            "minute": "35",
             "route": "4",
             "run": "2"
           },
+          {
+            "minute": "45",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "55",
+            "route": "4",
+            "run": "4"
+          }
+        ],
+        "16": [
           {
             "minute": "55",
             "route": "4",
@@ -40252,19 +40256,9 @@ window.SCHEDULE_DATA = {
         ],
         "17": [
           {
-            "minute": "03",
-            "route": "4",
-            "run": "3"
-          },
-          {
             "minute": "06",
             "route": "4",
             "run": "2"
-          },
-          {
-            "minute": "13",
-            "route": "4",
-            "run": "4"
           },
           {
             "minute": "16",
@@ -40337,6 +40331,28 @@ window.SCHEDULE_DATA = {
           },
           {
             "minute": "29",
+            "route": "4",
+            "run": "4"
+          },
+          {
+            "minute": "39",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "50",
+            "route": "4",
+            "run": "2"
+          }
+        ],
+        "20": [
+          {
+            "minute": "00",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "10",
             "route": "4",
             "run": "4"
           }
@@ -40345,7 +40361,29 @@ window.SCHEDULE_DATA = {
     },
     "в центр": {
       "будни": {
+        "5": [
+          {
+            "minute": "58",
+            "route": "4",
+            "run": "1"
+          }
+        ],
         "6": [
+          {
+            "minute": "09",
+            "route": "4",
+            "run": "2"
+          },
+          {
+            "minute": "19",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "29",
+            "route": "4",
+            "run": "4"
+          },
           {
             "minute": "39",
             "route": "4",
@@ -40419,11 +40457,6 @@ window.SCHEDULE_DATA = {
             "minute": "53",
             "route": "4",
             "run": "2"
-          },
-          {
-            "minute": "55",
-            "route": "4",
-            "run": "1"
           }
         ],
         "9": [
@@ -40433,22 +40466,29 @@ window.SCHEDULE_DATA = {
             "run": "3"
           },
           {
-            "minute": "06",
+            "minute": "13",
+            "route": "4",
+            "run": "4"
+          }
+        ],
+        "12": [
+          {
+            "minute": "27",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "38",
             "route": "4",
             "run": "2"
           },
           {
-            "minute": "13",
-            "route": "4",
-            "run": "4"
-          },
-          {
-            "minute": "16",
+            "minute": "48",
             "route": "4",
             "run": "3"
           },
           {
-            "minute": "26",
+            "minute": "58",
             "route": "4",
             "run": "4"
           }
@@ -40529,37 +40569,39 @@ window.SCHEDULE_DATA = {
             "run": "2"
           },
           {
-            "minute": "24",
-            "route": "4",
-            "run": "1"
-          },
-          {
             "minute": "32",
             "route": "4",
             "run": "3"
           },
           {
-            "minute": "35",
-            "route": "4",
-            "run": "2"
-          },
-          {
             "minute": "42",
-            "route": "4",
-            "run": "4"
-          },
-          {
-            "minute": "45",
-            "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "55",
             "route": "4",
             "run": "4"
           }
         ],
+        "16": [
+          {
+            "minute": "42",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "53",
+            "route": "4",
+            "run": "2"
+          }
+        ],
         "17": [
+          {
+            "minute": "03",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "13",
+            "route": "4",
+            "run": "4"
+          },
           {
             "minute": "23",
             "route": "4",
@@ -40635,41 +40677,41 @@ window.SCHEDULE_DATA = {
             "run": "2"
           },
           {
-            "minute": "39",
-            "route": "4",
-            "run": "1"
-          },
-          {
             "minute": "47",
             "route": "4",
             "run": "3"
           },
           {
-            "minute": "50",
-            "route": "4",
-            "run": "2"
-          },
-          {
             "minute": "57",
-            "route": "4",
-            "run": "4"
-          }
-        ],
-        "20": [
-          {
-            "minute": "00",
-            "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "10",
             "route": "4",
             "run": "4"
           }
         ]
       },
       "выходные": {
+        "5": [
+          {
+            "minute": "58",
+            "route": "4",
+            "run": "1"
+          }
+        ],
         "6": [
+          {
+            "minute": "09",
+            "route": "4",
+            "run": "2"
+          },
+          {
+            "minute": "19",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "29",
+            "route": "4",
+            "run": "4"
+          },
           {
             "minute": "39",
             "route": "4",
@@ -40743,11 +40785,6 @@ window.SCHEDULE_DATA = {
             "minute": "53",
             "route": "4",
             "run": "2"
-          },
-          {
-            "minute": "55",
-            "route": "4",
-            "run": "1"
           }
         ],
         "9": [
@@ -40757,22 +40794,29 @@ window.SCHEDULE_DATA = {
             "run": "3"
           },
           {
-            "minute": "06",
+            "minute": "13",
+            "route": "4",
+            "run": "4"
+          }
+        ],
+        "12": [
+          {
+            "minute": "27",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "38",
             "route": "4",
             "run": "2"
           },
           {
-            "minute": "13",
-            "route": "4",
-            "run": "4"
-          },
-          {
-            "minute": "16",
+            "minute": "48",
             "route": "4",
             "run": "3"
           },
           {
-            "minute": "26",
+            "minute": "58",
             "route": "4",
             "run": "4"
           }
@@ -40853,37 +40897,39 @@ window.SCHEDULE_DATA = {
             "run": "2"
           },
           {
-            "minute": "24",
-            "route": "4",
-            "run": "1"
-          },
-          {
             "minute": "32",
             "route": "4",
             "run": "3"
           },
           {
-            "minute": "35",
-            "route": "4",
-            "run": "2"
-          },
-          {
             "minute": "42",
-            "route": "4",
-            "run": "4"
-          },
-          {
-            "minute": "45",
-            "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "55",
             "route": "4",
             "run": "4"
           }
         ],
+        "16": [
+          {
+            "minute": "42",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "53",
+            "route": "4",
+            "run": "2"
+          }
+        ],
         "17": [
+          {
+            "minute": "03",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "13",
+            "route": "4",
+            "run": "4"
+          },
           {
             "minute": "23",
             "route": "4",
@@ -40959,34 +41005,12 @@ window.SCHEDULE_DATA = {
             "run": "2"
           },
           {
-            "minute": "39",
-            "route": "4",
-            "run": "1"
-          },
-          {
             "minute": "47",
             "route": "4",
             "run": "3"
           },
           {
-            "minute": "50",
-            "route": "4",
-            "run": "2"
-          },
-          {
             "minute": "57",
-            "route": "4",
-            "run": "4"
-          }
-        ],
-        "20": [
-          {
-            "minute": "00",
-            "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "10",
             "route": "4",
             "run": "4"
           }
@@ -40997,38 +41021,16 @@ window.SCHEDULE_DATA = {
   "Улица Осканова": {
     "от центра": {
       "будни": {
-        "5": [
-          {
-            "minute": "57",
-            "route": "4",
-            "run": "1"
-          }
-        ],
         "6": [
-          {
-            "minute": "08",
-            "route": "4",
-            "run": "2"
-          },
           {
             "minute": "12",
             "route": "4",
             "run": "1"
           },
           {
-            "minute": "18",
-            "route": "4",
-            "run": "3"
-          },
-          {
             "minute": "23",
             "route": "4",
             "run": "2"
-          },
-          {
-            "minute": "28",
-            "route": "4",
-            "run": "4"
           },
           {
             "minute": "33",
@@ -41103,38 +41105,40 @@ window.SCHEDULE_DATA = {
             "minute": "46",
             "route": "4",
             "run": "4"
-          }
-        ],
-        "12": [
-          {
-            "minute": "26",
-            "route": "4",
-            "run": "1"
           },
           {
-            "minute": "37",
+            "minute": "56",
+            "route": "4",
+            "run": "1"
+          }
+        ],
+        "9": [
+          {
+            "minute": "07",
             "route": "4",
             "run": "2"
           },
+          {
+            "minute": "17",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "27",
+            "route": "4",
+            "run": "4"
+          }
+        ],
+        "12": [
           {
             "minute": "41",
             "route": "4",
             "run": "1"
           },
           {
-            "minute": "47",
-            "route": "4",
-            "run": "3"
-          },
-          {
             "minute": "52",
             "route": "4",
             "run": "2"
-          },
-          {
-            "minute": "57",
-            "route": "4",
-            "run": "4"
           }
         ],
         "13": [
@@ -41211,19 +41215,29 @@ window.SCHEDULE_DATA = {
             "minute": "15",
             "route": "4",
             "run": "4"
-          }
-        ],
-        "16": [
+          },
           {
-            "minute": "41",
+            "minute": "25",
             "route": "4",
             "run": "1"
           },
           {
-            "minute": "52",
+            "minute": "36",
             "route": "4",
             "run": "2"
           },
+          {
+            "minute": "46",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "56",
+            "route": "4",
+            "run": "4"
+          }
+        ],
+        "16": [
           {
             "minute": "56",
             "route": "4",
@@ -41232,19 +41246,9 @@ window.SCHEDULE_DATA = {
         ],
         "17": [
           {
-            "minute": "02",
-            "route": "4",
-            "run": "3"
-          },
-          {
             "minute": "07",
             "route": "4",
             "run": "2"
-          },
-          {
-            "minute": "12",
-            "route": "4",
-            "run": "4"
           },
           {
             "minute": "17",
@@ -41317,44 +41321,44 @@ window.SCHEDULE_DATA = {
           },
           {
             "minute": "30",
+            "route": "4",
+            "run": "4"
+          },
+          {
+            "minute": "40",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "51",
+            "route": "4",
+            "run": "2"
+          }
+        ],
+        "20": [
+          {
+            "minute": "01",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "11",
             "route": "4",
             "run": "4"
           }
         ]
       },
       "выходные": {
-        "5": [
-          {
-            "minute": "57",
-            "route": "4",
-            "run": "1"
-          }
-        ],
         "6": [
-          {
-            "minute": "08",
-            "route": "4",
-            "run": "2"
-          },
           {
             "minute": "12",
             "route": "4",
             "run": "1"
           },
           {
-            "minute": "18",
-            "route": "4",
-            "run": "3"
-          },
-          {
             "minute": "23",
             "route": "4",
             "run": "2"
-          },
-          {
-            "minute": "28",
-            "route": "4",
-            "run": "4"
           },
           {
             "minute": "33",
@@ -41429,38 +41433,40 @@ window.SCHEDULE_DATA = {
             "minute": "46",
             "route": "4",
             "run": "4"
-          }
-        ],
-        "12": [
-          {
-            "minute": "26",
-            "route": "4",
-            "run": "1"
           },
           {
-            "minute": "37",
+            "minute": "56",
+            "route": "4",
+            "run": "1"
+          }
+        ],
+        "9": [
+          {
+            "minute": "07",
             "route": "4",
             "run": "2"
           },
+          {
+            "minute": "17",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "27",
+            "route": "4",
+            "run": "4"
+          }
+        ],
+        "12": [
           {
             "minute": "41",
             "route": "4",
             "run": "1"
           },
           {
-            "minute": "47",
-            "route": "4",
-            "run": "3"
-          },
-          {
             "minute": "52",
             "route": "4",
             "run": "2"
-          },
-          {
-            "minute": "57",
-            "route": "4",
-            "run": "4"
           }
         ],
         "13": [
@@ -41537,19 +41543,29 @@ window.SCHEDULE_DATA = {
             "minute": "15",
             "route": "4",
             "run": "4"
-          }
-        ],
-        "16": [
+          },
           {
-            "minute": "41",
+            "minute": "25",
             "route": "4",
             "run": "1"
           },
           {
-            "minute": "52",
+            "minute": "36",
             "route": "4",
             "run": "2"
           },
+          {
+            "minute": "46",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "56",
+            "route": "4",
+            "run": "4"
+          }
+        ],
+        "16": [
           {
             "minute": "56",
             "route": "4",
@@ -41558,19 +41574,9 @@ window.SCHEDULE_DATA = {
         ],
         "17": [
           {
-            "minute": "02",
-            "route": "4",
-            "run": "3"
-          },
-          {
             "minute": "07",
             "route": "4",
             "run": "2"
-          },
-          {
-            "minute": "12",
-            "route": "4",
-            "run": "4"
           },
           {
             "minute": "17",
@@ -41643,6 +41649,28 @@ window.SCHEDULE_DATA = {
           },
           {
             "minute": "30",
+            "route": "4",
+            "run": "4"
+          },
+          {
+            "minute": "40",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "51",
+            "route": "4",
+            "run": "2"
+          }
+        ],
+        "20": [
+          {
+            "minute": "01",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "11",
             "route": "4",
             "run": "4"
           }
@@ -41651,7 +41679,29 @@ window.SCHEDULE_DATA = {
     },
     "в центр": {
       "будни": {
+        "5": [
+          {
+            "minute": "57",
+            "route": "4",
+            "run": "1"
+          }
+        ],
         "6": [
+          {
+            "minute": "08",
+            "route": "4",
+            "run": "2"
+          },
+          {
+            "minute": "18",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "28",
+            "route": "4",
+            "run": "4"
+          },
           {
             "minute": "38",
             "route": "4",
@@ -41725,11 +41775,6 @@ window.SCHEDULE_DATA = {
             "minute": "52",
             "route": "4",
             "run": "2"
-          },
-          {
-            "minute": "56",
-            "route": "4",
-            "run": "1"
           }
         ],
         "9": [
@@ -41739,22 +41784,29 @@ window.SCHEDULE_DATA = {
             "run": "3"
           },
           {
-            "minute": "07",
+            "minute": "12",
+            "route": "4",
+            "run": "4"
+          }
+        ],
+        "12": [
+          {
+            "minute": "26",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "37",
             "route": "4",
             "run": "2"
           },
           {
-            "minute": "12",
-            "route": "4",
-            "run": "4"
-          },
-          {
-            "minute": "17",
+            "minute": "47",
             "route": "4",
             "run": "3"
           },
           {
-            "minute": "27",
+            "minute": "57",
             "route": "4",
             "run": "4"
           }
@@ -41835,37 +41887,39 @@ window.SCHEDULE_DATA = {
             "run": "2"
           },
           {
-            "minute": "25",
-            "route": "4",
-            "run": "1"
-          },
-          {
             "minute": "31",
             "route": "4",
             "run": "3"
           },
           {
-            "minute": "36",
-            "route": "4",
-            "run": "2"
-          },
-          {
             "minute": "41",
-            "route": "4",
-            "run": "4"
-          },
-          {
-            "minute": "46",
-            "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "56",
             "route": "4",
             "run": "4"
           }
         ],
+        "16": [
+          {
+            "minute": "41",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "52",
+            "route": "4",
+            "run": "2"
+          }
+        ],
         "17": [
+          {
+            "minute": "02",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "12",
+            "route": "4",
+            "run": "4"
+          },
           {
             "minute": "22",
             "route": "4",
@@ -41941,41 +41995,41 @@ window.SCHEDULE_DATA = {
             "run": "2"
           },
           {
-            "minute": "40",
-            "route": "4",
-            "run": "1"
-          },
-          {
             "minute": "46",
             "route": "4",
             "run": "3"
           },
           {
-            "minute": "51",
-            "route": "4",
-            "run": "2"
-          },
-          {
             "minute": "56",
-            "route": "4",
-            "run": "4"
-          }
-        ],
-        "20": [
-          {
-            "minute": "01",
-            "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "11",
             "route": "4",
             "run": "4"
           }
         ]
       },
       "выходные": {
+        "5": [
+          {
+            "minute": "57",
+            "route": "4",
+            "run": "1"
+          }
+        ],
         "6": [
+          {
+            "minute": "08",
+            "route": "4",
+            "run": "2"
+          },
+          {
+            "minute": "18",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "28",
+            "route": "4",
+            "run": "4"
+          },
           {
             "minute": "38",
             "route": "4",
@@ -42049,11 +42103,6 @@ window.SCHEDULE_DATA = {
             "minute": "52",
             "route": "4",
             "run": "2"
-          },
-          {
-            "minute": "56",
-            "route": "4",
-            "run": "1"
           }
         ],
         "9": [
@@ -42063,22 +42112,29 @@ window.SCHEDULE_DATA = {
             "run": "3"
           },
           {
-            "minute": "07",
+            "minute": "12",
+            "route": "4",
+            "run": "4"
+          }
+        ],
+        "12": [
+          {
+            "minute": "26",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "37",
             "route": "4",
             "run": "2"
           },
           {
-            "minute": "12",
-            "route": "4",
-            "run": "4"
-          },
-          {
-            "minute": "17",
+            "minute": "47",
             "route": "4",
             "run": "3"
           },
           {
-            "minute": "27",
+            "minute": "57",
             "route": "4",
             "run": "4"
           }
@@ -42159,37 +42215,39 @@ window.SCHEDULE_DATA = {
             "run": "2"
           },
           {
-            "minute": "25",
-            "route": "4",
-            "run": "1"
-          },
-          {
             "minute": "31",
             "route": "4",
             "run": "3"
           },
           {
-            "minute": "36",
-            "route": "4",
-            "run": "2"
-          },
-          {
             "minute": "41",
-            "route": "4",
-            "run": "4"
-          },
-          {
-            "minute": "46",
-            "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "56",
             "route": "4",
             "run": "4"
           }
         ],
+        "16": [
+          {
+            "minute": "41",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "52",
+            "route": "4",
+            "run": "2"
+          }
+        ],
         "17": [
+          {
+            "minute": "02",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "12",
+            "route": "4",
+            "run": "4"
+          },
           {
             "minute": "22",
             "route": "4",
@@ -42265,34 +42323,12 @@ window.SCHEDULE_DATA = {
             "run": "2"
           },
           {
-            "minute": "40",
-            "route": "4",
-            "run": "1"
-          },
-          {
             "minute": "46",
             "route": "4",
             "run": "3"
           },
           {
-            "minute": "51",
-            "route": "4",
-            "run": "2"
-          },
-          {
             "minute": "56",
-            "route": "4",
-            "run": "4"
-          }
-        ],
-        "20": [
-          {
-            "minute": "01",
-            "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "11",
             "route": "4",
             "run": "4"
           }
@@ -42303,38 +42339,16 @@ window.SCHEDULE_DATA = {
   "Улица Хренникова": {
     "от центра": {
       "будни": {
-        "5": [
-          {
-            "minute": "56",
-            "route": "4",
-            "run": "1"
-          }
-        ],
         "6": [
-          {
-            "minute": "07",
-            "route": "4",
-            "run": "2"
-          },
           {
             "minute": "13",
             "route": "4",
             "run": "1"
           },
           {
-            "minute": "17",
-            "route": "4",
-            "run": "3"
-          },
-          {
             "minute": "24",
             "route": "4",
             "run": "2"
-          },
-          {
-            "minute": "27",
-            "route": "4",
-            "run": "4"
           },
           {
             "minute": "34",
@@ -42409,38 +42423,40 @@ window.SCHEDULE_DATA = {
             "minute": "47",
             "route": "4",
             "run": "4"
-          }
-        ],
-        "12": [
-          {
-            "minute": "25",
-            "route": "4",
-            "run": "1"
           },
           {
-            "minute": "36",
+            "minute": "57",
+            "route": "4",
+            "run": "1"
+          }
+        ],
+        "9": [
+          {
+            "minute": "08",
             "route": "4",
             "run": "2"
           },
+          {
+            "minute": "18",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "28",
+            "route": "4",
+            "run": "4"
+          }
+        ],
+        "12": [
           {
             "minute": "42",
             "route": "4",
             "run": "1"
           },
           {
-            "minute": "46",
-            "route": "4",
-            "run": "3"
-          },
-          {
             "minute": "53",
             "route": "4",
             "run": "2"
-          },
-          {
-            "minute": "56",
-            "route": "4",
-            "run": "4"
           }
         ],
         "13": [
@@ -42517,19 +42533,29 @@ window.SCHEDULE_DATA = {
             "minute": "16",
             "route": "4",
             "run": "4"
-          }
-        ],
-        "16": [
+          },
           {
-            "minute": "40",
+            "minute": "26",
             "route": "4",
             "run": "1"
           },
           {
-            "minute": "51",
+            "minute": "37",
             "route": "4",
             "run": "2"
           },
+          {
+            "minute": "47",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "57",
+            "route": "4",
+            "run": "4"
+          }
+        ],
+        "16": [
           {
             "minute": "57",
             "route": "4",
@@ -42538,19 +42564,9 @@ window.SCHEDULE_DATA = {
         ],
         "17": [
           {
-            "minute": "01",
-            "route": "4",
-            "run": "3"
-          },
-          {
             "minute": "08",
             "route": "4",
             "run": "2"
-          },
-          {
-            "minute": "11",
-            "route": "4",
-            "run": "4"
           },
           {
             "minute": "18",
@@ -42623,44 +42639,44 @@ window.SCHEDULE_DATA = {
           },
           {
             "minute": "31",
+            "route": "4",
+            "run": "4"
+          },
+          {
+            "minute": "41",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "52",
+            "route": "4",
+            "run": "2"
+          }
+        ],
+        "20": [
+          {
+            "minute": "02",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "12",
             "route": "4",
             "run": "4"
           }
         ]
       },
       "выходные": {
-        "5": [
-          {
-            "minute": "56",
-            "route": "4",
-            "run": "1"
-          }
-        ],
         "6": [
-          {
-            "minute": "07",
-            "route": "4",
-            "run": "2"
-          },
           {
             "minute": "13",
             "route": "4",
             "run": "1"
           },
           {
-            "minute": "17",
-            "route": "4",
-            "run": "3"
-          },
-          {
             "minute": "24",
             "route": "4",
             "run": "2"
-          },
-          {
-            "minute": "27",
-            "route": "4",
-            "run": "4"
           },
           {
             "minute": "34",
@@ -42735,38 +42751,40 @@ window.SCHEDULE_DATA = {
             "minute": "47",
             "route": "4",
             "run": "4"
-          }
-        ],
-        "12": [
-          {
-            "minute": "25",
-            "route": "4",
-            "run": "1"
           },
           {
-            "minute": "36",
+            "minute": "57",
+            "route": "4",
+            "run": "1"
+          }
+        ],
+        "9": [
+          {
+            "minute": "08",
             "route": "4",
             "run": "2"
           },
+          {
+            "minute": "18",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "28",
+            "route": "4",
+            "run": "4"
+          }
+        ],
+        "12": [
           {
             "minute": "42",
             "route": "4",
             "run": "1"
           },
           {
-            "minute": "46",
-            "route": "4",
-            "run": "3"
-          },
-          {
             "minute": "53",
             "route": "4",
             "run": "2"
-          },
-          {
-            "minute": "56",
-            "route": "4",
-            "run": "4"
           }
         ],
         "13": [
@@ -42843,19 +42861,29 @@ window.SCHEDULE_DATA = {
             "minute": "16",
             "route": "4",
             "run": "4"
-          }
-        ],
-        "16": [
+          },
           {
-            "minute": "40",
+            "minute": "26",
             "route": "4",
             "run": "1"
           },
           {
-            "minute": "51",
+            "minute": "37",
             "route": "4",
             "run": "2"
           },
+          {
+            "minute": "47",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "57",
+            "route": "4",
+            "run": "4"
+          }
+        ],
+        "16": [
           {
             "minute": "57",
             "route": "4",
@@ -42864,19 +42892,9 @@ window.SCHEDULE_DATA = {
         ],
         "17": [
           {
-            "minute": "01",
-            "route": "4",
-            "run": "3"
-          },
-          {
             "minute": "08",
             "route": "4",
             "run": "2"
-          },
-          {
-            "minute": "11",
-            "route": "4",
-            "run": "4"
           },
           {
             "minute": "18",
@@ -42949,6 +42967,28 @@ window.SCHEDULE_DATA = {
           },
           {
             "minute": "31",
+            "route": "4",
+            "run": "4"
+          },
+          {
+            "minute": "41",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "52",
+            "route": "4",
+            "run": "2"
+          }
+        ],
+        "20": [
+          {
+            "minute": "02",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "12",
             "route": "4",
             "run": "4"
           }
@@ -42957,7 +42997,29 @@ window.SCHEDULE_DATA = {
     },
     "в центр": {
       "будни": {
+        "5": [
+          {
+            "minute": "56",
+            "route": "4",
+            "run": "1"
+          }
+        ],
         "6": [
+          {
+            "minute": "07",
+            "route": "4",
+            "run": "2"
+          },
+          {
+            "minute": "17",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "27",
+            "route": "4",
+            "run": "4"
+          },
           {
             "minute": "37",
             "route": "4",
@@ -43031,11 +43093,6 @@ window.SCHEDULE_DATA = {
             "minute": "51",
             "route": "4",
             "run": "2"
-          },
-          {
-            "minute": "57",
-            "route": "4",
-            "run": "1"
           }
         ],
         "9": [
@@ -43045,22 +43102,29 @@ window.SCHEDULE_DATA = {
             "run": "3"
           },
           {
-            "minute": "08",
+            "minute": "11",
+            "route": "4",
+            "run": "4"
+          }
+        ],
+        "12": [
+          {
+            "minute": "25",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "36",
             "route": "4",
             "run": "2"
           },
           {
-            "minute": "11",
-            "route": "4",
-            "run": "4"
-          },
-          {
-            "minute": "18",
+            "minute": "46",
             "route": "4",
             "run": "3"
           },
           {
-            "minute": "28",
+            "minute": "56",
             "route": "4",
             "run": "4"
           }
@@ -43141,37 +43205,39 @@ window.SCHEDULE_DATA = {
             "run": "2"
           },
           {
-            "minute": "26",
-            "route": "4",
-            "run": "1"
-          },
-          {
             "minute": "30",
             "route": "4",
             "run": "3"
           },
           {
-            "minute": "37",
-            "route": "4",
-            "run": "2"
-          },
-          {
             "minute": "40",
-            "route": "4",
-            "run": "4"
-          },
-          {
-            "minute": "47",
-            "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "57",
             "route": "4",
             "run": "4"
           }
         ],
+        "16": [
+          {
+            "minute": "40",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "51",
+            "route": "4",
+            "run": "2"
+          }
+        ],
         "17": [
+          {
+            "minute": "01",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "11",
+            "route": "4",
+            "run": "4"
+          },
           {
             "minute": "21",
             "route": "4",
@@ -43247,41 +43313,41 @@ window.SCHEDULE_DATA = {
             "run": "2"
           },
           {
-            "minute": "41",
-            "route": "4",
-            "run": "1"
-          },
-          {
             "minute": "45",
             "route": "4",
             "run": "3"
           },
           {
-            "minute": "52",
-            "route": "4",
-            "run": "2"
-          },
-          {
             "minute": "55",
-            "route": "4",
-            "run": "4"
-          }
-        ],
-        "20": [
-          {
-            "minute": "02",
-            "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "12",
             "route": "4",
             "run": "4"
           }
         ]
       },
       "выходные": {
+        "5": [
+          {
+            "minute": "56",
+            "route": "4",
+            "run": "1"
+          }
+        ],
         "6": [
+          {
+            "minute": "07",
+            "route": "4",
+            "run": "2"
+          },
+          {
+            "minute": "17",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "27",
+            "route": "4",
+            "run": "4"
+          },
           {
             "minute": "37",
             "route": "4",
@@ -43355,11 +43421,6 @@ window.SCHEDULE_DATA = {
             "minute": "51",
             "route": "4",
             "run": "2"
-          },
-          {
-            "minute": "57",
-            "route": "4",
-            "run": "1"
           }
         ],
         "9": [
@@ -43369,22 +43430,29 @@ window.SCHEDULE_DATA = {
             "run": "3"
           },
           {
-            "minute": "08",
+            "minute": "11",
+            "route": "4",
+            "run": "4"
+          }
+        ],
+        "12": [
+          {
+            "minute": "25",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "36",
             "route": "4",
             "run": "2"
           },
           {
-            "minute": "11",
-            "route": "4",
-            "run": "4"
-          },
-          {
-            "minute": "18",
+            "minute": "46",
             "route": "4",
             "run": "3"
           },
           {
-            "minute": "28",
+            "minute": "56",
             "route": "4",
             "run": "4"
           }
@@ -43465,37 +43533,39 @@ window.SCHEDULE_DATA = {
             "run": "2"
           },
           {
-            "minute": "26",
-            "route": "4",
-            "run": "1"
-          },
-          {
             "minute": "30",
             "route": "4",
             "run": "3"
           },
           {
-            "minute": "37",
-            "route": "4",
-            "run": "2"
-          },
-          {
             "minute": "40",
-            "route": "4",
-            "run": "4"
-          },
-          {
-            "minute": "47",
-            "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "57",
             "route": "4",
             "run": "4"
           }
         ],
+        "16": [
+          {
+            "minute": "40",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "51",
+            "route": "4",
+            "run": "2"
+          }
+        ],
         "17": [
+          {
+            "minute": "01",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "11",
+            "route": "4",
+            "run": "4"
+          },
           {
             "minute": "21",
             "route": "4",
@@ -43571,34 +43641,12 @@ window.SCHEDULE_DATA = {
             "run": "2"
           },
           {
-            "minute": "41",
-            "route": "4",
-            "run": "1"
-          },
-          {
             "minute": "45",
             "route": "4",
             "run": "3"
           },
           {
-            "minute": "52",
-            "route": "4",
-            "run": "2"
-          },
-          {
             "minute": "55",
-            "route": "4",
-            "run": "4"
-          }
-        ],
-        "20": [
-          {
-            "minute": "02",
-            "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "12",
             "route": "4",
             "run": "4"
           }
@@ -43609,38 +43657,16 @@ window.SCHEDULE_DATA = {
   "ТЦ «Елецкий»": {
     "от центра": {
       "будни": {
-        "5": [
-          {
-            "minute": "55",
-            "route": "4",
-            "run": "1"
-          }
-        ],
         "6": [
-          {
-            "minute": "06",
-            "route": "4",
-            "run": "2"
-          },
           {
             "minute": "14",
             "route": "4",
             "run": "1"
           },
           {
-            "minute": "16",
-            "route": "4",
-            "run": "3"
-          },
-          {
             "minute": "25",
             "route": "4",
             "run": "2"
-          },
-          {
-            "minute": "26",
-            "route": "4",
-            "run": "4"
           },
           {
             "minute": "35",
@@ -43715,38 +43741,40 @@ window.SCHEDULE_DATA = {
             "minute": "48",
             "route": "4",
             "run": "4"
-          }
-        ],
-        "12": [
-          {
-            "minute": "24",
-            "route": "4",
-            "run": "1"
           },
           {
-            "minute": "35",
+            "minute": "58",
+            "route": "4",
+            "run": "1"
+          }
+        ],
+        "9": [
+          {
+            "minute": "09",
             "route": "4",
             "run": "2"
           },
+          {
+            "minute": "19",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "29",
+            "route": "4",
+            "run": "4"
+          }
+        ],
+        "12": [
           {
             "minute": "43",
             "route": "4",
             "run": "1"
           },
           {
-            "minute": "45",
-            "route": "4",
-            "run": "3"
-          },
-          {
             "minute": "54",
             "route": "4",
             "run": "2"
-          },
-          {
-            "minute": "55",
-            "route": "4",
-            "run": "4"
           }
         ],
         "13": [
@@ -43823,19 +43851,29 @@ window.SCHEDULE_DATA = {
             "minute": "17",
             "route": "4",
             "run": "4"
-          }
-        ],
-        "16": [
+          },
           {
-            "minute": "39",
+            "minute": "27",
             "route": "4",
             "run": "1"
           },
           {
-            "minute": "50",
+            "minute": "38",
             "route": "4",
             "run": "2"
           },
+          {
+            "minute": "48",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "58",
+            "route": "4",
+            "run": "4"
+          }
+        ],
+        "16": [
           {
             "minute": "58",
             "route": "4",
@@ -43844,19 +43882,9 @@ window.SCHEDULE_DATA = {
         ],
         "17": [
           {
-            "minute": "00",
-            "route": "4",
-            "run": "3"
-          },
-          {
             "minute": "09",
             "route": "4",
             "run": "2"
-          },
-          {
-            "minute": "10",
-            "route": "4",
-            "run": "4"
           },
           {
             "minute": "19",
@@ -43929,44 +43957,44 @@ window.SCHEDULE_DATA = {
           },
           {
             "minute": "32",
+            "route": "4",
+            "run": "4"
+          },
+          {
+            "minute": "42",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "53",
+            "route": "4",
+            "run": "2"
+          }
+        ],
+        "20": [
+          {
+            "minute": "03",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "13",
             "route": "4",
             "run": "4"
           }
         ]
       },
       "выходные": {
-        "5": [
-          {
-            "minute": "55",
-            "route": "4",
-            "run": "1"
-          }
-        ],
         "6": [
-          {
-            "minute": "06",
-            "route": "4",
-            "run": "2"
-          },
           {
             "minute": "14",
             "route": "4",
             "run": "1"
           },
           {
-            "minute": "16",
-            "route": "4",
-            "run": "3"
-          },
-          {
             "minute": "25",
             "route": "4",
             "run": "2"
-          },
-          {
-            "minute": "26",
-            "route": "4",
-            "run": "4"
           },
           {
             "minute": "35",
@@ -44041,38 +44069,40 @@ window.SCHEDULE_DATA = {
             "minute": "48",
             "route": "4",
             "run": "4"
-          }
-        ],
-        "12": [
-          {
-            "minute": "24",
-            "route": "4",
-            "run": "1"
           },
           {
-            "minute": "35",
+            "minute": "58",
+            "route": "4",
+            "run": "1"
+          }
+        ],
+        "9": [
+          {
+            "minute": "09",
             "route": "4",
             "run": "2"
           },
+          {
+            "minute": "19",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "29",
+            "route": "4",
+            "run": "4"
+          }
+        ],
+        "12": [
           {
             "minute": "43",
             "route": "4",
             "run": "1"
           },
           {
-            "minute": "45",
-            "route": "4",
-            "run": "3"
-          },
-          {
             "minute": "54",
             "route": "4",
             "run": "2"
-          },
-          {
-            "minute": "55",
-            "route": "4",
-            "run": "4"
           }
         ],
         "13": [
@@ -44149,19 +44179,29 @@ window.SCHEDULE_DATA = {
             "minute": "17",
             "route": "4",
             "run": "4"
-          }
-        ],
-        "16": [
+          },
           {
-            "minute": "39",
+            "minute": "27",
             "route": "4",
             "run": "1"
           },
           {
-            "minute": "50",
+            "minute": "38",
             "route": "4",
             "run": "2"
           },
+          {
+            "minute": "48",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "58",
+            "route": "4",
+            "run": "4"
+          }
+        ],
+        "16": [
           {
             "minute": "58",
             "route": "4",
@@ -44170,19 +44210,9 @@ window.SCHEDULE_DATA = {
         ],
         "17": [
           {
-            "minute": "00",
-            "route": "4",
-            "run": "3"
-          },
-          {
             "minute": "09",
             "route": "4",
             "run": "2"
-          },
-          {
-            "minute": "10",
-            "route": "4",
-            "run": "4"
           },
           {
             "minute": "19",
@@ -44255,6 +44285,28 @@ window.SCHEDULE_DATA = {
           },
           {
             "minute": "32",
+            "route": "4",
+            "run": "4"
+          },
+          {
+            "minute": "42",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "53",
+            "route": "4",
+            "run": "2"
+          }
+        ],
+        "20": [
+          {
+            "minute": "03",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "13",
             "route": "4",
             "run": "4"
           }
@@ -44263,7 +44315,29 @@ window.SCHEDULE_DATA = {
     },
     "в центр": {
       "будни": {
+        "5": [
+          {
+            "minute": "55",
+            "route": "4",
+            "run": "1"
+          }
+        ],
         "6": [
+          {
+            "minute": "06",
+            "route": "4",
+            "run": "2"
+          },
+          {
+            "minute": "16",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "26",
+            "route": "4",
+            "run": "4"
+          },
           {
             "minute": "36",
             "route": "4",
@@ -44337,11 +44411,6 @@ window.SCHEDULE_DATA = {
             "minute": "50",
             "route": "4",
             "run": "2"
-          },
-          {
-            "minute": "58",
-            "route": "4",
-            "run": "1"
           }
         ],
         "9": [
@@ -44351,22 +44420,29 @@ window.SCHEDULE_DATA = {
             "run": "3"
           },
           {
-            "minute": "09",
+            "minute": "10",
+            "route": "4",
+            "run": "4"
+          }
+        ],
+        "12": [
+          {
+            "minute": "24",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "35",
             "route": "4",
             "run": "2"
           },
           {
-            "minute": "10",
-            "route": "4",
-            "run": "4"
-          },
-          {
-            "minute": "19",
+            "minute": "45",
             "route": "4",
             "run": "3"
           },
           {
-            "minute": "29",
+            "minute": "55",
             "route": "4",
             "run": "4"
           }
@@ -44447,37 +44523,39 @@ window.SCHEDULE_DATA = {
             "run": "2"
           },
           {
-            "minute": "27",
-            "route": "4",
-            "run": "1"
-          },
-          {
             "minute": "29",
             "route": "4",
             "run": "3"
           },
           {
-            "minute": "38",
-            "route": "4",
-            "run": "2"
-          },
-          {
             "minute": "39",
-            "route": "4",
-            "run": "4"
-          },
-          {
-            "minute": "48",
-            "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "58",
             "route": "4",
             "run": "4"
           }
         ],
+        "16": [
+          {
+            "minute": "39",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "50",
+            "route": "4",
+            "run": "2"
+          }
+        ],
         "17": [
+          {
+            "minute": "00",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "10",
+            "route": "4",
+            "run": "4"
+          },
           {
             "minute": "20",
             "route": "4",
@@ -44553,41 +44631,41 @@ window.SCHEDULE_DATA = {
             "run": "2"
           },
           {
-            "minute": "42",
-            "route": "4",
-            "run": "1"
-          },
-          {
             "minute": "44",
             "route": "4",
             "run": "3"
           },
           {
-            "minute": "53",
-            "route": "4",
-            "run": "2"
-          },
-          {
             "minute": "54",
-            "route": "4",
-            "run": "4"
-          }
-        ],
-        "20": [
-          {
-            "minute": "03",
-            "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "13",
             "route": "4",
             "run": "4"
           }
         ]
       },
       "выходные": {
+        "5": [
+          {
+            "minute": "55",
+            "route": "4",
+            "run": "1"
+          }
+        ],
         "6": [
+          {
+            "minute": "06",
+            "route": "4",
+            "run": "2"
+          },
+          {
+            "minute": "16",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "26",
+            "route": "4",
+            "run": "4"
+          },
           {
             "minute": "36",
             "route": "4",
@@ -44661,11 +44739,6 @@ window.SCHEDULE_DATA = {
             "minute": "50",
             "route": "4",
             "run": "2"
-          },
-          {
-            "minute": "58",
-            "route": "4",
-            "run": "1"
           }
         ],
         "9": [
@@ -44675,22 +44748,29 @@ window.SCHEDULE_DATA = {
             "run": "3"
           },
           {
-            "minute": "09",
+            "minute": "10",
+            "route": "4",
+            "run": "4"
+          }
+        ],
+        "12": [
+          {
+            "minute": "24",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "35",
             "route": "4",
             "run": "2"
           },
           {
-            "minute": "10",
-            "route": "4",
-            "run": "4"
-          },
-          {
-            "minute": "19",
+            "minute": "45",
             "route": "4",
             "run": "3"
           },
           {
-            "minute": "29",
+            "minute": "55",
             "route": "4",
             "run": "4"
           }
@@ -44771,37 +44851,39 @@ window.SCHEDULE_DATA = {
             "run": "2"
           },
           {
-            "minute": "27",
-            "route": "4",
-            "run": "1"
-          },
-          {
             "minute": "29",
             "route": "4",
             "run": "3"
           },
           {
-            "minute": "38",
-            "route": "4",
-            "run": "2"
-          },
-          {
             "minute": "39",
-            "route": "4",
-            "run": "4"
-          },
-          {
-            "minute": "48",
-            "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "58",
             "route": "4",
             "run": "4"
           }
         ],
+        "16": [
+          {
+            "minute": "39",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "50",
+            "route": "4",
+            "run": "2"
+          }
+        ],
         "17": [
+          {
+            "minute": "00",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "10",
+            "route": "4",
+            "run": "4"
+          },
           {
             "minute": "20",
             "route": "4",
@@ -44877,34 +44959,12 @@ window.SCHEDULE_DATA = {
             "run": "2"
           },
           {
-            "minute": "42",
-            "route": "4",
-            "run": "1"
-          },
-          {
             "minute": "44",
             "route": "4",
             "run": "3"
           },
           {
-            "minute": "53",
-            "route": "4",
-            "run": "2"
-          },
-          {
             "minute": "54",
-            "route": "4",
-            "run": "4"
-          }
-        ],
-        "20": [
-          {
-            "minute": "03",
-            "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "13",
             "route": "4",
             "run": "4"
           }
@@ -48602,6 +48662,594 @@ window.SCHEDULE_DATA = {
       }
     }
   },
+  "Технический университет": {
+    "от центра": {
+      "будни": {
+        "9": [
+          {
+            "minute": "04",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "15",
+            "route": "4",
+            "run": "2"
+          },
+          {
+            "minute": "25",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "35",
+            "route": "4",
+            "run": "4"
+          }
+        ],
+        "15": [
+          {
+            "minute": "33",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "44",
+            "route": "4",
+            "run": "2"
+          },
+          {
+            "minute": "54",
+            "route": "4",
+            "run": "3"
+          }
+        ],
+        "16": [
+          {
+            "minute": "04",
+            "route": "4",
+            "run": "4"
+          }
+        ],
+        "19": [
+          {
+            "minute": "48",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "59",
+            "route": "4",
+            "run": "2"
+          }
+        ],
+        "20": [
+          {
+            "minute": "09",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "19",
+            "route": "4",
+            "run": "4"
+          }
+        ]
+      },
+      "выходные": {
+        "9": [
+          {
+            "minute": "04",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "15",
+            "route": "4",
+            "run": "2"
+          },
+          {
+            "minute": "25",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "35",
+            "route": "4",
+            "run": "4"
+          }
+        ],
+        "15": [
+          {
+            "minute": "33",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "44",
+            "route": "4",
+            "run": "2"
+          },
+          {
+            "minute": "54",
+            "route": "4",
+            "run": "3"
+          }
+        ],
+        "16": [
+          {
+            "minute": "04",
+            "route": "4",
+            "run": "4"
+          }
+        ],
+        "19": [
+          {
+            "minute": "48",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "59",
+            "route": "4",
+            "run": "2"
+          }
+        ],
+        "20": [
+          {
+            "minute": "09",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "19",
+            "route": "4",
+            "run": "4"
+          }
+        ]
+      }
+    },
+    "в центр": {
+      "будни": {
+        "5": [
+          {
+            "minute": "50",
+            "route": "4",
+            "run": "1"
+          }
+        ],
+        "6": [
+          {
+            "minute": "01",
+            "route": "4",
+            "run": "2"
+          },
+          {
+            "minute": "11",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "21",
+            "route": "4",
+            "run": "4"
+          }
+        ],
+        "12": [
+          {
+            "minute": "19",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "30",
+            "route": "4",
+            "run": "2"
+          },
+          {
+            "minute": "40",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "50",
+            "route": "4",
+            "run": "4"
+          }
+        ],
+        "16": [
+          {
+            "minute": "34",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "45",
+            "route": "4",
+            "run": "2"
+          },
+          {
+            "minute": "55",
+            "route": "4",
+            "run": "3"
+          }
+        ],
+        "17": [
+          {
+            "minute": "05",
+            "route": "4",
+            "run": "4"
+          }
+        ]
+      },
+      "выходные": {
+        "5": [
+          {
+            "minute": "50",
+            "route": "4",
+            "run": "1"
+          }
+        ],
+        "6": [
+          {
+            "minute": "01",
+            "route": "4",
+            "run": "2"
+          },
+          {
+            "minute": "11",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "21",
+            "route": "4",
+            "run": "4"
+          }
+        ],
+        "12": [
+          {
+            "minute": "19",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "30",
+            "route": "4",
+            "run": "2"
+          },
+          {
+            "minute": "40",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "50",
+            "route": "4",
+            "run": "4"
+          }
+        ],
+        "16": [
+          {
+            "minute": "34",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "45",
+            "route": "4",
+            "run": "2"
+          },
+          {
+            "minute": "55",
+            "route": "4",
+            "run": "3"
+          }
+        ],
+        "17": [
+          {
+            "minute": "05",
+            "route": "4",
+            "run": "4"
+          }
+        ]
+      }
+    }
+  },
+  "Областная больница": {
+    "от центра": {
+      "будни": {
+        "9": [
+          {
+            "minute": "06",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "17",
+            "route": "4",
+            "run": "2"
+          },
+          {
+            "minute": "27",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "37",
+            "route": "4",
+            "run": "4"
+          }
+        ],
+        "15": [
+          {
+            "minute": "35",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "46",
+            "route": "4",
+            "run": "2"
+          },
+          {
+            "minute": "56",
+            "route": "4",
+            "run": "3"
+          }
+        ],
+        "16": [
+          {
+            "minute": "06",
+            "route": "4",
+            "run": "4"
+          }
+        ],
+        "19": [
+          {
+            "minute": "50",
+            "route": "4",
+            "run": "1"
+          }
+        ],
+        "20": [
+          {
+            "minute": "01",
+            "route": "4",
+            "run": "2"
+          },
+          {
+            "minute": "11",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "21",
+            "route": "4",
+            "run": "4"
+          }
+        ]
+      },
+      "выходные": {
+        "9": [
+          {
+            "minute": "06",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "17",
+            "route": "4",
+            "run": "2"
+          },
+          {
+            "minute": "27",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "37",
+            "route": "4",
+            "run": "4"
+          }
+        ],
+        "15": [
+          {
+            "minute": "35",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "46",
+            "route": "4",
+            "run": "2"
+          },
+          {
+            "minute": "56",
+            "route": "4",
+            "run": "3"
+          }
+        ],
+        "16": [
+          {
+            "minute": "06",
+            "route": "4",
+            "run": "4"
+          }
+        ],
+        "19": [
+          {
+            "minute": "50",
+            "route": "4",
+            "run": "1"
+          }
+        ],
+        "20": [
+          {
+            "minute": "01",
+            "route": "4",
+            "run": "2"
+          },
+          {
+            "minute": "11",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "21",
+            "route": "4",
+            "run": "4"
+          }
+        ]
+      }
+    },
+    "в центр": {
+      "будни": {
+        "5": [
+          {
+            "minute": "48",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "59",
+            "route": "4",
+            "run": "2"
+          }
+        ],
+        "6": [
+          {
+            "minute": "09",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "19",
+            "route": "4",
+            "run": "4"
+          }
+        ],
+        "12": [
+          {
+            "minute": "17",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "28",
+            "route": "4",
+            "run": "2"
+          },
+          {
+            "minute": "38",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "48",
+            "route": "4",
+            "run": "4"
+          }
+        ],
+        "16": [
+          {
+            "minute": "32",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "43",
+            "route": "4",
+            "run": "2"
+          },
+          {
+            "minute": "53",
+            "route": "4",
+            "run": "3"
+          }
+        ],
+        "17": [
+          {
+            "minute": "03",
+            "route": "4",
+            "run": "4"
+          }
+        ]
+      },
+      "выходные": {
+        "5": [
+          {
+            "minute": "48",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "59",
+            "route": "4",
+            "run": "2"
+          }
+        ],
+        "6": [
+          {
+            "minute": "09",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "19",
+            "route": "4",
+            "run": "4"
+          }
+        ],
+        "12": [
+          {
+            "minute": "17",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "28",
+            "route": "4",
+            "run": "2"
+          },
+          {
+            "minute": "38",
+            "route": "4",
+            "run": "3"
+          },
+          {
+            "minute": "48",
+            "route": "4",
+            "run": "4"
+          }
+        ],
+        "16": [
+          {
+            "minute": "32",
+            "route": "4",
+            "run": "1"
+          },
+          {
+            "minute": "43",
+            "route": "4",
+            "run": "2"
+          },
+          {
+            "minute": "53",
+            "route": "4",
+            "run": "3"
+          }
+        ],
+        "17": [
+          {
+            "minute": "03",
+            "route": "4",
+            "run": "4"
+          }
+        ]
+      }
+    }
+  },
   "Улица Меркулова": {
     "в центр": {
       "будни": {
@@ -50376,594 +51024,6 @@ window.SCHEDULE_DATA = {
           },
           {
             "minute": "59",
-            "route": "4",
-            "run": "4"
-          }
-        ]
-      }
-    }
-  },
-  "Областная больница": {
-    "от центра": {
-      "будни": {
-        "5": [
-          {
-            "minute": "48",
-            "route": "4",
-            "run": "1"
-          },
-          {
-            "minute": "59",
-            "route": "4",
-            "run": "2"
-          }
-        ],
-        "6": [
-          {
-            "minute": "09",
-            "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "19",
-            "route": "4",
-            "run": "4"
-          }
-        ],
-        "12": [
-          {
-            "minute": "17",
-            "route": "4",
-            "run": "1"
-          },
-          {
-            "minute": "28",
-            "route": "4",
-            "run": "2"
-          },
-          {
-            "minute": "38",
-            "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "48",
-            "route": "4",
-            "run": "4"
-          }
-        ],
-        "16": [
-          {
-            "minute": "32",
-            "route": "4",
-            "run": "1"
-          },
-          {
-            "minute": "43",
-            "route": "4",
-            "run": "2"
-          },
-          {
-            "minute": "53",
-            "route": "4",
-            "run": "3"
-          }
-        ],
-        "17": [
-          {
-            "minute": "03",
-            "route": "4",
-            "run": "4"
-          }
-        ]
-      },
-      "выходные": {
-        "5": [
-          {
-            "minute": "48",
-            "route": "4",
-            "run": "1"
-          },
-          {
-            "minute": "59",
-            "route": "4",
-            "run": "2"
-          }
-        ],
-        "6": [
-          {
-            "minute": "09",
-            "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "19",
-            "route": "4",
-            "run": "4"
-          }
-        ],
-        "12": [
-          {
-            "minute": "17",
-            "route": "4",
-            "run": "1"
-          },
-          {
-            "minute": "28",
-            "route": "4",
-            "run": "2"
-          },
-          {
-            "minute": "38",
-            "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "48",
-            "route": "4",
-            "run": "4"
-          }
-        ],
-        "16": [
-          {
-            "minute": "32",
-            "route": "4",
-            "run": "1"
-          },
-          {
-            "minute": "43",
-            "route": "4",
-            "run": "2"
-          },
-          {
-            "minute": "53",
-            "route": "4",
-            "run": "3"
-          }
-        ],
-        "17": [
-          {
-            "minute": "03",
-            "route": "4",
-            "run": "4"
-          }
-        ]
-      }
-    },
-    "в центр": {
-      "будни": {
-        "9": [
-          {
-            "minute": "06",
-            "route": "4",
-            "run": "1"
-          },
-          {
-            "minute": "17",
-            "route": "4",
-            "run": "2"
-          },
-          {
-            "minute": "27",
-            "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "37",
-            "route": "4",
-            "run": "4"
-          }
-        ],
-        "15": [
-          {
-            "minute": "35",
-            "route": "4",
-            "run": "1"
-          },
-          {
-            "minute": "46",
-            "route": "4",
-            "run": "2"
-          },
-          {
-            "minute": "56",
-            "route": "4",
-            "run": "3"
-          }
-        ],
-        "16": [
-          {
-            "minute": "06",
-            "route": "4",
-            "run": "4"
-          }
-        ],
-        "19": [
-          {
-            "minute": "50",
-            "route": "4",
-            "run": "1"
-          }
-        ],
-        "20": [
-          {
-            "minute": "01",
-            "route": "4",
-            "run": "2"
-          },
-          {
-            "minute": "11",
-            "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "21",
-            "route": "4",
-            "run": "4"
-          }
-        ]
-      },
-      "выходные": {
-        "9": [
-          {
-            "minute": "06",
-            "route": "4",
-            "run": "1"
-          },
-          {
-            "minute": "17",
-            "route": "4",
-            "run": "2"
-          },
-          {
-            "minute": "27",
-            "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "37",
-            "route": "4",
-            "run": "4"
-          }
-        ],
-        "15": [
-          {
-            "minute": "35",
-            "route": "4",
-            "run": "1"
-          },
-          {
-            "minute": "46",
-            "route": "4",
-            "run": "2"
-          },
-          {
-            "minute": "56",
-            "route": "4",
-            "run": "3"
-          }
-        ],
-        "16": [
-          {
-            "minute": "06",
-            "route": "4",
-            "run": "4"
-          }
-        ],
-        "19": [
-          {
-            "minute": "50",
-            "route": "4",
-            "run": "1"
-          }
-        ],
-        "20": [
-          {
-            "minute": "01",
-            "route": "4",
-            "run": "2"
-          },
-          {
-            "minute": "11",
-            "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "21",
-            "route": "4",
-            "run": "4"
-          }
-        ]
-      }
-    }
-  },
-  "Технический университет": {
-    "от центра": {
-      "будни": {
-        "5": [
-          {
-            "minute": "50",
-            "route": "4",
-            "run": "1"
-          }
-        ],
-        "6": [
-          {
-            "minute": "01",
-            "route": "4",
-            "run": "2"
-          },
-          {
-            "minute": "11",
-            "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "21",
-            "route": "4",
-            "run": "4"
-          }
-        ],
-        "12": [
-          {
-            "minute": "19",
-            "route": "4",
-            "run": "1"
-          },
-          {
-            "minute": "30",
-            "route": "4",
-            "run": "2"
-          },
-          {
-            "minute": "40",
-            "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "50",
-            "route": "4",
-            "run": "4"
-          }
-        ],
-        "16": [
-          {
-            "minute": "34",
-            "route": "4",
-            "run": "1"
-          },
-          {
-            "minute": "45",
-            "route": "4",
-            "run": "2"
-          },
-          {
-            "minute": "55",
-            "route": "4",
-            "run": "3"
-          }
-        ],
-        "17": [
-          {
-            "minute": "05",
-            "route": "4",
-            "run": "4"
-          }
-        ]
-      },
-      "выходные": {
-        "5": [
-          {
-            "minute": "50",
-            "route": "4",
-            "run": "1"
-          }
-        ],
-        "6": [
-          {
-            "minute": "01",
-            "route": "4",
-            "run": "2"
-          },
-          {
-            "minute": "11",
-            "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "21",
-            "route": "4",
-            "run": "4"
-          }
-        ],
-        "12": [
-          {
-            "minute": "19",
-            "route": "4",
-            "run": "1"
-          },
-          {
-            "minute": "30",
-            "route": "4",
-            "run": "2"
-          },
-          {
-            "minute": "40",
-            "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "50",
-            "route": "4",
-            "run": "4"
-          }
-        ],
-        "16": [
-          {
-            "minute": "34",
-            "route": "4",
-            "run": "1"
-          },
-          {
-            "minute": "45",
-            "route": "4",
-            "run": "2"
-          },
-          {
-            "minute": "55",
-            "route": "4",
-            "run": "3"
-          }
-        ],
-        "17": [
-          {
-            "minute": "05",
-            "route": "4",
-            "run": "4"
-          }
-        ]
-      }
-    },
-    "в центр": {
-      "будни": {
-        "9": [
-          {
-            "minute": "04",
-            "route": "4",
-            "run": "1"
-          },
-          {
-            "minute": "15",
-            "route": "4",
-            "run": "2"
-          },
-          {
-            "minute": "25",
-            "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "35",
-            "route": "4",
-            "run": "4"
-          }
-        ],
-        "15": [
-          {
-            "minute": "33",
-            "route": "4",
-            "run": "1"
-          },
-          {
-            "minute": "44",
-            "route": "4",
-            "run": "2"
-          },
-          {
-            "minute": "54",
-            "route": "4",
-            "run": "3"
-          }
-        ],
-        "16": [
-          {
-            "minute": "04",
-            "route": "4",
-            "run": "4"
-          }
-        ],
-        "19": [
-          {
-            "minute": "48",
-            "route": "4",
-            "run": "1"
-          },
-          {
-            "minute": "59",
-            "route": "4",
-            "run": "2"
-          }
-        ],
-        "20": [
-          {
-            "minute": "09",
-            "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "19",
-            "route": "4",
-            "run": "4"
-          }
-        ]
-      },
-      "выходные": {
-        "9": [
-          {
-            "minute": "04",
-            "route": "4",
-            "run": "1"
-          },
-          {
-            "minute": "15",
-            "route": "4",
-            "run": "2"
-          },
-          {
-            "minute": "25",
-            "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "35",
-            "route": "4",
-            "run": "4"
-          }
-        ],
-        "15": [
-          {
-            "minute": "33",
-            "route": "4",
-            "run": "1"
-          },
-          {
-            "minute": "44",
-            "route": "4",
-            "run": "2"
-          },
-          {
-            "minute": "54",
-            "route": "4",
-            "run": "3"
-          }
-        ],
-        "16": [
-          {
-            "minute": "04",
-            "route": "4",
-            "run": "4"
-          }
-        ],
-        "19": [
-          {
-            "minute": "48",
-            "route": "4",
-            "run": "1"
-          },
-          {
-            "minute": "59",
-            "route": "4",
-            "run": "2"
-          }
-        ],
-        "20": [
-          {
-            "minute": "09",
-            "route": "4",
-            "run": "3"
-          },
-          {
-            "minute": "19",
             "route": "4",
             "run": "4"
           }
