@@ -64,9 +64,11 @@
     },
     "4": {
       "display_number": "4",
-      "transport_type": "автобус",
-      "main_endpoints": "мкр. Елецкий — Технический университет",
-      "additional_endpoints": [],
+      "transport_type": "электробус",
+      "main_endpoints": "мкр. Елецкий — Улица Катукова",
+      "additional_endpoints": [
+        "Кольцо 9-го микрорайона — мкр. Елецкий"
+      ],
       "stops": [
         "мкр. Елецкий",
         "58 школа",
@@ -92,8 +94,8 @@
     },
     "5": {
       "display_number": "5",
-      "transport_type": "автобус",
-      "main_endpoints": "к-цо9мкр — Полиграфический комплекс",
+      "transport_type": "электробус",
+      "main_endpoints": "Кольцо 9-го микрорайона — Стан-2000",
       "additional_endpoints": [],
       "stops": [
         "к-цо9мкр",
