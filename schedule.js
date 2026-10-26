@@ -1457,11 +1457,11 @@ window.SCHEDULE_DATABASE = {
     "1к": "1к"
   },
   "app_update_config": {
-    "enabled": false,
-    "latest_version": "",
-    "download_url": "",
-    "title": "",
-    "message": ""
+    "enabled": true,
+    "latest_version": "X1.6",
+    "download_url": "https://storage.yandexcloud.net/liptramschedule/TramSchedule.apk",
+    "title": "Обновление!",
+    "message": "Вышла новая версия. Скачать можно по ссылке."
   }
 };
 window.ROUTE_COLORS = {
@@ -1473,11 +1473,11 @@ window.ROUTE_COLORS = {
   "1к": "#E11D48"
 };
 window.APP_UPDATE_CONFIG = {
-  "enabled": false,
-  "latest_version": "",
-  "download_url": "",
-  "title": "",
-  "message": ""
+  "enabled": true,
+  "latest_version": "X1.6",
+  "download_url": "https://storage.yandexcloud.net/liptramschedule/TramSchedule.apk",
+  "title": "Обновление!",
+  "message": "Вышла новая версия. Скачать можно по ссылке."
 };
 window.SCHEDULE_DATA = {
   "Кольцо 9-го микрорайона": {
