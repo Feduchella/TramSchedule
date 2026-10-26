@@ -1,4 +1,4 @@
-window.SCHEDULE_VERSION = "21-10-2026";
+window.SCHEDULE_VERSION = "26-10-2026";
 window.SCHEDULE_DATA = {
   "Кольцо 9-го микрорайона": {
     "направление 2": {
