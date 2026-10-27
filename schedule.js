@@ -1,4 +1,4 @@
-window.SCHEDULE_VERSION = "1127-10-2026";
+window.SCHEDULE_VERSION = "217-10-2026";
 window.SCHEDULE_STOP_ALIASES = {
   "Ц.рынок": "Центральный рынок",
   "Каменный лог": "Каменный лог",
@@ -478,9 +478,9 @@ window.SCHEDULE_DATABASE = {
       "native_number": "4",
       "transport_type": "электробус",
       "color": "#C084FC",
-      "versions": "X1.6",
+      "versions": "X1.6.1",
       "app_versions": [
-        "X1.6"
+        "X1.6.1"
       ],
       "main_endpoints": "Микрорайон Елецкий — Улица Катукова",
       "additional_endpoints": [
@@ -635,24 +635,16 @@ window.SCHEDULE_DATABASE = {
             "Микрорайон Елецкий"
           ]
         }
-      ],
-      "additional_scheme_2": {
-        "custom_route": "",
-        "first_stop": "",
-        "last_stop": "",
-        "endpoints": "",
-        "direct_stops": [],
-        "reverse_stops": []
-      }
+      ]
     },
     "5": {
       "display_number": "5",
       "native_number": "5",
       "transport_type": "электробус",
       "color": "#FB923C",
-      "versions": "X1.6",
+      "versions": "X1.6.1",
       "app_versions": [
-        "X1.6"
+        "X1.6.1"
       ],
       "main_endpoints": "Кольцо 9-го микрорайона — Стан-2000",
       "additional_endpoints": [],
@@ -777,15 +769,7 @@ window.SCHEDULE_DATABASE = {
           "direct_stops": [],
           "reverse_stops": []
         }
-      ],
-      "additional_scheme_2": {
-        "custom_route": "",
-        "first_stop": "",
-        "last_stop": "",
-        "endpoints": "",
-        "direct_stops": [],
-        "reverse_stops": []
-      }
+      ]
     },
     "15": {
       "display_number": "15",
@@ -1460,8 +1444,8 @@ window.SCHEDULE_DATABASE = {
     "enabled": true,
     "latest_version": "X1.6.1",
     "download_url": "https://storage.yandexcloud.net/liptramschedule/TramSchedule.apk",
-    "title": "Важное обновление",
-    "message": "Вышла новая версия X1.6.1. Пожалуйста, обновите приложение для стабильной работы и актуального расписания."
+    "title": "обновление",
+    "message": "обновление"
   }
 };
 window.ROUTE_COLORS = {
@@ -1476,8 +1460,8 @@ window.APP_UPDATE_CONFIG = {
   "enabled": true,
   "latest_version": "X1.6.1",
   "download_url": "https://storage.yandexcloud.net/liptramschedule/TramSchedule.apk",
-  "title": "Важное обновление",
-  "message": "Вышла новая версия X1.6.1. Пожалуйста, обновите приложение для стабильной работы и актуального расписания."
+  "title": "обновление",
+  "message": "обновление"
 };
 window.SCHEDULE_DATA = {
   "Кольцо 9-го микрорайона": {
