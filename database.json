@@ -1166,8 +1166,8 @@
   "app_update_config": {
     "enabled": true,
     "latest_version": "X1.6.1",
-    "download_url": "https://storage.yandexcloud.net/liptramschedule/TramSchedule.apk",
-    "title": "Доступно обновление приложения",
-    "message": "Вышла новая версия X1.6.1.\n\nВ обновлении:\n• Улучшена стабильность и скорость работы\n• Схемы теперь загружаются динамически из облака\n• Исправлено обновление расписания в фоне\n\nРекомендуем установить новую версию!"
+    "download_url": "https://storage.yandexcloud.net/liptramschedule",
+    "title": "1",
+    "message": "1"
   }
 }
