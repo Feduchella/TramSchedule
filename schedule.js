@@ -1,4 +1,4 @@
-window.SCHEDULE_VERSION = "27-10-2026";
+window.SCHEDULE_VERSION = "1127-10-2026";
 window.SCHEDULE_STOP_ALIASES = {
   "Ц.рынок": "Центральный рынок",
   "Каменный лог": "Каменный лог",
@@ -635,7 +635,15 @@ window.SCHEDULE_DATABASE = {
             "Микрорайон Елецкий"
           ]
         }
-      ]
+      ],
+      "additional_scheme_2": {
+        "custom_route": "",
+        "first_stop": "",
+        "last_stop": "",
+        "endpoints": "",
+        "direct_stops": [],
+        "reverse_stops": []
+      }
     },
     "5": {
       "display_number": "5",
@@ -769,7 +777,15 @@ window.SCHEDULE_DATABASE = {
           "direct_stops": [],
           "reverse_stops": []
         }
-      ]
+      ],
+      "additional_scheme_2": {
+        "custom_route": "",
+        "first_stop": "",
+        "last_stop": "",
+        "endpoints": "",
+        "direct_stops": [],
+        "reverse_stops": []
+      }
     },
     "15": {
       "display_number": "15",
@@ -1444,8 +1460,8 @@ window.SCHEDULE_DATABASE = {
     "enabled": true,
     "latest_version": "X1.6.1",
     "download_url": "https://storage.yandexcloud.net/liptramschedule/TramSchedule.apk",
-    "title": "Обновление",
-    "message": "Важное микрообновление"
+    "title": "Важное обновление",
+    "message": "Прям очень важное"
   }
 };
 window.ROUTE_COLORS = {
@@ -1460,8 +1476,8 @@ window.APP_UPDATE_CONFIG = {
   "enabled": true,
   "latest_version": "X1.6.1",
   "download_url": "https://storage.yandexcloud.net/liptramschedule/TramSchedule.apk",
-  "title": "Обновление",
-  "message": "Важное микрообновление"
+  "title": "Важное обновление",
+  "message": "Прям очень важное"
 };
 window.SCHEDULE_DATA = {
   "Кольцо 9-го микрорайона": {
@@ -54105,7 +54121,17 @@ window.SCHEDULE_DATA = {
                     allowed = rData.versions.split(';').map(function(s) { return s.trim(); }).filter(Boolean);
                 }
                 if (allowed && allowed.length > 0) {
-                    if (!clientVer || allowed.indexOf(clientVer) === -1) {
+                    var isAllowed = false;
+                    if (clientVer) {
+                        for (var ai = 0; ai < allowed.length; ai++) {
+                            var av = String(allowed[ai]).trim();
+                            if (clientVer === av || clientVer.indexOf(av) === 0 || clientVer >= av) {
+                                isAllowed = true;
+                                break;
+                            }
+                        }
+                    }
+                    if (!isAllowed) {
                         hiddenRoutes[rId] = true;
                         if (rData.custom_route) hiddenRoutes[rData.custom_route] = true;
                         if (rData.display_number) hiddenRoutes[rData.display_number] = true;
@@ -54167,212 +54193,4 @@ window.SCHEDULE_DATA = {
         }
     }
 
-    // 2. Client update notice UI (Modal + Top red banner)
-    var updateCfg = (typeof window !== 'undefined' && window.APP_UPDATE_CONFIG) ||
-                    (typeof APP_UPDATE_CONFIG !== 'undefined' ? APP_UPDATE_CONFIG : null) ||
-                    (targetDb && targetDb.app_update_config ? targetDb.app_update_config : null);
-
-    if (!updateCfg || !updateCfg.enabled || !updateCfg.latest_version) return;
-
-    var isOutdated = false;
-    if (!clientVer) {
-        isOutdated = true;
-    } else if (clientVer !== updateCfg.latest_version) {
-        isOutdated = true;
-    }
-
-    if (!isOutdated) return;
-
-    function getDoc() {
-        try {
-            if (typeof document !== 'undefined' && document && document.body) return document;
-        } catch(e) {}
-        try {
-            var g = Function('return this')();
-            if (g && g.document && g.document.body) return g.document;
-        } catch(e) {}
-        return null;
-    }
-
-    function initNotice() {
-        var doc = getDoc();
-        if (!doc || !doc.body) {
-            setTimeout(initNotice, 250);
-            return;
-        }
-
-        if (doc.getElementById('app-update-modal-backdrop') || doc.getElementById('app-version-alert-banner')) {
-            return;
-        }
-
-        var isDark = false;
-        try {
-            isDark = doc.documentElement.getAttribute('data-theme') === 'dark' ||
-                     (doc.body && doc.body.classList.contains('dark')) ||
-                     (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
-        } catch(e) {}
-
-        var storageKey = 'tram_app_dismissed_' + updateCfg.latest_version;
-        var dismissed = false;
-        try {
-            dismissed = sessionStorage.getItem(storageKey) === 'true';
-        } catch(e) {}
-
-        var dlUrl = updateCfg.download_url || '';
-        function showCopyToast(msg) {
-            try {
-                var t = doc.getElementById('app-update-copy-toast');
-                if (!t) {
-                    t = doc.createElement('div');
-                    t.id = 'app-update-copy-toast';
-                    t.style.cssText = 'position: fixed; bottom: 32px; left: 50%; transform: translateX(-50%); background: #1E293B; color: #FFFFFF; padding: 12px 22px; border-radius: 30px; font-size: 14px; font-weight: 600; box-shadow: 0 10px 25px rgba(0,0,0,0.45); border: 1.5px solid #10B981; z-index: 9999999; display: flex; align-items: center; gap: 8px; pointer-events: none; opacity: 0; transition: opacity 0.25s, transform 0.25s; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;';
-                    doc.body.appendChild(t);
-                }
-                t.innerHTML = '<span style="color:#10B981;font-size:16px;">✓</span> <span>' + (msg || 'Ссылка скопирована в буфер обмена') + '</span>';
-                t.style.opacity = '1';
-                t.style.transform = 'translateX(-50%) translateY(0)';
-                if (t._timer) clearTimeout(t._timer);
-                t._timer = setTimeout(function() {
-                    t.style.opacity = '0';
-                    t.style.transform = 'translateX(-50%) translateY(12px)';
-                }, 3000);
-            } catch(e) {}
-        }
-
-        function copyLinkToClipboard(text) {
-            try {
-                if (navigator.clipboard && navigator.clipboard.writeText) {
-                    navigator.clipboard.writeText(text);
-                } else {
-                    var ta = doc.createElement('textarea');
-                    ta.value = text;
-                    ta.style.position = 'fixed';
-                    ta.style.opacity = '0';
-                    doc.body.appendChild(ta);
-                    ta.select();
-                    doc.execCommand('copy');
-                    doc.body.removeChild(ta);
-                }
-            } catch(e) {
-                try {
-                    var ta = doc.createElement('textarea');
-                    ta.value = text;
-                    ta.style.position = 'fixed';
-                    ta.style.opacity = '0';
-                    doc.body.appendChild(ta);
-                    ta.select();
-                    doc.execCommand('copy');
-                    doc.body.removeChild(ta);
-                } catch(e2) {}
-            }
-            showCopyToast('Ссылка скопирована в буфер обмена');
-        }
-
-        function openDownload() {
-            if (dlUrl && dlUrl !== '#') {
-                copyLinkToClipboard(dlUrl);
-                if (window.AndroidInsets && window.AndroidInsets.openExternalUrl) {
-                    try {
-                        window.AndroidInsets.openExternalUrl(dlUrl);
-                        return;
-                    } catch(e) {}
-                }
-                try {
-                    window.open(dlUrl, '_system');
-                } catch(e) {}
-                try {
-                    window.open(dlUrl, '_blank');
-                } catch(e) {}
-                try {
-                    location.href = dlUrl;
-                } catch(e) {}
-            }
-        }
-
-        // 1. Create Top Banner
-        var banner = doc.createElement('div');
-        banner.id = 'app-version-alert-banner';
-        banner.style.cssText = 'background: #C62828; color: #ffffff; margin: 10px 12px 6px 12px; padding: 10px 14px; border-radius: 10px; border: 1.5px solid #ef5350; box-shadow: 0 4px 12px rgba(0,0,0,0.25); display: ' + (dismissed ? 'flex' : 'none') + '; align-items: center; justify-content: space-between; gap: 12px; position: sticky; top: 0; z-index: 1005; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; box-sizing: border-box;';
-
-        var bannerLeft = doc.createElement('div');
-        bannerLeft.style.cssText = 'display: flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; line-height: 1.3;';
-        bannerLeft.innerHTML = '<span style="font-size: 18px; line-height: 1;">📱</span><span>Версия приложения устарела!</span>';
-
-        var bannerBtn = doc.createElement('button');
-        bannerBtn.id = 'btn-download-app-banner';
-        bannerBtn.textContent = 'Скачать';
-        bannerBtn.style.cssText = 'background: #ffffff; color: #C62828; font-weight: 700; font-size: 13px; padding: 6px 14px; border: none; border-radius: 6px; cursor: pointer; white-space: nowrap; box-shadow: 0 2px 4px rgba(0,0,0,0.2);';
-        bannerBtn.onclick = function(e) {
-            e.preventDefault();
-            openDownload();
-        };
-
-        banner.appendChild(bannerLeft);
-        banner.appendChild(bannerBtn);
-
-        var updateBanner = doc.getElementById('update-banner');
-        if (updateBanner && updateBanner.parentNode) {
-            updateBanner.parentNode.insertBefore(banner, updateBanner.nextSibling);
-        } else if (doc.body.firstChild) {
-            doc.body.insertBefore(banner, doc.body.firstChild);
-        } else {
-            doc.body.appendChild(banner);
-        }
-
-        // 2. Create Modal Popup
-        var modalBackdrop = doc.createElement('div');
-        modalBackdrop.id = 'app-update-modal-backdrop';
-        modalBackdrop.style.cssText = 'position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.65); z-index: 99999; display: ' + (dismissed ? 'none' : 'flex') + '; align-items: center; justify-content: center; padding: 16px; box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;';
-
-        var modalBox = doc.createElement('div');
-        var modalBg = isDark ? '#242424' : '#ffffff';
-        var textPrimary = isDark ? '#ffffff' : '#111111';
-        var textSecondary = isDark ? '#aaaaaa' : '#555555';
-        var btnCancelBg = isDark ? '#333333' : '#f0f0f0';
-        var btnCancelColor = isDark ? '#cccccc' : '#444444';
-        var btnCancelBorder = isDark ? '#444444' : '#cccccc';
-
-        modalBox.style.cssText = 'background: ' + modalBg + '; border-radius: 14px; max-width: 330px; width: 100%; padding: 22px 20px; text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,0.4); box-sizing: border-box;';
-
-        var titleText = updateCfg.title || 'Появилась новая версия приложения!';
-        var msgText = updateCfg.message || ('Доступна актуальная версия (' + updateCfg.latest_version + '). Рекомендуется обновить приложение для правильного отображения маршрутов.');
-
-        modalBox.innerHTML =
-            '<div style="font-size: 34px; margin-bottom: 10px;">🚀</div>' +
-            '<div style="font-size: 17px; font-weight: 700; margin-bottom: 8px; color: ' + textPrimary + ';">' + titleText + '</div>' +
-            '<div style="font-size: 13px; color: ' + textSecondary + '; line-height: 1.45; margin-bottom: 20px;">' + msgText + '</div>' +
-            '<div style="display: flex; gap: 10px;">' +
-                '<button id="app-update-btn-later" style="flex: 1; padding: 10px 0; border: 1px solid ' + btnCancelBorder + '; background: ' + btnCancelBg + '; color: ' + btnCancelColor + '; border-radius: 8px; font-size: 14px; font-weight: 600; cursor: pointer;">Не сейчас</button>' +
-                '<button id="app-update-btn-download" style="flex: 1; padding: 10px 0; border: none; background: #2e7d32; color: #ffffff; border-radius: 8px; font-size: 14px; font-weight: 600; cursor: pointer; box-shadow: 0 2px 6px rgba(46,125,50,0.3);">Скачать</button>' +
-            '</div>';
-
-        modalBackdrop.appendChild(modalBox);
-        doc.body.appendChild(modalBackdrop);
-
-        var btnDownload = doc.getElementById('app-update-btn-download');
-        if (btnDownload) {
-            btnDownload.onclick = function(e) {
-                e.preventDefault();
-                openDownload();
-            };
-        }
-
-        var btnLater = doc.getElementById('app-update-btn-later');
-        if (btnLater) {
-            btnLater.onclick = function(e) {
-                e.preventDefault();
-                modalBackdrop.style.display = 'none';
-                banner.style.display = 'flex';
-                try {
-                    sessionStorage.setItem(storageKey, 'true');
-                } catch(err) {}
-            };
-        }
-    }
-
-    if (typeof document !== 'undefined' && document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', initNotice);
-    } else {
-        setTimeout(initNotice, 100);
-    }
-})();
+    })();
