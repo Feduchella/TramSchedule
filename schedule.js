@@ -478,9 +478,9 @@ window.SCHEDULE_DATABASE = {
       "native_number": "4",
       "transport_type": "электробус",
       "color": "#C084FC",
-      "versions": "X1.6.1",
+      "versions": "X1.6",
       "app_versions": [
-        "X1.6.1"
+        "X1.6"
       ],
       "main_endpoints": "Микрорайон Елецкий — Улица Катукова",
       "additional_endpoints": [
@@ -650,9 +650,9 @@ window.SCHEDULE_DATABASE = {
       "native_number": "5",
       "transport_type": "электробус",
       "color": "#FB923C",
-      "versions": "X1.6.1",
+      "versions": "X1.6",
       "app_versions": [
-        "X1.6.1"
+        "X1.6"
       ],
       "main_endpoints": "Кольцо 9-го микрорайона — Стан-2000",
       "additional_endpoints": [],
@@ -1461,7 +1461,7 @@ window.SCHEDULE_DATABASE = {
     "latest_version": "X1.6.1",
     "download_url": "https://storage.yandexcloud.net/liptramschedule/TramSchedule.apk",
     "title": "Важное обновление",
-    "message": "Прям очень важное"
+    "message": "Вышла новая версия X1.6.1. Пожалуйста, обновите приложение для стабильной работы и актуального расписания."
   }
 };
 window.ROUTE_COLORS = {
@@ -1477,7 +1477,7 @@ window.APP_UPDATE_CONFIG = {
   "latest_version": "X1.6.1",
   "download_url": "https://storage.yandexcloud.net/liptramschedule/TramSchedule.apk",
   "title": "Важное обновление",
-  "message": "Прям очень важное"
+  "message": "Вышла новая версия X1.6.1. Пожалуйста, обновите приложение для стабильной работы и актуального расписания."
 };
 window.SCHEDULE_DATA = {
   "Кольцо 9-го микрорайона": {
@@ -37097,6 +37097,97 @@ window.SCHEDULE_DATA = {
     },
     "направление 2": {
       "будни": {
+        "6": [
+          {
+            "minute": "28",
+            "route": "1",
+            "run": "1"
+          },
+          {
+            "minute": "47",
+            "route": "1",
+            "run": "2"
+          }
+        ],
+        "7": [
+          {
+            "minute": "06",
+            "route": "1",
+            "run": "1"
+          },
+          {
+            "minute": "25",
+            "route": "1",
+            "run": "2"
+          },
+          {
+            "minute": "43",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "8": [
+          {
+            "minute": "02",
+            "route": "1",
+            "run": "2"
+          },
+          {
+            "minute": "21",
+            "route": "1",
+            "run": "1"
+          },
+          {
+            "minute": "44",
+            "route": "1",
+            "run": "2"
+          }
+        ],
+        "9": [
+          {
+            "minute": "03",
+            "route": "1",
+            "run": "1"
+          },
+          {
+            "minute": "22",
+            "route": "1",
+            "run": "2"
+          }
+        ],
+        "10": [
+          {
+            "minute": "19",
+            "route": "1",
+            "run": "1"
+          },
+          {
+            "minute": "58",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "11": [
+          {
+            "minute": "36",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "12": [
+          {
+            "minute": "17",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "13": [
+          {
+            "minute": "07",
+            "route": "1",
+            "run": "1"
+          }
+        ],
         "14": [
           {
             "minute": "11",
@@ -37105,25 +37196,52 @@ window.SCHEDULE_DATA = {
           },
           {
             "minute": "42",
-            "route": "15",
+            "route": "1",
             "run": "2"
           }
         ],
-        "24": [
+        "16": [
           {
-            "minute": "11",
+            "minute": "17",
+            "route": "1",
+            "run": "1"
+          },
+          {
+            "minute": "36",
+            "route": "1",
+            "run": "2"
+          },
+          {
+            "minute": "55",
             "route": "1",
             "run": "1"
           }
         ],
-        "9": [
+        "17": [
           {
-            "minute": "03",
-            "route": "15",
+            "minute": "14",
+            "route": "1",
+            "run": "2"
+          },
+          {
+            "minute": "37",
+            "route": "1",
             "run": "1"
           },
           {
-            "minute": "22",
+            "minute": "56",
+            "route": "1",
+            "run": "2"
+          }
+        ],
+        "18": [
+          {
+            "minute": "21",
+            "route": "1",
+            "run": "1"
+          },
+          {
+            "minute": "45",
             "route": "1",
             "run": "2"
           }
@@ -37136,192 +37254,39 @@ window.SCHEDULE_DATA = {
           },
           {
             "minute": "51",
-            "route": "15",
+            "route": "1",
             "run": "1"
-          }
-        ],
-        "6": [
-          {
-            "minute": "28",
-            "route": "15",
-            "run": "1"
-          },
-          {
-            "minute": "47",
-            "route": "15",
-            "run": "2"
-          }
-        ],
-        "7": [
-          {
-            "minute": "06",
-            "route": "15",
-            "run": "1"
-          },
-          {
-            "minute": "25",
-            "route": "15",
-            "run": "2"
-          },
-          {
-            "minute": "43",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "8": [
-          {
-            "minute": "02",
-            "route": "15",
-            "run": "2"
-          },
-          {
-            "minute": "21",
-            "route": "15",
-            "run": "1"
-          },
-          {
-            "minute": "44",
-            "route": "15",
-            "run": "2"
-          }
-        ],
-        "10": [
-          {
-            "minute": "19",
-            "route": "15",
-            "run": "1"
-          },
-          {
-            "minute": "58",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "11": [
-          {
-            "minute": "36",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "12": [
-          {
-            "minute": "17",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "13": [
-          {
-            "minute": "07",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "16": [
-          {
-            "minute": "17",
-            "route": "15",
-            "run": "1"
-          },
-          {
-            "minute": "36",
-            "route": "15",
-            "run": "2"
-          },
-          {
-            "minute": "55",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "17": [
-          {
-            "minute": "14",
-            "route": "15",
-            "run": "2"
-          },
-          {
-            "minute": "37",
-            "route": "15",
-            "run": "1"
-          },
-          {
-            "minute": "56",
-            "route": "15",
-            "run": "2"
-          }
-        ],
-        "18": [
-          {
-            "minute": "21",
-            "route": "15",
-            "run": "1"
-          },
-          {
-            "minute": "45",
-            "route": "15",
-            "run": "2"
           }
         ],
         "20": [
           {
             "minute": "36",
-            "route": "15",
+            "route": "1",
             "run": "1"
           }
         ],
         "21": [
           {
             "minute": "15",
-            "route": "15",
+            "route": "1",
             "run": "1"
           }
         ],
         "22": [
           {
             "minute": "05",
-            "route": "15",
+            "route": "1",
             "run": "1"
           },
           {
             "minute": "47",
-            "route": "15",
+            "route": "1",
             "run": "1"
           }
         ],
         "23": [
           {
             "minute": "27",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "15": [
-          {
-            "minute": "20",
-            "route": "15",
-            "run": "2"
-          },
-          {
-            "minute": "58",
-            "route": "15",
-            "run": "2"
-          }
-        ]
-      },
-      "выходные": {
-        "9": [
-          {
-            "minute": "07",
-            "route": "1",
-            "run": "1"
-          }
-        ],
-        "14": [
-          {
-            "minute": "11",
             "route": "1",
             "run": "1"
           }
@@ -37333,116 +37298,151 @@ window.SCHEDULE_DATA = {
             "run": "1"
           }
         ],
+        "15": [
+          {
+            "minute": "20",
+            "route": "1",
+            "run": "2"
+          },
+          {
+            "minute": "58",
+            "route": "1",
+            "run": "2"
+          }
+        ]
+      },
+      "выходные": {
         "6": [
           {
             "minute": "29",
-            "route": "15",
+            "route": "1",
             "run": "1"
           }
         ],
         "7": [
           {
             "minute": "06",
-            "route": "15",
+            "route": "1",
             "run": "1"
           },
           {
             "minute": "43",
-            "route": "15",
+            "route": "1",
             "run": "1"
           }
         ],
         "8": [
           {
             "minute": "21",
-            "route": "15",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "9": [
+          {
+            "minute": "07",
+            "route": "1",
             "run": "1"
           }
         ],
         "11": [
           {
             "minute": "43",
-            "route": "15",
+            "route": "1",
             "run": "1"
           }
         ],
         "12": [
           {
             "minute": "38",
-            "route": "15",
+            "route": "1",
             "run": "1"
           }
         ],
         "13": [
           {
             "minute": "17",
-            "route": "15",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "14": [
+          {
+            "minute": "11",
+            "route": "1",
             "run": "1"
           }
         ],
         "16": [
           {
             "minute": "29",
-            "route": "15",
+            "route": "1",
             "run": "1"
           }
         ],
         "17": [
           {
             "minute": "09",
-            "route": "15",
+            "route": "1",
             "run": "1"
           }
         ],
         "18": [
           {
             "minute": "08",
-            "route": "15",
+            "route": "1",
             "run": "1"
           },
           {
             "minute": "45",
-            "route": "15",
+            "route": "1",
             "run": "1"
           }
         ],
         "19": [
           {
             "minute": "53",
-            "route": "15",
+            "route": "1",
             "run": "1"
           }
         ],
         "20": [
           {
             "minute": "36",
-            "route": "15",
+            "route": "1",
             "run": "1"
           }
         ],
         "21": [
           {
             "minute": "13",
-            "route": "15",
+            "route": "1",
             "run": "1"
           }
         ],
         "22": [
           {
             "minute": "04",
-            "route": "15",
+            "route": "1",
             "run": "1"
           },
           {
             "minute": "43",
-            "route": "15",
+            "route": "1",
             "run": "1"
           }
         ],
         "23": [
           {
             "minute": "23",
-            "route": "15",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "24": [
+          {
+            "minute": "11",
+            "route": "1",
             "run": "1"
           }
         ]
@@ -37797,6 +37797,97 @@ window.SCHEDULE_DATA = {
     },
     "направление 2": {
       "будни": {
+        "6": [
+          {
+            "minute": "25",
+            "route": "1",
+            "run": "1"
+          },
+          {
+            "minute": "44",
+            "route": "1",
+            "run": "2"
+          }
+        ],
+        "7": [
+          {
+            "minute": "03",
+            "route": "1",
+            "run": "1"
+          },
+          {
+            "minute": "22",
+            "route": "1",
+            "run": "2"
+          },
+          {
+            "minute": "40",
+            "route": "1",
+            "run": "1"
+          },
+          {
+            "minute": "59",
+            "route": "1",
+            "run": "2"
+          }
+        ],
+        "8": [
+          {
+            "minute": "18",
+            "route": "1",
+            "run": "1"
+          },
+          {
+            "minute": "41",
+            "route": "1",
+            "run": "2"
+          }
+        ],
+        "9": [
+          {
+            "minute": "00",
+            "route": "1",
+            "run": "1"
+          },
+          {
+            "minute": "19",
+            "route": "1",
+            "run": "2"
+          }
+        ],
+        "10": [
+          {
+            "minute": "16",
+            "route": "1",
+            "run": "1"
+          },
+          {
+            "minute": "55",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "11": [
+          {
+            "minute": "33",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "12": [
+          {
+            "minute": "14",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "13": [
+          {
+            "minute": "04",
+            "route": "1",
+            "run": "1"
+          }
+        ],
         "14": [
           {
             "minute": "08",
@@ -37805,25 +37896,52 @@ window.SCHEDULE_DATA = {
           },
           {
             "minute": "39",
-            "route": "15",
+            "route": "1",
             "run": "2"
           }
         ],
-        "24": [
+        "16": [
           {
-            "minute": "08",
+            "minute": "14",
+            "route": "1",
+            "run": "1"
+          },
+          {
+            "minute": "33",
+            "route": "1",
+            "run": "2"
+          },
+          {
+            "minute": "52",
             "route": "1",
             "run": "1"
           }
         ],
-        "9": [
+        "17": [
           {
-            "minute": "00",
-            "route": "15",
+            "minute": "11",
+            "route": "1",
+            "run": "2"
+          },
+          {
+            "minute": "34",
+            "route": "1",
             "run": "1"
           },
           {
-            "minute": "19",
+            "minute": "53",
+            "route": "1",
+            "run": "2"
+          }
+        ],
+        "18": [
+          {
+            "minute": "18",
+            "route": "1",
+            "run": "1"
+          },
+          {
+            "minute": "42",
             "route": "1",
             "run": "2"
           }
@@ -37836,192 +37954,39 @@ window.SCHEDULE_DATA = {
           },
           {
             "minute": "48",
-            "route": "15",
+            "route": "1",
             "run": "1"
-          }
-        ],
-        "6": [
-          {
-            "minute": "25",
-            "route": "15",
-            "run": "1"
-          },
-          {
-            "minute": "44",
-            "route": "15",
-            "run": "2"
-          }
-        ],
-        "7": [
-          {
-            "minute": "03",
-            "route": "15",
-            "run": "1"
-          },
-          {
-            "minute": "22",
-            "route": "15",
-            "run": "2"
-          },
-          {
-            "minute": "40",
-            "route": "15",
-            "run": "1"
-          },
-          {
-            "minute": "59",
-            "route": "15",
-            "run": "2"
-          }
-        ],
-        "8": [
-          {
-            "minute": "18",
-            "route": "15",
-            "run": "1"
-          },
-          {
-            "minute": "41",
-            "route": "15",
-            "run": "2"
-          }
-        ],
-        "10": [
-          {
-            "minute": "16",
-            "route": "15",
-            "run": "1"
-          },
-          {
-            "minute": "55",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "11": [
-          {
-            "minute": "33",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "12": [
-          {
-            "minute": "14",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "13": [
-          {
-            "minute": "04",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "16": [
-          {
-            "minute": "14",
-            "route": "15",
-            "run": "1"
-          },
-          {
-            "minute": "33",
-            "route": "15",
-            "run": "2"
-          },
-          {
-            "minute": "52",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "17": [
-          {
-            "minute": "11",
-            "route": "15",
-            "run": "2"
-          },
-          {
-            "minute": "34",
-            "route": "15",
-            "run": "1"
-          },
-          {
-            "minute": "53",
-            "route": "15",
-            "run": "2"
-          }
-        ],
-        "18": [
-          {
-            "minute": "18",
-            "route": "15",
-            "run": "1"
-          },
-          {
-            "minute": "42",
-            "route": "15",
-            "run": "2"
           }
         ],
         "20": [
           {
             "minute": "33",
-            "route": "15",
+            "route": "1",
             "run": "1"
           }
         ],
         "21": [
           {
             "minute": "12",
-            "route": "15",
+            "route": "1",
             "run": "1"
           }
         ],
         "22": [
           {
             "minute": "02",
-            "route": "15",
+            "route": "1",
             "run": "1"
           },
           {
             "minute": "44",
-            "route": "15",
+            "route": "1",
             "run": "1"
           }
         ],
         "23": [
           {
             "minute": "24",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "15": [
-          {
-            "minute": "17",
-            "route": "15",
-            "run": "2"
-          },
-          {
-            "minute": "55",
-            "route": "15",
-            "run": "2"
-          }
-        ]
-      },
-      "выходные": {
-        "9": [
-          {
-            "minute": "04",
-            "route": "1",
-            "run": "1"
-          }
-        ],
-        "14": [
-          {
-            "minute": "08",
             "route": "1",
             "run": "1"
           }
@@ -38033,116 +37998,151 @@ window.SCHEDULE_DATA = {
             "run": "1"
           }
         ],
+        "15": [
+          {
+            "minute": "17",
+            "route": "1",
+            "run": "2"
+          },
+          {
+            "minute": "55",
+            "route": "1",
+            "run": "2"
+          }
+        ]
+      },
+      "выходные": {
         "6": [
           {
             "minute": "26",
-            "route": "15",
+            "route": "1",
             "run": "1"
           }
         ],
         "7": [
           {
             "minute": "03",
-            "route": "15",
+            "route": "1",
             "run": "1"
           },
           {
             "minute": "40",
-            "route": "15",
+            "route": "1",
             "run": "1"
           }
         ],
         "8": [
           {
             "minute": "18",
-            "route": "15",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "9": [
+          {
+            "minute": "04",
+            "route": "1",
             "run": "1"
           }
         ],
         "11": [
           {
             "minute": "40",
-            "route": "15",
+            "route": "1",
             "run": "1"
           }
         ],
         "12": [
           {
             "minute": "35",
-            "route": "15",
+            "route": "1",
             "run": "1"
           }
         ],
         "13": [
           {
             "minute": "14",
-            "route": "15",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "14": [
+          {
+            "minute": "08",
+            "route": "1",
             "run": "1"
           }
         ],
         "16": [
           {
             "minute": "26",
-            "route": "15",
+            "route": "1",
             "run": "1"
           }
         ],
         "17": [
           {
             "minute": "06",
-            "route": "15",
+            "route": "1",
             "run": "1"
           }
         ],
         "18": [
           {
             "minute": "05",
-            "route": "15",
+            "route": "1",
             "run": "1"
           },
           {
             "minute": "42",
-            "route": "15",
+            "route": "1",
             "run": "1"
           }
         ],
         "19": [
           {
             "minute": "50",
-            "route": "15",
+            "route": "1",
             "run": "1"
           }
         ],
         "20": [
           {
             "minute": "33",
-            "route": "15",
+            "route": "1",
             "run": "1"
           }
         ],
         "21": [
           {
             "minute": "10",
-            "route": "15",
+            "route": "1",
             "run": "1"
           }
         ],
         "22": [
           {
             "minute": "01",
-            "route": "15",
+            "route": "1",
             "run": "1"
           },
           {
             "minute": "40",
-            "route": "15",
+            "route": "1",
             "run": "1"
           }
         ],
         "23": [
           {
             "minute": "20",
-            "route": "15",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "24": [
+          {
+            "minute": "08",
+            "route": "1",
             "run": "1"
           }
         ]
@@ -38499,6 +38499,90 @@ window.SCHEDULE_DATA = {
     },
     "направление 2": {
       "будни": {
+        "6": [
+          {
+            "minute": "23",
+            "route": "1",
+            "run": "1"
+          },
+          {
+            "minute": "42",
+            "route": "1",
+            "run": "2"
+          }
+        ],
+        "7": [
+          {
+            "minute": "01",
+            "route": "1",
+            "run": "1"
+          },
+          {
+            "minute": "20",
+            "route": "1",
+            "run": "2"
+          },
+          {
+            "minute": "38",
+            "route": "1",
+            "run": "1"
+          },
+          {
+            "minute": "57",
+            "route": "1",
+            "run": "2"
+          }
+        ],
+        "8": [
+          {
+            "minute": "16",
+            "route": "1",
+            "run": "1"
+          },
+          {
+            "minute": "39",
+            "route": "1",
+            "run": "2"
+          },
+          {
+            "minute": "58",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "10": [
+          {
+            "minute": "14",
+            "route": "1",
+            "run": "1"
+          },
+          {
+            "minute": "53",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "11": [
+          {
+            "minute": "31",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "12": [
+          {
+            "minute": "12",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "13": [
+          {
+            "minute": "02",
+            "route": "1",
+            "run": "1"
+          }
+        ],
         "14": [
           {
             "minute": "06",
@@ -38507,8 +38591,99 @@ window.SCHEDULE_DATA = {
           },
           {
             "minute": "37",
-            "route": "15",
+            "route": "1",
             "run": "2"
+          }
+        ],
+        "16": [
+          {
+            "minute": "12",
+            "route": "1",
+            "run": "1"
+          },
+          {
+            "minute": "31",
+            "route": "1",
+            "run": "2"
+          },
+          {
+            "minute": "50",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "17": [
+          {
+            "minute": "09",
+            "route": "1",
+            "run": "2"
+          },
+          {
+            "minute": "32",
+            "route": "1",
+            "run": "1"
+          },
+          {
+            "minute": "51",
+            "route": "1",
+            "run": "2"
+          }
+        ],
+        "18": [
+          {
+            "minute": "16",
+            "route": "1",
+            "run": "1"
+          },
+          {
+            "minute": "40",
+            "route": "1",
+            "run": "2"
+          }
+        ],
+        "19": [
+          {
+            "minute": "22",
+            "route": "1",
+            "run": "2"
+          },
+          {
+            "minute": "46",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "20": [
+          {
+            "minute": "31",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "21": [
+          {
+            "minute": "10",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "22": [
+          {
+            "minute": "00",
+            "route": "1",
+            "run": "1"
+          },
+          {
+            "minute": "42",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "23": [
+          {
+            "minute": "22",
+            "route": "1",
+            "run": "1"
           }
         ],
         "24": [
@@ -38525,195 +38700,46 @@ window.SCHEDULE_DATA = {
             "run": "2"
           }
         ],
-        "19": [
+        "15": [
           {
-            "minute": "22",
+            "minute": "15",
             "route": "1",
             "run": "2"
           },
           {
-            "minute": "46",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "6": [
-          {
-            "minute": "23",
-            "route": "15",
-            "run": "1"
-          },
-          {
-            "minute": "42",
-            "route": "15",
-            "run": "2"
-          }
-        ],
-        "7": [
-          {
-            "minute": "01",
-            "route": "15",
-            "run": "1"
-          },
-          {
-            "minute": "20",
-            "route": "15",
-            "run": "2"
-          },
-          {
-            "minute": "38",
-            "route": "15",
-            "run": "1"
-          },
-          {
-            "minute": "57",
-            "route": "15",
-            "run": "2"
-          }
-        ],
-        "8": [
-          {
-            "minute": "16",
-            "route": "15",
-            "run": "1"
-          },
-          {
-            "minute": "39",
-            "route": "15",
-            "run": "2"
-          },
-          {
-            "minute": "58",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "10": [
-          {
-            "minute": "14",
-            "route": "15",
-            "run": "1"
-          },
-          {
             "minute": "53",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "11": [
-          {
-            "minute": "31",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "12": [
-          {
-            "minute": "12",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "13": [
-          {
-            "minute": "02",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "16": [
-          {
-            "minute": "12",
-            "route": "15",
-            "run": "1"
-          },
-          {
-            "minute": "31",
-            "route": "15",
-            "run": "2"
-          },
-          {
-            "minute": "50",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "17": [
-          {
-            "minute": "09",
-            "route": "15",
-            "run": "2"
-          },
-          {
-            "minute": "32",
-            "route": "15",
-            "run": "1"
-          },
-          {
-            "minute": "51",
-            "route": "15",
-            "run": "2"
-          }
-        ],
-        "18": [
-          {
-            "minute": "16",
-            "route": "15",
-            "run": "1"
-          },
-          {
-            "minute": "40",
-            "route": "15",
-            "run": "2"
-          }
-        ],
-        "20": [
-          {
-            "minute": "31",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "21": [
-          {
-            "minute": "10",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "22": [
-          {
-            "minute": "00",
-            "route": "15",
-            "run": "1"
-          },
-          {
-            "minute": "42",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "23": [
-          {
-            "minute": "22",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "15": [
-          {
-            "minute": "15",
-            "route": "15",
-            "run": "2"
-          },
-          {
-            "minute": "53",
-            "route": "15",
+            "route": "1",
             "run": "2"
           }
         ]
       },
       "выходные": {
+        "6": [
+          {
+            "minute": "24",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "7": [
+          {
+            "minute": "01",
+            "route": "1",
+            "run": "1"
+          },
+          {
+            "minute": "38",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "8": [
+          {
+            "minute": "16",
+            "route": "1",
+            "run": "1"
+          }
+        ],
         "9": [
           {
             "minute": "02",
@@ -38721,9 +38747,96 @@ window.SCHEDULE_DATA = {
             "run": "1"
           }
         ],
+        "11": [
+          {
+            "minute": "38",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "12": [
+          {
+            "minute": "33",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "13": [
+          {
+            "minute": "12",
+            "route": "1",
+            "run": "1"
+          }
+        ],
         "14": [
           {
             "minute": "06",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "16": [
+          {
+            "minute": "24",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "17": [
+          {
+            "minute": "04",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "18": [
+          {
+            "minute": "03",
+            "route": "1",
+            "run": "1"
+          },
+          {
+            "minute": "40",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "19": [
+          {
+            "minute": "48",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "20": [
+          {
+            "minute": "31",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "21": [
+          {
+            "minute": "08",
+            "route": "1",
+            "run": "1"
+          },
+          {
+            "minute": "59",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "22": [
+          {
+            "minute": "38",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "23": [
+          {
+            "minute": "18",
             "route": "1",
             "run": "1"
           }
@@ -38734,119 +38847,6 @@ window.SCHEDULE_DATA = {
             "route": "1",
             "run": "1"
           }
-        ],
-        "6": [
-          {
-            "minute": "24",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "7": [
-          {
-            "minute": "01",
-            "route": "15",
-            "run": "1"
-          },
-          {
-            "minute": "38",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "8": [
-          {
-            "minute": "16",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "11": [
-          {
-            "minute": "38",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "12": [
-          {
-            "minute": "33",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "13": [
-          {
-            "minute": "12",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "16": [
-          {
-            "minute": "24",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "17": [
-          {
-            "minute": "04",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "18": [
-          {
-            "minute": "03",
-            "route": "15",
-            "run": "1"
-          },
-          {
-            "minute": "40",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "19": [
-          {
-            "minute": "48",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "20": [
-          {
-            "minute": "31",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "21": [
-          {
-            "minute": "08",
-            "route": "15",
-            "run": "1"
-          },
-          {
-            "minute": "59",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "22": [
-          {
-            "minute": "38",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "23": [
-          {
-            "minute": "18",
-            "route": "15",
-            "run": "1"
-          }
         ]
       }
     }
@@ -38854,6 +38854,88 @@ window.SCHEDULE_DATA = {
   "Доменная печь № 6 (ДП-6)": {
     "направление 1": {
       "будни": {
+        "6": [
+          {
+            "minute": "17",
+            "route": "1",
+            "run": "1"
+          },
+          {
+            "minute": "36",
+            "route": "1",
+            "run": "2"
+          },
+          {
+            "minute": "55",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "7": [
+          {
+            "minute": "14",
+            "route": "1",
+            "run": "2"
+          },
+          {
+            "minute": "32",
+            "route": "1",
+            "run": "1"
+          },
+          {
+            "minute": "51",
+            "route": "1",
+            "run": "2"
+          }
+        ],
+        "8": [
+          {
+            "minute": "10",
+            "route": "1",
+            "run": "1"
+          },
+          {
+            "minute": "33",
+            "route": "1",
+            "run": "2"
+          },
+          {
+            "minute": "52",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "10": [
+          {
+            "minute": "08",
+            "route": "1",
+            "run": "1"
+          },
+          {
+            "minute": "47",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "11": [
+          {
+            "minute": "25",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "12": [
+          {
+            "minute": "06",
+            "route": "1",
+            "run": "1"
+          },
+          {
+            "minute": "56",
+            "route": "1",
+            "run": "1"
+          }
+        ],
         "14": [
           {
             "minute": "00",
@@ -38862,8 +38944,99 @@ window.SCHEDULE_DATA = {
           },
           {
             "minute": "31",
-            "route": "15",
+            "route": "1",
             "run": "2"
+          }
+        ],
+        "16": [
+          {
+            "minute": "06",
+            "route": "1",
+            "run": "1"
+          },
+          {
+            "minute": "25",
+            "route": "1",
+            "run": "2"
+          },
+          {
+            "minute": "44",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "17": [
+          {
+            "minute": "03",
+            "route": "1",
+            "run": "2"
+          },
+          {
+            "minute": "26",
+            "route": "1",
+            "run": "1"
+          },
+          {
+            "minute": "45",
+            "route": "1",
+            "run": "2"
+          }
+        ],
+        "18": [
+          {
+            "minute": "10",
+            "route": "1",
+            "run": "1"
+          },
+          {
+            "minute": "34",
+            "route": "1",
+            "run": "2"
+          }
+        ],
+        "19": [
+          {
+            "minute": "16",
+            "route": "1",
+            "run": "2"
+          },
+          {
+            "minute": "40",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "20": [
+          {
+            "minute": "25",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "21": [
+          {
+            "minute": "04",
+            "route": "1",
+            "run": "1"
+          },
+          {
+            "minute": "54",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "22": [
+          {
+            "minute": "36",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "23": [
+          {
+            "minute": "16",
+            "route": "1",
+            "run": "1"
           }
         ],
         "24": [
@@ -38880,201 +39053,68 @@ window.SCHEDULE_DATA = {
             "run": "2"
           }
         ],
-        "19": [
+        "15": [
           {
-            "minute": "16",
+            "minute": "09",
             "route": "1",
             "run": "2"
           },
           {
-            "minute": "40",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "6": [
-          {
-            "minute": "17",
-            "route": "15",
-            "run": "1"
-          },
-          {
-            "minute": "36",
-            "route": "15",
-            "run": "2"
-          },
-          {
-            "minute": "55",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "7": [
-          {
-            "minute": "14",
-            "route": "15",
-            "run": "2"
-          },
-          {
-            "minute": "32",
-            "route": "15",
-            "run": "1"
-          },
-          {
-            "minute": "51",
-            "route": "15",
-            "run": "2"
-          }
-        ],
-        "8": [
-          {
-            "minute": "10",
-            "route": "15",
-            "run": "1"
-          },
-          {
-            "minute": "33",
-            "route": "15",
-            "run": "2"
-          },
-          {
-            "minute": "52",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "10": [
-          {
-            "minute": "08",
-            "route": "15",
-            "run": "1"
-          },
-          {
             "minute": "47",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "11": [
-          {
-            "minute": "25",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "12": [
-          {
-            "minute": "06",
-            "route": "15",
-            "run": "1"
-          },
-          {
-            "minute": "56",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "16": [
-          {
-            "minute": "06",
-            "route": "15",
-            "run": "1"
-          },
-          {
-            "minute": "25",
-            "route": "15",
-            "run": "2"
-          },
-          {
-            "minute": "44",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "17": [
-          {
-            "minute": "03",
-            "route": "15",
-            "run": "2"
-          },
-          {
-            "minute": "26",
-            "route": "15",
-            "run": "1"
-          },
-          {
-            "minute": "45",
-            "route": "15",
-            "run": "2"
-          }
-        ],
-        "18": [
-          {
-            "minute": "10",
-            "route": "15",
-            "run": "1"
-          },
-          {
-            "minute": "34",
-            "route": "15",
-            "run": "2"
-          }
-        ],
-        "20": [
-          {
-            "minute": "25",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "21": [
-          {
-            "minute": "04",
-            "route": "15",
-            "run": "1"
-          },
-          {
-            "minute": "54",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "22": [
-          {
-            "minute": "36",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "23": [
-          {
-            "minute": "16",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "15": [
-          {
-            "minute": "09",
-            "route": "15",
-            "run": "2"
-          },
-          {
-            "minute": "47",
-            "route": "15",
+            "route": "1",
             "run": "2"
           }
         ]
       },
       "выходные": {
+        "6": [
+          {
+            "minute": "18",
+            "route": "1",
+            "run": "1"
+          },
+          {
+            "minute": "55",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "7": [
+          {
+            "minute": "32",
+            "route": "1",
+            "run": "1"
+          }
+        ],
         "8": [
           {
             "minute": "10",
-            "route": "15",
+            "route": "1",
             "run": "1"
           },
           {
             "minute": "56",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "11": [
+          {
+            "minute": "32",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "12": [
+          {
+            "minute": "27",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "13": [
+          {
+            "minute": "06",
             "route": "1",
             "run": "1"
           }
@@ -39086,116 +39126,76 @@ window.SCHEDULE_DATA = {
             "run": "1"
           }
         ],
-        "24": [
-          {
-            "minute": "00",
-            "route": "1",
-            "run": "1"
-          }
-        ],
-        "6": [
-          {
-            "minute": "18",
-            "route": "15",
-            "run": "1"
-          },
-          {
-            "minute": "55",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "7": [
-          {
-            "minute": "32",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "11": [
-          {
-            "minute": "32",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "12": [
-          {
-            "minute": "27",
-            "route": "15",
-            "run": "1"
-          }
-        ],
-        "13": [
-          {
-            "minute": "06",
-            "route": "15",
-            "run": "1"
-          }
-        ],
         "16": [
           {
             "minute": "18",
-            "route": "15",
+            "route": "1",
             "run": "1"
           },
           {
             "minute": "58",
-            "route": "15",
+            "route": "1",
             "run": "1"
           }
         ],
         "17": [
           {
             "minute": "57",
-            "route": "15",
+            "route": "1",
             "run": "1"
           }
         ],
         "18": [
           {
             "minute": "34",
-            "route": "15",
+            "route": "1",
             "run": "1"
           }
         ],
         "19": [
           {
             "minute": "42",
-            "route": "15",
+            "route": "1",
             "run": "1"
           }
         ],
         "20": [
           {
             "minute": "25",
-            "route": "15",
+            "route": "1",
             "run": "1"
           }
         ],
         "21": [
           {
             "minute": "02",
-            "route": "15",
+            "route": "1",
             "run": "1"
           },
           {
             "minute": "53",
-            "route": "15",
+            "route": "1",
             "run": "1"
           }
         ],
         "22": [
           {
             "minute": "32",
-            "route": "15",
+            "route": "1",
             "run": "1"
           }
         ],
         "23": [
           {
             "minute": "12",
-            "route": "15",
+            "route": "1",
+            "run": "1"
+          }
+        ],
+        "24": [
+          {
+            "minute": "00",
+            "route": "1",
             "run": "1"
           }
         ]
@@ -54191,6 +54191,122 @@ window.SCHEDULE_DATA = {
                 }
             }
         }
+    }
+
+    // 2. App Update Notification Modal & Banner for outdated app versions
+    try {
+        var appUpdateCfg = null;
+        if (typeof window !== 'undefined' && window.APP_UPDATE_CONFIG) {
+            appUpdateCfg = window.APP_UPDATE_CONFIG;
+        } else if (typeof APP_UPDATE_CONFIG !== 'undefined') {
+            appUpdateCfg = APP_UPDATE_CONFIG;
+        } else if (targetDb && targetDb.app_update_config) {
+            appUpdateCfg = targetDb.app_update_config;
+        }
+
+        if (appUpdateCfg && appUpdateCfg.enabled && appUpdateCfg.latest_version) {
+            var isOutdatedVer = function(cur, target) {
+                if (!cur) return true;
+                var cNorm = String(cur).trim().toLowerCase().replace(/^[vx]/i, '');
+                var tNorm = String(target).trim().toLowerCase().replace(/^[vx]/i, '');
+                if (cNorm === tNorm) return false;
+                var cParts = cNorm.split('.').map(function(x){ return parseInt(x, 10) || 0; });
+                var tParts = tNorm.split('.').map(function(x){ return parseInt(x, 10) || 0; });
+                for (var i = 0; i < Math.max(cParts.length, tParts.length); i++) {
+                    var cVal = cParts[i] || 0;
+                    var tVal = tParts[i] || 0;
+                    if (cVal < tVal) return true;
+                    if (cVal > tVal) return false;
+                }
+                return false;
+            };
+
+            if (isOutdatedVer(clientVer, appUpdateCfg.latest_version)) {
+                var showAppUpdateUI = function() {
+                    if (typeof document === 'undefined' || !document.body) {
+                        setTimeout(showAppUpdateUI, 300);
+                        return;
+                    }
+                    if (document.getElementById('app-update-modal-backdrop') || document.getElementById('app-update-banner')) {
+                        return;
+                    }
+
+                    var dlUrl = appUpdateCfg.download_url || 'https://storage.yandexcloud.net/liptramschedule/TramSchedule.apk';
+                    var updateTitle = appUpdateCfg.title || 'Доступно обновление приложения';
+                    var updateMsg = appUpdateCfg.message || ('Вышла новая версия ' + appUpdateCfg.latest_version + '. Рекомендуем обновить приложение.');
+
+                    var lastDeclined = 0;
+                    try {
+                        lastDeclined = parseInt(localStorage.getItem('tram-app-update-declined-time') || '0', 10);
+                    } catch(e){}
+                    var isSnoozed = (Date.now() - lastDeclined) < (24 * 60 * 60 * 1000);
+
+                    // Top red persistent/sticky banner
+                    var banner = document.createElement('div');
+                    banner.id = 'app-update-banner';
+                    banner.style.cssText = 'display: ' + (isSnoozed ? 'flex' : 'none') + '; position: sticky; top: 0; z-index: 99998; background: #dc2626; color: #ffffff; padding: 10px 14px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 13px; font-weight: 600; justify-content: space-between; align-items: center; box-shadow: 0 2px 8px rgba(0,0,0,0.3);';
+                    banner.innerHTML = '<div style="display:flex; align-items:center; gap:8px;"><span>⚠️</span><span>Версия приложения устарела (' + (clientVer || 'старая') + ' &rarr; ' + appUpdateCfg.latest_version + ')</span></div>' +
+                        '<button id="app-update-banner-btn" style="background:#ffffff; color:#dc2626; border:none; padding:5px 12px; border-radius:6px; font-size:12px; font-weight:700; cursor:pointer; white-space:nowrap;">Скачать</button>';
+                    
+                    document.body.insertBefore(banner, document.body.firstChild);
+                    var bannerBtn = banner.querySelector('#app-update-banner-btn');
+                    if (bannerBtn) {
+                        bannerBtn.onclick = function() {
+                            window.open(dlUrl, '_blank') || (location.href = dlUrl);
+                        };
+                    }
+
+                    // Modal backdrop
+                    if (!isSnoozed) {
+                        var backdrop = document.createElement('div');
+                        backdrop.id = 'app-update-modal-backdrop';
+                        backdrop.style.cssText = 'position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.75); display: flex; align-items: center; justify-content: center; z-index: 99999; backdrop-filter: blur(4px); padding: 16px; box-sizing: border-box;';
+                        
+                        var modal = document.createElement('div');
+                        modal.style.cssText = 'background: #1e242c; color: #f0f6fc; border: 1px solid #30363d; border-radius: 14px; width: 100%; max-width: 380px; padding: 22px 20px 18px 20px; box-shadow: 0 12px 32px rgba(0,0,0,0.6); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; text-align: center;';
+                        
+                        modal.innerHTML = '<div style="font-size: 34px; margin-bottom: 8px;">🚀</div>' +
+                            '<div style="font-size: 18px; font-weight: 700; margin-bottom: 10px; color: #58a6ff;">' + updateTitle + '</div>' +
+                            '<div style="font-size: 14px; line-height: 1.5; color: #c9d1d9; margin-bottom: 22px; white-space: pre-wrap;">' + updateMsg + '</div>' +
+                            '<div style="display: flex; gap: 10px; justify-content: center;">' +
+                                '<button id="app-update-btn-dl" style="flex: 1; background: #238636; color: #ffffff; border: none; padding: 10px 14px; border-radius: 8px; font-size: 14px; font-weight: 600; cursor: pointer;">Скачать</button>' +
+                                '<button id="app-update-btn-no" style="flex: 1; background: #30363d; color: #c9d1d9; border: 1px solid #484f58; padding: 10px 14px; border-radius: 8px; font-size: 14px; font-weight: 600; cursor: pointer;">Не сейчас</button>' +
+                            '</div>';
+                            
+                        backdrop.appendChild(modal);
+                        document.body.appendChild(backdrop);
+
+                        var btnDl = modal.querySelector('#app-update-btn-dl');
+                        if (btnDl) {
+                            btnDl.onclick = function() {
+                                window.open(dlUrl, '_blank') || (location.href = dlUrl);
+                            };
+                        }
+
+                        var btnNo = modal.querySelector('#app-update-btn-no');
+                        if (btnNo) {
+                            btnNo.onclick = function() {
+                                backdrop.remove();
+                                try {
+                                    localStorage.setItem('tram-app-update-declined-time', String(Date.now()));
+                                } catch(e){}
+                                banner.style.display = 'flex';
+                            };
+                        }
+                    }
+                };
+
+                if (typeof document !== 'undefined') {
+                    if (document.readyState === 'loading') {
+                        document.addEventListener('DOMContentLoaded', function() { setTimeout(showAppUpdateUI, 400); });
+                    } else {
+                        setTimeout(showAppUpdateUI, 400);
+                    }
+                }
+            }
+        }
+    } catch(updateErr) {
+        console.warn('App update check error:', updateErr);
     }
 
     })();
