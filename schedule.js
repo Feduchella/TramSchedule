@@ -1,4 +1,4 @@
-window.SCHEDULE_VERSION = "27-10-2026";
+window.SCHEDULE_VERSION = "27-10-2026-v2";
 window.SCHEDULE_STOP_ALIASES = {
   "Ц.рынок": "Центральный рынок",
   "Каменный лог": "Каменный лог",
@@ -478,9 +478,9 @@ window.SCHEDULE_DATABASE = {
       "native_number": "4",
       "transport_type": "электробус",
       "color": "#C084FC",
-      "versions": "X1.6.1",
+      "versions": "X1.6",
       "app_versions": [
-        "X1.6.1"
+        "X1.6"
       ],
       "main_endpoints": "Микрорайон Елецкий — Улица Катукова",
       "additional_endpoints": [
@@ -635,16 +635,24 @@ window.SCHEDULE_DATABASE = {
             "Микрорайон Елецкий"
           ]
         }
-      ]
+      ],
+      "additional_scheme_2": {
+        "custom_route": "",
+        "first_stop": "",
+        "last_stop": "",
+        "endpoints": "",
+        "direct_stops": [],
+        "reverse_stops": []
+      }
     },
     "5": {
       "display_number": "5",
       "native_number": "5",
       "transport_type": "электробус",
       "color": "#FB923C",
-      "versions": "X1.6.1",
+      "versions": "X1.6",
       "app_versions": [
-        "X1.6.1"
+        "X1.6"
       ],
       "main_endpoints": "Кольцо 9-го микрорайона — Стан-2000",
       "additional_endpoints": [],
@@ -769,7 +777,15 @@ window.SCHEDULE_DATABASE = {
           "direct_stops": [],
           "reverse_stops": []
         }
-      ]
+      ],
+      "additional_scheme_2": {
+        "custom_route": "",
+        "first_stop": "",
+        "last_stop": "",
+        "endpoints": "",
+        "direct_stops": [],
+        "reverse_stops": []
+      }
     },
     "15": {
       "display_number": "15",
@@ -1441,11 +1457,11 @@ window.SCHEDULE_DATABASE = {
     "1к": "1к"
   },
   "app_update_config": {
-    "enabled": true,
-    "latest_version": "X1.6.1",
-    "download_url": "https://storage.yandexcloud.net/liptramschedule/TramSchedule.apk",
-    "title": "Обновление!",
-    "message": "Вышло обновление"
+    "enabled": false,
+    "latest_version": "",
+    "download_url": "",
+    "title": "",
+    "message": ""
   }
 };
 window.ROUTE_COLORS = {
@@ -1460,8 +1476,8 @@ window.APP_UPDATE_CONFIG = {
   "enabled": true,
   "latest_version": "X1.6.1",
   "download_url": "https://storage.yandexcloud.net/liptramschedule/TramSchedule.apk",
-  "title": "Обновление!",
-  "message": "Вышло обновление"
+  "title": "Доступно обновление приложения",
+  "message": "Вышла новая версия X1.6.1.\n\nВ обновлении:\n• Улучшена стабильность и скорость работы\n• Схемы теперь загружаются динамически из облака\n• Исправлено обновление расписания в фоне\n\nРекомендуем установить новую версию!"
 };
 window.SCHEDULE_DATA = {
   "Кольцо 9-го микрорайона": {
@@ -54105,17 +54121,7 @@ window.SCHEDULE_DATA = {
                     allowed = rData.versions.split(';').map(function(s) { return s.trim(); }).filter(Boolean);
                 }
                 if (allowed && allowed.length > 0) {
-                    var isAllowed = false;
-                    if (clientVer) {
-                        for (var ai = 0; ai < allowed.length; ai++) {
-                            var av = String(allowed[ai]).trim();
-                            if (clientVer === av || clientVer.indexOf(av) === 0 || clientVer >= av) {
-                                isAllowed = true;
-                                break;
-                            }
-                        }
-                    }
-                    if (!isAllowed) {
+                    if (!clientVer || allowed.indexOf(clientVer) === -1) {
                         hiddenRoutes[rId] = true;
                         if (rData.custom_route) hiddenRoutes[rData.custom_route] = true;
                         if (rData.display_number) hiddenRoutes[rData.display_number] = true;
@@ -54177,212 +54183,316 @@ window.SCHEDULE_DATA = {
         }
     }
 
-    // 2. App Update Notification Modal & Banner for outdated app versions
-    try {
-        var appUpdateCfg = null;
-        if (typeof window !== 'undefined' && window.APP_UPDATE_CONFIG) {
-            appUpdateCfg = window.APP_UPDATE_CONFIG;
-        } else if (typeof APP_UPDATE_CONFIG !== 'undefined') {
-            appUpdateCfg = APP_UPDATE_CONFIG;
-        } else if (targetDb && targetDb.app_update_config) {
-            appUpdateCfg = targetDb.app_update_config;
-        }
+    // 2. Client update notice UI (Modal + Top red banner)
+    var updateCfg = (typeof window !== 'undefined' && window.APP_UPDATE_CONFIG) ||
+                    (typeof APP_UPDATE_CONFIG !== 'undefined' ? APP_UPDATE_CONFIG : null) ||
+                    (targetDb && targetDb.app_update_config ? targetDb.app_update_config : null);
 
-        if (appUpdateCfg && appUpdateCfg.enabled && appUpdateCfg.latest_version) {
-            var isOutdatedVer = function(cur, target) {
-                if (!cur) return true;
-                var cNorm = String(cur).trim().toLowerCase().replace(/^[vx]/i, '');
-                var tNorm = String(target).trim().toLowerCase().replace(/^[vx]/i, '');
-                if (cNorm === tNorm) return false;
-                var cParts = cNorm.split('.').map(function(x){ return parseInt(x, 10) || 0; });
-                var tParts = tNorm.split('.').map(function(x){ return parseInt(x, 10) || 0; });
-                for (var i = 0; i < Math.max(cParts.length, tParts.length); i++) {
-                    var cVal = cParts[i] || 0;
-                    var tVal = tParts[i] || 0;
-                    if (cVal < tVal) return true;
-                    if (cVal > tVal) return false;
-                }
-                return false;
-            };
+    if (!updateCfg || !updateCfg.enabled || !updateCfg.latest_version) return;
 
-            if (isOutdatedVer(clientVer, appUpdateCfg.latest_version)) {
-                var showAppUpdateUI = function() {
-                    if (typeof document === 'undefined' || !document.body) {
-                        setTimeout(showAppUpdateUI, 300);
-                        return;
-                    }
-                    if (document.getElementById('app-update-modal-backdrop') || document.getElementById('app-update-banner')) {
-                        return;
-                    }
-
-                    var dlUrl = appUpdateCfg.download_url || 'https://storage.yandexcloud.net/liptramschedule/TramSchedule.apk';
-                    var updateTitle = appUpdateCfg.title || 'Доступно обновление приложения';
-                    var updateMsg = appUpdateCfg.message || ('Вышла новая версия ' + appUpdateCfg.latest_version + '. Рекомендуем обновить приложение.');
-
-                    var lastDeclined = 0;
-                    try {
-                        lastDeclined = parseInt(localStorage.getItem('tram-app-update-declined-time') || '0', 10);
-                    } catch(e){}
-                    var isSnoozed = (Date.now() - lastDeclined) < (24 * 60 * 60 * 1000);
-
-                    var copyLinkToClipboard = function(str) {
-                        var success = false;
-                        // 1. Textarea method (works 100% on Android WebView and file://)
-                        try {
-                            var el = document.createElement('textarea');
-                            el.value = str;
-                            el.setAttribute('readonly', '');
-                            el.style.position = 'fixed';
-                            el.style.left = '0';
-                            el.style.top = '0';
-                            el.style.opacity = '0';
-                            el.style.pointerEvents = 'none';
-                            document.body.appendChild(el);
-                            el.focus();
-                            el.select();
-                            el.setSelectionRange(0, str.length);
-                            success = document.execCommand('copy');
-                            document.body.removeChild(el);
-                        } catch(err) {
-                            success = false;
-                        }
-
-                        // 2. Navigator clipboard API
-                        try {
-                            if (navigator.clipboard && navigator.clipboard.writeText) {
-                                navigator.clipboard.writeText(str);
-                                success = true;
-                            }
-                        } catch(err) {}
-
-                        // 3. VK Bridge
-                        try {
-                            if (window.vkBridge && typeof window.vkBridge.send === 'function') {
-                                window.vkBridge.send('VKWebAppCopyText', { text: str });
-                                success = true;
-                            }
-                        } catch(err) {}
-
-                        return success;
-                    };
-
-                    var handleCopy = function(e, btnElem, statusElem) {
-                        if (e) {
-                            try { e.preventDefault(); } catch(err){}
-                            try { e.stopPropagation(); } catch(err){}
-                        }
-                        
-                        copyLinkToClipboard(dlUrl);
-
-                        if (btnElem) {
-                            btnElem.innerText = '✅ Скопировано!';
-                            btnElem.style.background = '#238636';
-                            btnElem.style.color = '#ffffff';
-                            setTimeout(function() {
-                                if (btnElem) btnElem.innerText = 'Скопировать ссылку';
-                            }, 3500);
-                        }
-
-                        if (statusElem) {
-                            statusElem.style.display = 'block';
-                        }
-
-                        // If Android native bridge exists, also trigger browser open
-                        if (typeof window !== 'undefined' && window.AndroidInsets && typeof window.AndroidInsets.openExternalUrl === 'function') {
-                            try {
-                                window.AndroidInsets.openExternalUrl(dlUrl);
-                            } catch(err) {}
-                        }
-                    };
-
-                    // Top red persistent/sticky banner
-                    var banner = document.createElement('div');
-                    banner.id = 'app-update-banner';
-                    banner.style.cssText = 'display: ' + (isSnoozed ? 'flex' : 'none') + '; position: sticky; top: 0; z-index: 99998; background: #dc2626; color: #ffffff; padding: 10px 14px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 13px; font-weight: 600; justify-content: space-between; align-items: center; box-shadow: 0 2px 8px rgba(0,0,0,0.3);';
-                    banner.innerHTML = '<div style="display:flex; align-items:center; gap:8px;"><span>⚠️</span><span>Версия устарела (' + (clientVer || 'старая') + ' &rarr; ' + appUpdateCfg.latest_version + ')</span></div>' +
-                        '<button id="app-update-banner-btn" style="background:#ffffff; color:#dc2626; border:none; padding:6px 12px; border-radius:6px; font-size:12px; font-weight:700; cursor:pointer; white-space:nowrap; -webkit-tap-highlight-color:transparent; touch-action:manipulation;">Скопировать ссылку</button>';
-                    
-                    document.body.insertBefore(banner, document.body.firstChild);
-                    var bannerBtn = banner.querySelector('#app-update-banner-btn');
-                    if (bannerBtn) {
-                        bannerBtn.addEventListener('click', function(e) { handleCopy(e, bannerBtn); });
-                        bannerBtn.addEventListener('touchend', function(e) { handleCopy(e, bannerBtn); });
-                    }
-
-                    // Modal backdrop
-                    if (!isSnoozed) {
-                        var backdrop = document.createElement('div');
-                        backdrop.id = 'app-update-modal-backdrop';
-                        backdrop.style.cssText = 'position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0, 0, 0, 0.75); display: flex; align-items: center; justify-content: center; z-index: 99999; backdrop-filter: blur(4px); padding: 16px; box-sizing: border-box;';
-                        
-                        var modal = document.createElement('div');
-                        modal.style.cssText = 'background: #1e242c; color: #f0f6fc; border: 1px solid #30363d; border-radius: 14px; width: 100%; max-width: 400px; padding: 22px 20px 18px 20px; box-shadow: 0 12px 32px rgba(0,0,0,0.6); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; text-align: center;';
-                        
-                        modal.innerHTML = '<div style="font-size: 34px; margin-bottom: 8px;">🚀</div>' +
-                            '<div style="font-size: 18px; font-weight: 700; margin-bottom: 10px; color: #58a6ff;">' + updateTitle + '</div>' +
-                            '<div style="font-size: 14px; line-height: 1.5; color: #c9d1d9; margin-bottom: 16px; white-space: pre-wrap;">' + updateMsg + '</div>' +
-                            '<div style="margin-bottom: 14px; text-align: left;">' +
-                                '<div style="font-size: 12px; color: #8b949e; margin-bottom: 6px;">Ссылка на APK:</div>' +
-                                '<input type="text" readonly id="app-update-link-input" value="' + dlUrl + '" style="width: 100%; box-sizing: border-box; background: #0d1117; color: #58a6ff; border: 1px solid #30363d; border-radius: 8px; padding: 10px 12px; font-size: 13px; font-family: monospace; outline: none;" />' +
-                            '</div>' +
-                            '<div id="app-update-copy-status" style="display:none; font-size: 13px; color: #3fb950; margin-bottom: 14px; font-weight: 600;">' +
-                                '✅ Ссылка скопирована! Вставьте её в любой браузер для загрузки' +
-                            '</div>' +
-                            '<div style="display: flex; gap: 10px; justify-content: center;">' +
-                                '<button id="app-update-btn-dl" style="flex: 1.3; background: #238636; color: #ffffff; border: none; padding: 12px 14px; border-radius: 8px; font-size: 14px; font-weight: 700; cursor: pointer; -webkit-tap-highlight-color:transparent; touch-action:manipulation;">Скопировать ссылку</button>' +
-                                '<button id="app-update-btn-no" style="flex: 0.7; background: #30363d; color: #c9d1d9; border: 1px solid #484f58; padding: 12px 14px; border-radius: 8px; font-size: 14px; font-weight: 600; cursor: pointer; -webkit-tap-highlight-color:transparent; touch-action:manipulation;">Не сейчас</button>' +
-                            '</div>';
-                            
-                        backdrop.appendChild(modal);
-                        document.body.appendChild(backdrop);
-
-                        var copyStatus = modal.querySelector('#app-update-copy-status');
-                        var linkInput = modal.querySelector('#app-update-link-input');
-                        if (linkInput) {
-                            linkInput.addEventListener('click', function() {
-                                linkInput.focus();
-                                linkInput.select();
-                                copyLinkToClipboard(dlUrl);
-                                if (copyStatus) copyStatus.style.display = 'block';
-                            });
-                        }
-
-                        var btnDl = modal.querySelector('#app-update-btn-dl');
-                        if (btnDl) {
-                            btnDl.addEventListener('click', function(e) { handleCopy(e, btnDl, copyStatus); });
-                            btnDl.addEventListener('touchend', function(e) { handleCopy(e, btnDl, copyStatus); });
-                        }
-
-                        var btnNo = modal.querySelector('#app-update-btn-no');
-                        if (btnNo) {
-                            var dismissModal = function(e) {
-                                if (e) {
-                                    try { e.preventDefault(); } catch(err){}
-                                    try { e.stopPropagation(); } catch(err){}
-                                }
-                                backdrop.remove();
-                                try {
-                                    localStorage.setItem('tram-app-update-declined-time', String(Date.now()));
-                                } catch(e){}
-                                banner.style.display = 'flex';
-                            };
-                            btnNo.addEventListener('click', dismissModal);
-                            btnNo.addEventListener('touchend', dismissModal);
-                        }
-                    }
-                };
-
-                if (typeof document !== 'undefined') {
-                    if (document.readyState === 'loading') {
-                        document.addEventListener('DOMContentLoaded', function() { setTimeout(showAppUpdateUI, 400); });
-                    } else {
-                        setTimeout(showAppUpdateUI, 400);
-                    }
-                }
-            }
-        }
-    } catch(updateErr) {
-        console.warn('App update check error:', updateErr);
+    var isOutdated = false;
+    if (!clientVer) {
+        isOutdated = true;
+    } else if (clientVer !== updateCfg.latest_version) {
+        isOutdated = true;
     }
 
-    })();
+    if (!isOutdated) return;
+
+    function getDoc() {
+        try {
+            if (typeof document !== 'undefined' && document && document.body) return document;
+        } catch(e) {}
+        try {
+            var g = Function('return this')();
+            if (g && g.document && g.document.body) return g.document;
+        } catch(e) {}
+        return null;
+    }
+
+    function initNotice() {
+        var doc = getDoc();
+        if (!doc || !doc.body) {
+            setTimeout(initNotice, 250);
+            return;
+        }
+
+        if (doc.getElementById('app-update-modal-backdrop') || doc.getElementById('app-version-alert-banner')) {
+            return;
+        }
+
+        var isDark = false;
+        try {
+            isDark = doc.documentElement.getAttribute('data-theme') === 'dark' ||
+                     (doc.body && doc.body.classList.contains('dark')) ||
+                     (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches);
+        } catch(e) {}
+
+        var storageKey = 'tram_app_dismissed_' + updateCfg.latest_version;
+        var dismissed = false;
+        try {
+            dismissed = sessionStorage.getItem(storageKey) === 'true';
+        } catch(e) {}
+
+        var dlUrl = updateCfg.download_url || '';
+        function showCopyToast(msg) {
+            try {
+                var t = doc.getElementById('app-update-copy-toast');
+                if (!t) {
+                    t = doc.createElement('div');
+                    t.id = 'app-update-copy-toast';
+                    t.style.cssText = 'position: fixed; bottom: 32px; left: 50%; transform: translateX(-50%); background: #1E293B; color: #FFFFFF; padding: 12px 22px; border-radius: 30px; font-size: 14px; font-weight: 600; box-shadow: 0 10px 25px rgba(0,0,0,0.45); border: 1.5px solid #10B981; z-index: 9999999; display: flex; align-items: center; gap: 8px; pointer-events: none; opacity: 0; transition: opacity 0.25s, transform 0.25s; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;';
+                    doc.body.appendChild(t);
+                }
+                t.innerHTML = '<span style="color:#10B981;font-size:16px;">✓</span> <span>' + (msg || 'Ссылка скопирована в буфер обмена') + '</span>';
+                t.style.opacity = '1';
+                t.style.transform = 'translateX(-50%) translateY(0)';
+                if (t._timer) clearTimeout(t._timer);
+                t._timer = setTimeout(function() {
+                    t.style.opacity = '0';
+                    t.style.transform = 'translateX(-50%) translateY(12px)';
+                }, 3000);
+            } catch(e) {}
+        }
+
+        function copyLinkToClipboard(text) {
+            try {
+                if (navigator.clipboard && navigator.clipboard.writeText) {
+                    navigator.clipboard.writeText(text);
+                } else {
+                    var ta = doc.createElement('textarea');
+                    ta.value = text;
+                    ta.style.position = 'fixed';
+                    ta.style.opacity = '0';
+                    doc.body.appendChild(ta);
+                    ta.select();
+                    doc.execCommand('copy');
+                    doc.body.removeChild(ta);
+                }
+            } catch(e) {
+                try {
+                    var ta = doc.createElement('textarea');
+                    ta.value = text;
+                    ta.style.position = 'fixed';
+                    ta.style.opacity = '0';
+                    doc.body.appendChild(ta);
+                    ta.select();
+                    doc.execCommand('copy');
+                    doc.body.removeChild(ta);
+                } catch(e2) {}
+            }
+            showCopyToast('Ссылка скопирована в буфер обмена');
+        }
+
+        function openDownload(btn) {
+            if (dlUrl && dlUrl !== '#') {
+                copyLinkToClipboard(dlUrl);
+                if (btn) {
+                    btn.textContent = '✅ Скопировано!';
+                    setTimeout(function() {
+                        btn.textContent = 'Скопировать ссылку';
+                    }, 3500);
+                }
+                if (window.AndroidInsets && window.AndroidInsets.openExternalUrl) {
+                    try {
+                        window.AndroidInsets.openExternalUrl(dlUrl);
+                        return;
+                    } catch(e) {}
+                }
+                try {
+                    window.open(dlUrl, '_system');
+                } catch(e) {}
+                try {
+                    window.open(dlUrl, '_blank');
+                } catch(e) {}
+                try {
+                    location.href = dlUrl;
+                } catch(e) {}
+            }
+        }
+
+        // 1. Create Top Banner
+        var banner = doc.createElement('div');
+        banner.id = 'app-version-alert-banner';
+        banner.style.cssText = 'background: #C62828; color: #ffffff; margin: 10px 12px 6px 12px; padding: 10px 14px; border-radius: 10px; border: 1.5px solid #ef5350; box-shadow: 0 4px 12px rgba(0,0,0,0.25); display: ' + (dismissed ? 'flex' : 'none') + '; align-items: center; justify-content: space-between; gap: 12px; position: sticky; top: 0; z-index: 1005; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; box-sizing: border-box;';
+
+        var bannerLeft = doc.createElement('div');
+        bannerLeft.style.cssText = 'display: flex; align-items: center; gap: 8px; font-size: 13px; font-weight: 600; line-height: 1.3;';
+        bannerLeft.innerHTML = '<span style="font-size: 18px; line-height: 1;">📱</span><span>Версия приложения устарела!</span>';
+
+        var bannerBtn = doc.createElement('button');
+        bannerBtn.id = 'btn-download-app-banner';
+        bannerBtn.textContent = 'Скопировать ссылку';
+        bannerBtn.style.cssText = 'background: #ffffff; color: #C62828; font-weight: 700; font-size: 13px; padding: 6px 14px; border: none; border-radius: 6px; cursor: pointer; white-space: nowrap; box-shadow: 0 2px 4px rgba(0,0,0,0.2);';
+        bannerBtn.onclick = function(e) {
+            e.preventDefault();
+            openDownload(bannerBtn);
+        };
+        bannerBtn.ontouchend = function(e) {
+            e.preventDefault();
+            openDownload(bannerBtn);
+        };
+
+        banner.appendChild(bannerLeft);
+        banner.appendChild(bannerBtn);
+
+        var updateBanner = doc.getElementById('update-banner');
+        if (updateBanner && updateBanner.parentNode) {
+            updateBanner.parentNode.insertBefore(banner, updateBanner.nextSibling);
+        } else if (doc.body.firstChild) {
+            doc.body.insertBefore(banner, doc.body.firstChild);
+        } else {
+            doc.body.appendChild(banner);
+        }
+
+        // 2. Create Modal Popup
+        var modalBackdrop = doc.createElement('div');
+        modalBackdrop.id = 'app-update-modal-backdrop';
+        modalBackdrop.style.cssText = 'position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0, 0, 0, 0.65); z-index: 99999; display: ' + (dismissed ? 'none' : 'flex') + '; align-items: center; justify-content: center; padding: 16px; box-sizing: border-box; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;';
+
+        var modalBox = doc.createElement('div');
+        var modalBg = isDark ? '#242424' : '#ffffff';
+        var textPrimary = isDark ? '#ffffff' : '#111111';
+        var textSecondary = isDark ? '#aaaaaa' : '#555555';
+        var btnCancelBg = isDark ? '#333333' : '#f0f0f0';
+        var btnCancelColor = isDark ? '#cccccc' : '#444444';
+        var btnCancelBorder = isDark ? '#444444' : '#cccccc';
+
+        modalBox.style.cssText = 'background: ' + modalBg + '; border-radius: 14px; max-width: 330px; width: 100%; padding: 22px 20px; text-align: center; box-shadow: 0 10px 30px rgba(0,0,0,0.4); box-sizing: border-box;';
+
+        var titleText = updateCfg.title || 'Появилась новая версия приложения!';
+        var msgText = updateCfg.message || ('Доступна актуальная версия (' + updateCfg.latest_version + '). Рекомендуется обновить приложение для правильного отображения маршрутов.');
+
+        modalBox.innerHTML =
+            '<div style="font-size: 34px; margin-bottom: 10px;">🚀</div>' +
+            '<div style="font-size: 17px; font-weight: 700; margin-bottom: 8px; color: ' + textPrimary + ';">' + titleText + '</div>' +
+            '<div style="font-size: 13px; color: ' + textSecondary + '; line-height: 1.45; margin-bottom: 16px;">' + msgText + '</div>' +
+            '<div style="margin-bottom: 16px; text-align: left;">' +
+                '<div style="font-size: 11px; color: ' + textSecondary + '; margin-bottom: 4px;">Ссылка на обновление (APK):</div>' +
+                '<input type="text" readonly id="app-update-link-input" value="' + dlUrl + '" style="width: 100%; box-sizing: border-box; background: ' + btnCancelBg + '; color: ' + textPrimary + '; border: 1px solid ' + btnCancelBorder + '; border-radius: 6px; padding: 8px 10px; font-size: 12px; font-family: monospace; outline: none;" onclick="this.focus(); this.select(); copyLinkToClipboard(\'' + dlUrl + '\');" />' +
+            '</div>' +
+            '<div style="display: flex; gap: 10px;">' +
+                '<button id="app-update-btn-later" style="flex: 0.8; padding: 10px 0; border: 1px solid ' + btnCancelBorder + '; background: ' + btnCancelBg + '; color: ' + btnCancelColor + '; border-radius: 8px; font-size: 14px; font-weight: 600; cursor: pointer;">Не сейчас</button>' +
+                '<button id="app-update-btn-download" style="flex: 1.2; padding: 10px 0; border: none; background: #2e7d32; color: #ffffff; border-radius: 8px; font-size: 14px; font-weight: 700; cursor: pointer; box-shadow: 0 2px 6px rgba(46,125,50,0.3);">Скопировать ссылку</button>' +
+            '</div>';
+
+        modalBackdrop.appendChild(modalBox);
+        doc.body.appendChild(modalBackdrop);
+
+        var btnDownload = doc.getElementById('app-update-btn-download');
+        if (btnDownload) {
+            btnDownload.onclick = function(e) {
+                e.preventDefault();
+                openDownload(btnDownload);
+            };
+            btnDownload.ontouchend = function(e) {
+                e.preventDefault();
+                openDownload(btnDownload);
+            };
+        }
+
+        var btnLater = doc.getElementById('app-update-btn-later');
+        if (btnLater) {
+            btnLater.onclick = function(e) {
+                e.preventDefault();
+                modalBackdrop.style.display = 'none';
+                banner.style.display = 'flex';
+                try {
+                    sessionStorage.setItem(storageKey, 'true');
+                } catch(err) {}
+            };
+        }
+    }
+
+    if (typeof document !== 'undefined' && document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initNotice);
+    } else {
+        setTimeout(initNotice, 100);
+    }
+})();
+
+
+// ─── Direction labels smart normalization for multi-modal stops ───
+(function() {
+    var g = (typeof window !== 'undefined' && window.getNextStopsForStopDir) ? window : 
+            (typeof globalThis !== 'undefined' && globalThis.getNextStopsForStopDir) ? globalThis : 
+            (typeof Function === 'function' ? Function('return this')() : null);
+    if (!g || typeof g.getNextStopsForStopDir !== 'function') return;
+
+    var origGetNextStops = g.getNextStopsForStopDir;
+    g.getNextStopsForStopDir = function(stop, dir) {
+        try {
+            var allRoutes = (typeof g.getRoutesAtStop === 'function') ? g.getRoutesAtStop(stop, dir) : [];
+            var tramRoutes = allRoutes.filter(function(r) {
+                var tType = (typeof g.getRouteTransportType === 'function') ? g.getRouteTransportType(r) : 'трамвай';
+                return tType === 'трамвай';
+            });
+
+            if (tramRoutes.length > 0) {
+                var counts = {};
+                var dbRoutes = (g.SCHEDULE_DATABASE && g.SCHEDULE_DATABASE.routes) ? g.SCHEDULE_DATABASE.routes : null;
+                var cStop = stop ? stop.replace(/[«»"]/g, '').trim() : '';
+
+                for (var i = 0; i < tramRoutes.length; i++) {
+                    var r = tramRoutes[i];
+                    var routeHasTransition = false;
+                    if (typeof _networkTransitions !== 'undefined') {
+                        var nextMap = _networkTransitions[r] && _networkTransitions[r][dir] && _networkTransitions[r][dir][stop];
+                        if (nextMap && nextMap.size > 0) {
+                            var entries = Array.from(nextMap.entries());
+                            for (var j = 0; j < entries.length; j++) {
+                                var nextStop = entries[j][0];
+                                var cnt = entries[j][1];
+                                if (nextStop && nextStop !== stop) {
+                                    counts[nextStop] = (counts[nextStop] || 0) + cnt;
+                                    routeHasTransition = true;
+                                }
+                            }
+                        }
+                    }
+
+                    if (!routeHasTransition && dbRoutes) {
+                        var rEntry = (typeof g.getRouteData === 'function' ? g.getRouteData(r) : null) || dbRoutes[r] || dbRoutes[String(r).replace(/[^0-9]/g, '')];
+                        if (rEntry) {
+                            var schemes = [
+                                rEntry.main_scheme,
+                                rEntry.additional_scheme_1,
+                                rEntry.additional_scheme_2,
+                                rEntry.additional_scheme
+                            ].filter(Boolean);
+
+                            for (var s = 0; s < schemes.length; s++) {
+                                var sch = schemes[s];
+                                var seq = (dir === 'направление 1' || dir === 'от центра') ? sch.direct_stops : sch.reverse_stops;
+                                if (sch.reverse_stops && sch.direct_stops) {
+                                    var inRev = sch.reverse_stops.some(function(st) { return st.replace(/[«»"]/g, '').trim() === cStop; });
+                                    var inDir = sch.direct_stops.some(function(st) { return st.replace(/[«»"]/g, '').trim() === cStop; });
+                                    if (inRev && !inDir) seq = sch.reverse_stops;
+                                    else if (inDir && !inRev) seq = sch.direct_stops;
+                                }
+
+                                if (Array.isArray(seq) && seq.length > 0) {
+                                    var idx = seq.findIndex(function(st) { return st.replace(/[«»"]/g, '').trim() === cStop; });
+                                    if (idx !== -1 && idx + 1 < seq.length) {
+                                        var nextS = seq[idx + 1];
+                                        if (nextS && nextS !== stop) {
+                                            var depCount = (typeof g.getDeparturesCountForRoute === 'function') ? g.getDeparturesCountForRoute(stop, dir, r) : 1;
+                                            counts[nextS] = (counts[nextS] || 0) + (depCount || 1);
+                                            break;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                var sortedNext = Object.entries(counts).sort(function(a, b) { return b[1] - a[1]; }).map(function(e) { return e[0]; });
+                if (sortedNext.length > 0) return sortedNext;
+            }
+        } catch (e) {
+            console.warn('Smart next stops error:', e);
+        }
+        return origGetNextStops.call(this, stop, dir);
+    };
+})();
