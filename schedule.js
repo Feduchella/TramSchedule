@@ -1,4 +1,4 @@
-window.SCHEDULE_VERSION = "217-10-2026";
+window.SCHEDULE_VERSION = "27-10-2026";
 window.SCHEDULE_STOP_ALIASES = {
   "Ц.рынок": "Центральный рынок",
   "Каменный лог": "Каменный лог",
@@ -1459,9 +1459,9 @@ window.SCHEDULE_DATABASE = {
   "app_update_config": {
     "enabled": true,
     "latest_version": "X1.6.1",
-    "download_url": "https://storage.yandexcloud.net/liptramschedule/TramSchedule.apk",
-    "title": "Доступно обновление приложения",
-    "message": "Вышла новая версия X1.6.1.\n\nВ обновлении:\n• Улучшена стабильность и скорость работы\n• Схемы теперь загружаются динамически из облака\n• Исправлено обновление расписания в фоне\n\nРекомендуем установить новую версию!"
+    "download_url": "https://storage.yandexcloud.net/liptramschedule",
+    "title": "1",
+    "message": "1"
   }
 };
 window.ROUTE_COLORS = {
@@ -1475,9 +1475,9 @@ window.ROUTE_COLORS = {
 window.APP_UPDATE_CONFIG = {
   "enabled": true,
   "latest_version": "X1.6.1",
-  "download_url": "https://storage.yandexcloud.net/liptramschedule/TramSchedule.apk",
-  "title": "Доступно обновление приложения",
-  "message": "Вышла новая версия X1.6.1.\n\nВ обновлении:\n• Улучшена стабильность и скорость работы\n• Схемы теперь загружаются динамически из облака\n• Исправлено обновление расписания в фоне\n\nРекомендуем установить новую версию!"
+  "download_url": "https://storage.yandexcloud.net/liptramschedule",
+  "title": "1",
+  "message": "1"
 };
 window.SCHEDULE_DATA = {
   "Кольцо 9-го микрорайона": {
