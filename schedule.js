@@ -1,4 +1,4 @@
-window.SCHEDULE_VERSION = "27-10-2026";
+window.SCHEDULE_VERSION = "28-10-2026";
 window.SCHEDULE_STOP_ALIASES = {
   "Ц.рынок": "Центральный рынок",
   "Каменный лог": "Каменный лог",
@@ -635,7 +635,15 @@ window.SCHEDULE_DATABASE = {
             "Микрорайон Елецкий"
           ]
         }
-      ]
+      ],
+      "additional_scheme_2": {
+        "custom_route": "",
+        "first_stop": "",
+        "last_stop": "",
+        "endpoints": "",
+        "direct_stops": [],
+        "reverse_stops": []
+      }
     },
     "5": {
       "display_number": "5",
@@ -769,7 +777,15 @@ window.SCHEDULE_DATABASE = {
           "direct_stops": [],
           "reverse_stops": []
         }
-      ]
+      ],
+      "additional_scheme_2": {
+        "custom_route": "",
+        "first_stop": "",
+        "last_stop": "",
+        "endpoints": "",
+        "direct_stops": [],
+        "reverse_stops": []
+      }
     },
     "15": {
       "display_number": "15",
@@ -1444,8 +1460,8 @@ window.SCHEDULE_DATABASE = {
     "enabled": true,
     "latest_version": "X1.6.1",
     "download_url": "https://storage.yandexcloud.net/liptramschedule/TramSchedule.apk",
-    "title": "Обновление!",
-    "message": "Вышло обновление"
+    "title": "",
+    "message": ""
   }
 };
 window.ROUTE_COLORS = {
@@ -1460,8 +1476,8 @@ window.APP_UPDATE_CONFIG = {
   "enabled": true,
   "latest_version": "X1.6.1",
   "download_url": "https://storage.yandexcloud.net/liptramschedule/TramSchedule.apk",
-  "title": "Обновление!",
-  "message": "Вышло обновление"
+  "title": "",
+  "message": ""
 };
 window.SCHEDULE_DATA = {
   "Кольцо 9-го микрорайона": {
