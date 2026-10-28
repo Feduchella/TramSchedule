@@ -478,11 +478,8 @@ window.SCHEDULE_DATABASE = {
       "native_number": "4",
       "transport_type": "электробус",
       "color": "#C084FC",
-      "versions": "X1.6.1; 1.6.2",
-      "app_versions": [
-        "X1.6.1",
-        "1.6.2"
-      ],
+      "versions": "",
+      "app_versions": [],
       "main_endpoints": "Микрорайон Елецкий — Улица Катукова",
       "additional_endpoints": [
         "Микрорайон Елецкий — Кольцо 9-го микрорайона"
@@ -643,11 +640,8 @@ window.SCHEDULE_DATABASE = {
       "native_number": "5",
       "transport_type": "электробус",
       "color": "#FB923C",
-      "versions": "X1.6.1; 1.6.2",
-      "app_versions": [
-        "X1.6.1",
-        "1.6.2"
-      ],
+      "versions": "",
+      "app_versions": [],
       "main_endpoints": "Кольцо 9-го микрорайона — Стан-2000",
       "additional_endpoints": [],
       "main_scheme": {
