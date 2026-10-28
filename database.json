@@ -342,7 +342,15 @@
             "Микрорайон Елецкий"
           ]
         }
-      ]
+      ],
+      "additional_scheme_2": {
+        "custom_route": "",
+        "first_stop": "",
+        "last_stop": "",
+        "endpoints": "",
+        "direct_stops": [],
+        "reverse_stops": []
+      }
     },
     "5": {
       "display_number": "5",
@@ -476,7 +484,15 @@
           "direct_stops": [],
           "reverse_stops": []
         }
-      ]
+      ],
+      "additional_scheme_2": {
+        "custom_route": "",
+        "first_stop": "",
+        "last_stop": "",
+        "endpoints": "",
+        "direct_stops": [],
+        "reverse_stops": []
+      }
     },
     "15": {
       "display_number": "15",
@@ -1151,7 +1167,7 @@
     "enabled": true,
     "latest_version": "X1.6.1",
     "download_url": "https://storage.yandexcloud.net/liptramschedule/TramSchedule.apk",
-    "title": "Обновление!",
-    "message": "Вышло обновление"
+    "title": "",
+    "message": ""
   }
 }
