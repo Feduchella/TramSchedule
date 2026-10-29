@@ -1144,7 +1144,7 @@
     "1к": "1к"
   },
   "app_update_config": {
-    "enabled": true,
+    "enabled": false,
     "latest_version": "X1.6.1",
     "download_url": "https://storage.yandexcloud.net/liptramschedule/TramSchedule.apk",
     "title": "Обновление!",
