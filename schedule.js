@@ -1454,7 +1454,7 @@ window.SCHEDULE_DATABASE = {
   },
   "app_update_config": {
     "enabled": true,
-    "latest_version": "X1.6.2",
+    "latest_version": "X1.6.1",
     "download_url": "https://storage.yandexcloud.net/liptramschedule/TramSchedule.apk",
     "title": "Обновление!",
     "message": "Вышло обновление"
@@ -1470,7 +1470,7 @@ window.ROUTE_COLORS = {
 };
 window.APP_UPDATE_CONFIG = {
   "enabled": true,
-  "latest_version": "X1.6.2",
+  "latest_version": "X1.6.1",
   "download_url": "https://storage.yandexcloud.net/liptramschedule/TramSchedule.apk",
   "title": "Обновление!",
   "message": "Вышло обновление"
