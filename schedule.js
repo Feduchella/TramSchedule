@@ -694,7 +694,15 @@ window.SCHEDULE_DATABASE = {
             "Микрорайон Елецкий"
           ]
         }
-      ]
+      ],
+      "additional_scheme_2": {
+        "custom_route": "",
+        "first_stop": "",
+        "last_stop": "",
+        "endpoints": "",
+        "direct_stops": [],
+        "reverse_stops": []
+      }
     },
     "5": {
       "display_number": "5",
@@ -54309,8 +54317,7 @@ window.SCHEDULE_DATA = {
                 }
             }
         }
-        var cvCheck = (clientVer || '').replace(/^[vx]/i, '');
-        if (cvCheck && cvCheck < '1.6') {
+        if (!clientVer || clientVer < 'X1.6') {
             hiddenRoutes['4'] = true;
             hiddenRoutes['5'] = true;
         }
@@ -54377,7 +54384,7 @@ window.SCHEDULE_DATA = {
         if (appUpdateCfg && appUpdateCfg.enabled && appUpdateCfg.latest_version) {
             var isOutdatedVer = function(cur, target) {
                 if (!cur) return true;
-                if (/^x/i.test(String(target).trim()) && !/^x/i.test(String(cur).trim())) return true; var cNorm = String(cur).trim().toLowerCase().replace(/^[vx]/i, '');
+                var cNorm = String(cur).trim().toLowerCase().replace(/^[vx]/i, '');
                 var tNorm = String(target).trim().toLowerCase().replace(/^[vx]/i, '');
                 if (cNorm === tNorm) return false;
                 var cParts = cNorm.split('.').map(function(x){ return parseInt(x, 10) || 0; });
@@ -54452,72 +54459,32 @@ window.SCHEDULE_DATA = {
                         return success;
                     };
 
-                    var handleDownload = function(e, btnElem, statusElem) {
+                    var handleCopy = function(e, btnElem, statusElem) {
                         if (e) {
                             try { e.preventDefault(); } catch(err){}
                             try { e.stopPropagation(); } catch(err){}
                         }
                         
-                        var opened = false;
-
-                        // 1. If Android native bridge exists in APK
-                        try {
-                            if (typeof window !== 'undefined' && window.AndroidInsets && typeof window.AndroidInsets.openExternalUrl === 'function') {
-                                window.AndroidInsets.openExternalUrl(dlUrl);
-                                opened = true;
-                            }
-                        } catch(err) {}
-
-                        // 2. VK Mini App Bridge (VKWebAppOpenUrl)
-                        try {
-                            if (typeof window !== 'undefined' && window.vkBridge && typeof window.vkBridge.send === 'function') {
-                                window.vkBridge.send('VKWebAppOpenUrl', { url: dlUrl });
-                                opened = true;
-                            }
-                        } catch(err) {}
-
-                        // 3. Fallback standard window.open & invisible link click
-                        try {
-                            var w = window.open(dlUrl, '_blank');
-                            if (w) opened = true;
-                        } catch(err) {}
-
-                        try {
-                            var a = document.createElement('a');
-                            a.href = dlUrl;
-                            a.target = '_blank';
-                            a.rel = 'noopener noreferrer';
-                            a.setAttribute('download', '');
-                            document.body.appendChild(a);
-                            a.click();
-                            setTimeout(function() {
-                                try { document.body.removeChild(a); } catch(err){}
-                            }, 100);
-                            opened = true;
-                        } catch(err) {}
-
-                        // 4. In WebView if window.open was intercepted/blocked, location.href triggers external navigation
-                        if (!opened) {
-                            try {
-                                window.location.href = dlUrl;
-                            } catch(err) {}
-                        }
-
-                        // Seamless clipboard backup
                         copyLinkToClipboard(dlUrl);
 
                         if (btnElem) {
-                            btnElem.innerText = '✅ Открываем...';
+                            btnElem.innerText = '✅ Скопировано!';
                             btnElem.style.background = '#238636';
                             btnElem.style.color = '#ffffff';
                             setTimeout(function() {
-                                if (btnElem) btnElem.innerText = 'Скачать';
+                                if (btnElem) btnElem.innerText = 'Скопировать ссылку';
                             }, 3500);
                         }
 
                         if (statusElem) {
-                            statusElem.innerText = '🚀 Загрузка открыта в браузере!';
                             statusElem.style.display = 'block';
+                        }
+
+                        // If Android native bridge exists, also trigger browser open
+                        if (typeof window !== 'undefined' && window.AndroidInsets && typeof window.AndroidInsets.openExternalUrl === 'function') {
+                            try {
+                                window.AndroidInsets.openExternalUrl(dlUrl);
+                            } catch(err) {}
                         }
                     };
 
@@ -54526,13 +54493,13 @@ window.SCHEDULE_DATA = {
                     banner.id = 'app-update-banner';
                     banner.style.cssText = 'display: ' + (isSnoozed ? 'flex' : 'none') + '; position: sticky; top: 0; z-index: 99998; background: #dc2626; color: #ffffff; padding: 10px 14px; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; font-size: 13px; font-weight: 600; justify-content: space-between; align-items: center; box-shadow: 0 2px 8px rgba(0,0,0,0.3);';
                     banner.innerHTML = '<div style="display:flex; align-items:center; gap:8px;"><span>⚠️</span><span>Версия устарела (' + (clientVer || 'старая') + ' &rarr; ' + appUpdateCfg.latest_version + ')</span></div>' +
-                        '<button id="app-update-banner-btn" style="background:#ffffff; color:#dc2626; border:none; padding:6px 12px; border-radius:6px; font-size:12px; font-weight:700; cursor:pointer; white-space:nowrap; -webkit-tap-highlight-color:transparent; touch-action:manipulation;">Скачать</button>';
+                        '<button id="app-update-banner-btn" style="background:#ffffff; color:#dc2626; border:none; padding:6px 12px; border-radius:6px; font-size:12px; font-weight:700; cursor:pointer; white-space:nowrap; -webkit-tap-highlight-color:transparent; touch-action:manipulation;">Скопировать ссылку</button>';
                     
                     document.body.insertBefore(banner, document.body.firstChild);
                     var bannerBtn = banner.querySelector('#app-update-banner-btn');
                     if (bannerBtn) {
-                        bannerBtn.addEventListener('click', function(e) { handleDownload(e, bannerBtn); });
-                        bannerBtn.addEventListener('touchend', function(e) { handleDownload(e, bannerBtn); });
+                        bannerBtn.addEventListener('click', function(e) { handleCopy(e, bannerBtn); });
+                        bannerBtn.addEventListener('touchend', function(e) { handleCopy(e, bannerBtn); });
                     }
 
                     // Modal backdrop
@@ -54555,7 +54522,7 @@ window.SCHEDULE_DATA = {
                                 '✅ Ссылка скопирована! Вставьте её в любой браузер для загрузки' +
                             '</div>' +
                             '<div style="display: flex; gap: 10px; justify-content: center;">' +
-                                '<button id="app-update-btn-dl" style="flex: 1.3; background: #238636; color: #ffffff; border: none; padding: 12px 14px; border-radius: 8px; font-size: 14px; font-weight: 700; cursor: pointer; -webkit-tap-highlight-color:transparent; touch-action:manipulation;">Скачать</button>' +
+                                '<button id="app-update-btn-dl" style="flex: 1.3; background: #238636; color: #ffffff; border: none; padding: 12px 14px; border-radius: 8px; font-size: 14px; font-weight: 700; cursor: pointer; -webkit-tap-highlight-color:transparent; touch-action:manipulation;">Скопировать ссылку</button>' +
                                 '<button id="app-update-btn-no" style="flex: 0.7; background: #30363d; color: #c9d1d9; border: 1px solid #484f58; padding: 12px 14px; border-radius: 8px; font-size: 14px; font-weight: 600; cursor: pointer; -webkit-tap-highlight-color:transparent; touch-action:manipulation;">Не сейчас</button>' +
                             '</div>';
                             
@@ -54569,14 +54536,14 @@ window.SCHEDULE_DATA = {
                                 linkInput.focus();
                                 linkInput.select();
                                 copyLinkToClipboard(dlUrl);
-                                if (copyStatus) { copyStatus.innerText = '✅ Ссылка скопирована в буфер обмена!'; copyStatus.style.display = 'block'; }
+                                if (copyStatus) copyStatus.style.display = 'block';
                             });
                         }
 
                         var btnDl = modal.querySelector('#app-update-btn-dl');
                         if (btnDl) {
-                            btnDl.addEventListener('click', function(e) { handleDownload(e, btnDl, copyStatus); });
-                            btnDl.addEventListener('touchend', function(e) { handleDownload(e, btnDl, copyStatus); });
+                            btnDl.addEventListener('click', function(e) { handleCopy(e, btnDl, copyStatus); });
+                            btnDl.addEventListener('touchend', function(e) { handleCopy(e, btnDl, copyStatus); });
                         }
 
                         var btnNo = modal.querySelector('#app-update-btn-no');
@@ -54612,4 +54579,3 @@ window.SCHEDULE_DATA = {
     }
 
     })();
-
