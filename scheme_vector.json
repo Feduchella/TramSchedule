@@ -1,0 +1,1905 @@
+{
+  "version": 2,
+  "title": "Липецкий трамвай и электробус",
+  "gridStep": 20,
+  "updatedAt": 0,
+  "lines": [
+    {
+      "id": "ln_1",
+      "route": "1",
+      "name": "Маршрут № 1",
+      "type": "tram",
+      "color": "#4ADE80",
+      "customColor": false,
+      "visible": true
+    },
+    {
+      "id": "ln_1k",
+      "route": "1к",
+      "name": "Маршрут № 1к",
+      "type": "tram",
+      "color": "#E11D48",
+      "customColor": false,
+      "visible": true
+    },
+    {
+      "id": "ln_2",
+      "route": "2",
+      "name": "Маршрут № 2",
+      "type": "tram",
+      "color": "#2563EB",
+      "customColor": false,
+      "visible": true
+    },
+    {
+      "id": "ln_15",
+      "route": "15",
+      "name": "Маршрут № 15",
+      "type": "tram",
+      "color": "#FDE047",
+      "customColor": false,
+      "visible": true
+    },
+    {
+      "id": "ln_4",
+      "route": "4",
+      "name": "Маршрут № 4",
+      "type": "tram",
+      "color": "#C084FC",
+      "customColor": false,
+      "visible": true
+    },
+    {
+      "id": "ln_5",
+      "route": "5",
+      "name": "Маршрут № 5",
+      "type": "tram",
+      "color": "#FB923C",
+      "customColor": false,
+      "visible": true
+    },
+    {
+      "id": "ln_7",
+      "route": "7",
+      "name": "Маршрут № 7",
+      "type": "tram",
+      "color": "#0C4A6E",
+      "customColor": false,
+      "visible": true
+    }
+  ],
+  "stations": [
+    {
+      "id": "st_ryn",
+      "name": "Центральный рынок",
+      "stopKey": "Центральный рынок",
+      "x": 1300,
+      "y": 540,
+      "labelDir": "left",
+      "isHub": true
+    },
+    {
+      "id": "st_kam",
+      "name": "Каменный лог",
+      "stopKey": "Каменный лог",
+      "x": 1255,
+      "y": 400,
+      "labelDir": "tr",
+      "isHub": false
+    },
+    {
+      "id": "st_hud",
+      "name": "Художественная школа",
+      "stopKey": "Художественная школа",
+      "x": 1125,
+      "y": 400,
+      "labelDir": "top",
+      "isHub": false
+    },
+    {
+      "id": "st_kos",
+      "name": "Улица Космонавтов",
+      "stopKey": "Улица Космонавтов",
+      "x": 1035,
+      "y": 310,
+      "labelDir": "tr",
+      "isHub": false
+    },
+    {
+      "id": "st_mar",
+      "name": "Сквер имени Маркова",
+      "stopKey": "Сквер имени Маркова",
+      "x": 965,
+      "y": 240,
+      "labelDir": "tr",
+      "isHub": false
+    },
+    {
+      "id": "st_ktz",
+      "name": "Кольцо трубного завода (КТЗ)",
+      "stopKey": "Кольцо трубного завода (КТЗ)",
+      "x": 895,
+      "y": 170,
+      "labelDir": "top",
+      "isHub": true
+    },
+    {
+      "id": "st_shv",
+      "name": "Швейная фирма",
+      "stopKey": "Швейная фирма",
+      "x": 825,
+      "y": 240,
+      "labelDir": "tl",
+      "isHub": false
+    },
+    {
+      "id": "st_mos",
+      "name": "Московская улица",
+      "stopKey": "Московская улица",
+      "x": 765,
+      "y": 300,
+      "labelDir": "tl",
+      "isHub": false
+    },
+    {
+      "id": "st_9mkr",
+      "name": "9-й микрорайон",
+      "stopKey": "9-й микрорайон",
+      "x": 710,
+      "y": 365,
+      "labelDir": "tl",
+      "isHub": false
+    },
+    {
+      "id": "st_k9m",
+      "name": "Кольцо 9-го микрорайона",
+      "stopKey": "Кольцо 9-го микрорайона",
+      "x": 695,
+      "y": 465,
+      "labelDir": "right",
+      "isHub": true
+    },
+    {
+      "id": "st_poly",
+      "name": "Полиграфический комплекс",
+      "stopKey": "Полиграфический комплекс",
+      "x": 610,
+      "y": 600,
+      "labelDir": "right",
+      "isHub": true
+    },
+    {
+      "id": "st_polu",
+      "name": "Полиграфическая улица",
+      "stopKey": "Полиграфическая улица",
+      "x": 590,
+      "y": 680,
+      "labelDir": "right",
+      "isHub": false
+    },
+    {
+      "id": "st_ppob",
+      "name": "Парк Победы",
+      "stopKey": "Парк Победы",
+      "x": 590,
+      "y": 750,
+      "labelDir": "right",
+      "isHub": false
+    },
+    {
+      "id": "st_24m",
+      "name": "24-й микрорайон",
+      "stopKey": "24-й микрорайон",
+      "x": 640,
+      "y": 810,
+      "labelDir": "tr",
+      "isHub": false
+    },
+    {
+      "id": "st_ber",
+      "name": "Берёзовая аллея",
+      "stopKey": "Берёзовая аллея",
+      "x": 695,
+      "y": 865,
+      "labelDir": "tr",
+      "isHub": true
+    },
+    {
+      "id": "st_okt",
+      "name": "Октябрьский рынок",
+      "stopKey": "Октябрьский рынок",
+      "x": 750,
+      "y": 920,
+      "labelDir": "right",
+      "isHub": false
+    },
+    {
+      "id": "st_kat",
+      "name": "Улица Катукова",
+      "stopKey": "Улица Катукова",
+      "x": 750,
+      "y": 985,
+      "labelDir": "right",
+      "isHub": true
+    },
+    {
+      "id": "st_mer",
+      "name": "Улица Меркулова",
+      "stopKey": "Улица Меркулова",
+      "x": 650,
+      "y": 1045,
+      "labelDir": "tl",
+      "isHub": false
+    },
+    {
+      "id": "st_21m",
+      "name": "21-й микрорайон",
+      "stopKey": "21-й микрорайон",
+      "x": 770,
+      "y": 1125,
+      "labelDir": "tr",
+      "isHub": true
+    },
+    {
+      "id": "st_el",
+      "name": "Микрорайон Елецкий",
+      "stopKey": "Микрорайон Елецкий",
+      "x": 205,
+      "y": 350,
+      "labelDir": "top",
+      "isHub": true
+    },
+    {
+      "id": "st_stad",
+      "name": "Стадион",
+      "stopKey": "Стадион",
+      "x": 140,
+      "y": 425,
+      "labelDir": "left",
+      "isHub": false
+    },
+    {
+      "id": "st_s58",
+      "name": "Школа № 58",
+      "stopKey": "Школа № 58",
+      "x": 250,
+      "y": 455,
+      "labelDir": "right",
+      "isHub": false
+    },
+    {
+      "id": "st_art",
+      "name": "Улица Артёмова",
+      "stopKey": "Улица Артёмова",
+      "x": 210,
+      "y": 530,
+      "labelDir": "left",
+      "isHub": false
+    },
+    {
+      "id": "st_osk",
+      "name": "Улица Осканова",
+      "stopKey": "Улица Осканова",
+      "x": 210,
+      "y": 605,
+      "labelDir": "left",
+      "isHub": false
+    },
+    {
+      "id": "st_hre",
+      "name": "Улица Хренникова",
+      "stopKey": "Улица Хренникова",
+      "x": 210,
+      "y": 680,
+      "labelDir": "left",
+      "isHub": false
+    },
+    {
+      "id": "st_tce",
+      "name": "ТЦ «Елецкий»",
+      "stopKey": "ТЦ «Елецкий»",
+      "x": 280,
+      "y": 740,
+      "labelDir": "bl",
+      "isHub": true
+    },
+    {
+      "id": "st_tu",
+      "name": "Технический университет",
+      "stopKey": "Технический университет",
+      "x": 410,
+      "y": 650,
+      "labelDir": "tl",
+      "isHub": false
+    },
+    {
+      "id": "st_obl",
+      "name": "Областная больница",
+      "stopKey": "Областная больница",
+      "x": 500,
+      "y": 600,
+      "labelDir": "tl",
+      "isHub": false
+    },
+    {
+      "id": "st_pmol",
+      "name": "Парк Молодёжный",
+      "stopKey": "Парк Молодёжный",
+      "x": 340,
+      "y": 795,
+      "labelDir": "tr",
+      "isHub": false
+    },
+    {
+      "id": "st_mol",
+      "name": "Молочный комбинат",
+      "stopKey": "Молочный комбинат",
+      "x": 400,
+      "y": 850,
+      "labelDir": "bl",
+      "isHub": true
+    },
+    {
+      "id": "st_kriv",
+      "name": "Улица Кривенкова",
+      "stopKey": "Улица Кривенкова",
+      "x": 495,
+      "y": 878,
+      "labelDir": "top",
+      "isHub": false
+    },
+    {
+      "id": "st_esen",
+      "name": "Бульвар Есенина",
+      "stopKey": "Бульвар Есенина",
+      "x": 595,
+      "y": 895,
+      "labelDir": "bottom",
+      "isHub": false
+    },
+    {
+      "id": "st_shum",
+      "name": "Улица Шуминского",
+      "stopKey": "Улица Шуминского",
+      "x": 355,
+      "y": 935,
+      "labelDir": "left",
+      "isHub": false
+    },
+    {
+      "id": "st_bel",
+      "name": "Улица Белана",
+      "stopKey": "Улица Белана",
+      "x": 310,
+      "y": 1015,
+      "labelDir": "left",
+      "isHub": false
+    },
+    {
+      "id": "st_28m",
+      "name": "28-й микрорайон",
+      "stopKey": "28-й микрорайон",
+      "x": 320,
+      "y": 1105,
+      "labelDir": "left",
+      "isHub": true
+    },
+    {
+      "id": "st_evr",
+      "name": "Микрорайон Европейский",
+      "stopKey": "Микрорайон Европейский",
+      "x": 205,
+      "y": 1185,
+      "labelDir": "left",
+      "isHub": false
+    },
+    {
+      "id": "st_mis",
+      "name": "Улица Мистюкова",
+      "stopKey": "Улица Мистюкова",
+      "x": 390,
+      "y": 1150,
+      "labelDir": "right",
+      "isHub": false
+    },
+    {
+      "id": "st_sher",
+      "name": "Улица Шерстобитова",
+      "stopKey": "Улица Шерстобитова",
+      "x": 405,
+      "y": 1215,
+      "labelDir": "left",
+      "isHub": false
+    },
+    {
+      "id": "st_evryn",
+      "name": "Европейский рынок",
+      "stopKey": "Европейский рынок",
+      "x": 365,
+      "y": 1285,
+      "labelDir": "bottom",
+      "isHub": true
+    },
+    {
+      "id": "st_koc",
+      "name": "Улица Коцаря",
+      "stopKey": "Улица Коцаря",
+      "x": 465,
+      "y": 1265,
+      "labelDir": "bottom",
+      "isHub": false
+    },
+    {
+      "id": "st_30m",
+      "name": "30-й микрорайон",
+      "stopKey": "30-й микрорайон",
+      "x": 525,
+      "y": 1220,
+      "labelDir": "br",
+      "isHub": false
+    },
+    {
+      "id": "st_pol7",
+      "name": "Поликлиника № 7",
+      "stopKey": "Поликлиника № 7",
+      "x": 580,
+      "y": 1175,
+      "labelDir": "br",
+      "isHub": false
+    },
+    {
+      "id": "st_tep",
+      "name": "Улица Теперика",
+      "stopKey": "Улица Теперика",
+      "x": 635,
+      "y": 1130,
+      "labelDir": "tl",
+      "isHub": false
+    },
+    {
+      "id": "st_tank",
+      "name": "Памятник танкистам",
+      "stopKey": "Памятник танкистам",
+      "x": 880,
+      "y": 1125,
+      "labelDir": "right",
+      "isHub": false
+    },
+    {
+      "id": "st_syr",
+      "name": "Село Сырское",
+      "stopKey": "Село Сырское",
+      "x": 880,
+      "y": 1205,
+      "labelDir": "right",
+      "isHub": true
+    },
+    {
+      "id": "st_most",
+      "name": "Октябрьский мост",
+      "stopKey": "Октябрьский мост",
+      "x": 950,
+      "y": 1285,
+      "labelDir": "tr",
+      "isHub": false
+    },
+    {
+      "id": "st_rech",
+      "name": "Речная",
+      "stopKey": "Речная",
+      "x": 1030,
+      "y": 1365,
+      "labelDir": "bl",
+      "isHub": false
+    },
+    {
+      "id": "st_kras",
+      "name": "Краснозаводская улица",
+      "stopKey": "Краснозаводская улица",
+      "x": 1125,
+      "y": 1445,
+      "labelDir": "bl",
+      "isHub": true
+    },
+    {
+      "id": "st_ltz",
+      "name": "Липецкий тракторный завод (ЛТЗ)",
+      "stopKey": "Липецкий тракторный завод (ЛТЗ)",
+      "x": 1215,
+      "y": 1525,
+      "labelDir": "tr",
+      "isHub": false
+    },
+    {
+      "id": "st_klim",
+      "name": "Площадь Клименкова",
+      "stopKey": "Площадь Клименкова",
+      "x": 1290,
+      "y": 1595,
+      "labelDir": "bl",
+      "isHub": false
+    },
+    {
+      "id": "st_3sen",
+      "name": "Улица 3 Сентября",
+      "stopKey": "Улица 3 Сентября",
+      "x": 1390,
+      "y": 1595,
+      "labelDir": "top",
+      "isHub": false
+    },
+    {
+      "id": "st_rsu",
+      "name": "РСУ",
+      "stopKey": "РСУ",
+      "x": 1490,
+      "y": 1595,
+      "labelDir": "top",
+      "isHub": false
+    },
+    {
+      "id": "st_che",
+      "name": "Улица Чехова",
+      "stopKey": "Улица Чехова",
+      "x": 1625,
+      "y": 1595,
+      "labelDir": "right",
+      "isHub": true
+    },
+    {
+      "id": "st_volg",
+      "name": "Волгоградская улица",
+      "stopKey": "Волгоградская улица",
+      "x": 1545,
+      "y": 1690,
+      "labelDir": "bl",
+      "isHub": false
+    },
+    {
+      "id": "st_izv",
+      "name": "Известковое отделение",
+      "stopKey": "Известковое отделение",
+      "x": 1665,
+      "y": 1690,
+      "labelDir": "right",
+      "isHub": false
+    },
+    {
+      "id": "st_kkc",
+      "name": "Кислородно-конвертерный цех (ККЦ)",
+      "stopKey": "Кислородно-конвертерный цех (ККЦ)",
+      "x": 1665,
+      "y": 1800,
+      "labelDir": "right",
+      "isHub": false
+    },
+    {
+      "id": "st_dp6",
+      "name": "Доменная печь № 6 (ДП-6)",
+      "stopKey": "Доменная печь № 6 (ДП-6)",
+      "x": 1815,
+      "y": 1935,
+      "labelDir": "right",
+      "isHub": true
+    },
+    {
+      "id": "st_shl",
+      "name": "Шлакопереработка",
+      "stopKey": "Шлакопереработка",
+      "x": 1195,
+      "y": 1335,
+      "labelDir": "br",
+      "isHub": false
+    },
+    {
+      "id": "st_aztp",
+      "name": "АЗТП",
+      "stopKey": "АЗТП",
+      "x": 1245,
+      "y": 1225,
+      "labelDir": "tl",
+      "isHub": false
+    },
+    {
+      "id": "st_koks",
+      "name": "Коксохим",
+      "stopKey": "Коксохим",
+      "x": 1305,
+      "y": 1165,
+      "labelDir": "tl",
+      "isHub": false
+    },
+    {
+      "id": "st_tech",
+      "name": "Технопарк",
+      "stopKey": "Технопарк",
+      "x": 1365,
+      "y": 1105,
+      "labelDir": "tl",
+      "isHub": false
+    },
+    {
+      "id": "st_nlmk",
+      "name": "НЛМК",
+      "stopKey": "НЛМК",
+      "x": 1465,
+      "y": 1005,
+      "labelDir": "top",
+      "isHub": true
+    },
+    {
+      "id": "st_tres",
+      "name": "Трест «Липецкстрой»",
+      "stopKey": "Трест «Липецкстрой»",
+      "x": 1520,
+      "y": 1128,
+      "labelDir": "bottom",
+      "isHub": true
+    },
+    {
+      "id": "st_msch",
+      "name": "Медсанчасть НЛМК",
+      "stopKey": "Медсанчасть НЛМК",
+      "x": 1645,
+      "y": 970,
+      "labelDir": "top",
+      "isHub": false
+    },
+    {
+      "id": "st_zav",
+      "name": "Новое заводоуправление",
+      "stopKey": "Новое заводоуправление",
+      "x": 1660,
+      "y": 1110,
+      "labelDir": "bottom",
+      "isHub": true
+    },
+    {
+      "id": "st_best",
+      "name": "Переулок Бестужева",
+      "stopKey": "Переулок Бестужева",
+      "x": 1760,
+      "y": 1025,
+      "labelDir": "top",
+      "isHub": false
+    },
+    {
+      "id": "st_sto",
+      "name": "СТО",
+      "stopKey": "СТО",
+      "x": 1820,
+      "y": 1085,
+      "labelDir": "bottom",
+      "isHub": false
+    },
+    {
+      "id": "st_fer",
+      "name": "Ферросплавный цех",
+      "stopKey": "Ферросплавный цех",
+      "x": 1885,
+      "y": 1045,
+      "labelDir": "top",
+      "isHub": false
+    },
+    {
+      "id": "st_avt2",
+      "name": "Автобаза № 2",
+      "stopKey": "Автобаза № 2",
+      "x": 1955,
+      "y": 1080,
+      "labelDir": "tr",
+      "isHub": false
+    },
+    {
+      "id": "st_novb",
+      "name": "Новобетонная улица",
+      "stopKey": "Новобетонная улица",
+      "x": 2005,
+      "y": 1155,
+      "labelDir": "right",
+      "isHub": false
+    },
+    {
+      "id": "st_viad",
+      "name": "Виадук",
+      "stopKey": "Виадук",
+      "x": 2005,
+      "y": 1265,
+      "labelDir": "right",
+      "isHub": false
+    },
+    {
+      "id": "st_stan",
+      "name": "Стан-2000",
+      "stopKey": "Стан-2000",
+      "x": 2005,
+      "y": 1390,
+      "labelDir": "right",
+      "isHub": true
+    }
+  ],
+  "corridors": [
+    {
+      "id": "c_1",
+      "fromId": "st_9mkr",
+      "toId": "st_k9m",
+      "lineIds": [
+        "ln_1k",
+        "ln_2"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_2",
+      "fromId": "st_9mkr",
+      "toId": "st_mos",
+      "lineIds": [
+        "ln_1k",
+        "ln_2"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_3",
+      "fromId": "st_mos",
+      "toId": "st_shv",
+      "lineIds": [
+        "ln_1k",
+        "ln_2"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_4",
+      "fromId": "st_ktz",
+      "toId": "st_shv",
+      "lineIds": [
+        "ln_1k",
+        "ln_2"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_5",
+      "fromId": "st_ktz",
+      "toId": "st_mar",
+      "lineIds": [
+        "ln_1k",
+        "ln_2"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_6",
+      "fromId": "st_mar",
+      "toId": "st_kos",
+      "lineIds": [
+        "ln_1k",
+        "ln_2"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_7",
+      "fromId": "st_kos",
+      "toId": "st_hud",
+      "lineIds": [
+        "ln_1k",
+        "ln_2"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_8",
+      "fromId": "st_kam",
+      "toId": "st_hud",
+      "lineIds": [
+        "ln_1k",
+        "ln_2"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_9",
+      "fromId": "st_kam",
+      "toId": "st_ryn",
+      "lineIds": [
+        "ln_1k",
+        "ln_2"
+      ],
+      "bend": {
+        "x": 1320,
+        "y": 425
+      },
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_10",
+      "fromId": "st_k9m",
+      "toId": "st_poly",
+      "lineIds": [
+        "ln_1",
+        "ln_1k",
+        "ln_2",
+        "ln_15",
+        "ln_4",
+        "ln_5"
+      ],
+      "bend": {
+        "x": 630,
+        "y": 525
+      },
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_11",
+      "fromId": "st_polu",
+      "toId": "st_poly",
+      "lineIds": [
+        "ln_1",
+        "ln_1k",
+        "ln_2",
+        "ln_15",
+        "ln_5"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_12",
+      "fromId": "st_ppob",
+      "toId": "st_polu",
+      "lineIds": [
+        "ln_1",
+        "ln_1k",
+        "ln_2",
+        "ln_15",
+        "ln_5"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_13",
+      "fromId": "st_24m",
+      "toId": "st_ppob",
+      "lineIds": [
+        "ln_1",
+        "ln_1k",
+        "ln_2",
+        "ln_15",
+        "ln_5"
+      ],
+      "bend": {
+        "x": 600,
+        "y": 790
+      },
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_14",
+      "fromId": "st_24m",
+      "toId": "st_ber",
+      "lineIds": [
+        "ln_1",
+        "ln_1k",
+        "ln_2",
+        "ln_15",
+        "ln_5"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_15",
+      "fromId": "st_ber",
+      "toId": "st_okt",
+      "lineIds": [
+        "ln_1",
+        "ln_1k",
+        "ln_2",
+        "ln_15",
+        "ln_4",
+        "ln_5"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_16",
+      "fromId": "st_okt",
+      "toId": "st_kat",
+      "lineIds": [
+        "ln_1",
+        "ln_1k",
+        "ln_2",
+        "ln_15",
+        "ln_4",
+        "ln_5"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_17",
+      "fromId": "st_21m",
+      "toId": "st_kat",
+      "lineIds": [
+        "ln_1",
+        "ln_1k",
+        "ln_2",
+        "ln_15",
+        "ln_5"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_18",
+      "fromId": "st_21m",
+      "toId": "st_tank",
+      "lineIds": [
+        "ln_1",
+        "ln_1k",
+        "ln_15"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_19",
+      "fromId": "st_tank",
+      "toId": "st_syr",
+      "lineIds": [
+        "ln_1",
+        "ln_1k",
+        "ln_15"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_20",
+      "fromId": "st_most",
+      "toId": "st_syr",
+      "lineIds": [
+        "ln_1",
+        "ln_1k",
+        "ln_15",
+        "ln_5",
+        "ln_7"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_21",
+      "fromId": "st_most",
+      "toId": "st_rech",
+      "lineIds": [
+        "ln_1",
+        "ln_1k",
+        "ln_15",
+        "ln_5",
+        "ln_7"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_22",
+      "fromId": "st_kras",
+      "toId": "st_rech",
+      "lineIds": [
+        "ln_1",
+        "ln_1k",
+        "ln_15",
+        "ln_5",
+        "ln_7"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_23",
+      "fromId": "st_kras",
+      "toId": "st_ltz",
+      "lineIds": [
+        "ln_1",
+        "ln_1k",
+        "ln_15"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_24",
+      "fromId": "st_ltz",
+      "toId": "st_klim",
+      "lineIds": [
+        "ln_1",
+        "ln_1k",
+        "ln_15"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_25",
+      "fromId": "st_klim",
+      "toId": "st_3sen",
+      "lineIds": [
+        "ln_1",
+        "ln_1k",
+        "ln_15"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_26",
+      "fromId": "st_rsu",
+      "toId": "st_3sen",
+      "lineIds": [
+        "ln_1",
+        "ln_1k",
+        "ln_15"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_27",
+      "fromId": "st_rsu",
+      "toId": "st_che",
+      "lineIds": [
+        "ln_1k"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_28",
+      "fromId": "st_obl",
+      "toId": "st_poly",
+      "lineIds": [
+        "ln_4"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_29",
+      "fromId": "st_obl",
+      "toId": "st_tu",
+      "lineIds": [
+        "ln_4"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_30",
+      "fromId": "st_tce",
+      "toId": "st_tu",
+      "lineIds": [
+        "ln_4"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_31",
+      "fromId": "st_tce",
+      "toId": "st_hre",
+      "lineIds": [
+        "ln_4",
+        "ln_7"
+      ],
+      "bend": {
+        "x": 215,
+        "y": 730
+      },
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_32",
+      "fromId": "st_osk",
+      "toId": "st_hre",
+      "lineIds": [
+        "ln_4",
+        "ln_7"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_33",
+      "fromId": "st_art",
+      "toId": "st_osk",
+      "lineIds": [
+        "ln_4",
+        "ln_7"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_34",
+      "fromId": "st_art",
+      "toId": "st_s58",
+      "lineIds": [
+        "ln_4",
+        "ln_7"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_35",
+      "fromId": "st_stad",
+      "toId": "st_s58",
+      "lineIds": [
+        "ln_4",
+        "ln_7"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_36",
+      "fromId": "st_el",
+      "toId": "st_stad",
+      "lineIds": [
+        "ln_4",
+        "ln_7"
+      ],
+      "bend": {
+        "x": 165,
+        "y": 365
+      },
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_37",
+      "fromId": "st_el",
+      "toId": "st_s58",
+      "lineIds": [
+        "ln_4",
+        "ln_7"
+      ],
+      "bend": {
+        "x": 240,
+        "y": 395
+      },
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_38",
+      "fromId": "st_pmol",
+      "toId": "st_tce",
+      "lineIds": [
+        "ln_4",
+        "ln_7"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_39",
+      "fromId": "st_mol",
+      "toId": "st_pmol",
+      "lineIds": [
+        "ln_4",
+        "ln_7"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_40",
+      "fromId": "st_mol",
+      "toId": "st_kriv",
+      "lineIds": [
+        "ln_4"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_41",
+      "fromId": "st_esen",
+      "toId": "st_kriv",
+      "lineIds": [
+        "ln_4"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_42",
+      "fromId": "st_ber",
+      "toId": "st_esen",
+      "lineIds": [
+        "ln_4"
+      ],
+      "bend": {
+        "x": 650,
+        "y": 890
+      },
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_43",
+      "fromId": "st_kat",
+      "toId": "st_tep",
+      "lineIds": [
+        "ln_4"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_44",
+      "fromId": "st_pol7",
+      "toId": "st_tep",
+      "lineIds": [
+        "ln_4",
+        "ln_7"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_45",
+      "fromId": "st_30m",
+      "toId": "st_pol7",
+      "lineIds": [
+        "ln_4",
+        "ln_7"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_46",
+      "fromId": "st_30m",
+      "toId": "st_koc",
+      "lineIds": [
+        "ln_4",
+        "ln_7"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_47",
+      "fromId": "st_evryn",
+      "toId": "st_koc",
+      "lineIds": [
+        "ln_4",
+        "ln_7"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_48",
+      "fromId": "st_evryn",
+      "toId": "st_sher",
+      "lineIds": [
+        "ln_4",
+        "ln_7"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_49",
+      "fromId": "st_mis",
+      "toId": "st_sher",
+      "lineIds": [
+        "ln_4",
+        "ln_7"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_50",
+      "fromId": "st_28m",
+      "toId": "st_mis",
+      "lineIds": [
+        "ln_4",
+        "ln_7"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_51",
+      "fromId": "st_28m",
+      "toId": "st_bel",
+      "lineIds": [
+        "ln_4",
+        "ln_7"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_52",
+      "fromId": "st_bel",
+      "toId": "st_shum",
+      "lineIds": [
+        "ln_4",
+        "ln_7"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_53",
+      "fromId": "st_mol",
+      "toId": "st_shum",
+      "lineIds": [
+        "ln_4",
+        "ln_7"
+      ],
+      "bend": {
+        "x": 380,
+        "y": 890
+      },
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_54",
+      "fromId": "st_volg",
+      "toId": "st_rsu",
+      "lineIds": [
+        "ln_1",
+        "ln_15"
+      ],
+      "bend": {
+        "x": 1485,
+        "y": 1650
+      },
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_55",
+      "fromId": "st_volg",
+      "toId": "st_izv",
+      "lineIds": [
+        "ln_1",
+        "ln_15"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_56",
+      "fromId": "st_izv",
+      "toId": "st_kkc",
+      "lineIds": [
+        "ln_1",
+        "ln_15"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_57",
+      "fromId": "st_dp6",
+      "toId": "st_kkc",
+      "lineIds": [
+        "ln_1",
+        "ln_15"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_58",
+      "fromId": "st_k9m",
+      "toId": "st_polu",
+      "lineIds": [
+        "ln_5"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_59",
+      "fromId": "st_kat",
+      "toId": "st_mer",
+      "lineIds": [
+        "ln_5"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_60",
+      "fromId": "st_21m",
+      "toId": "st_mer",
+      "lineIds": [
+        "ln_5",
+        "ln_7"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_61",
+      "fromId": "st_21m",
+      "toId": "st_syr",
+      "lineIds": [
+        "ln_5",
+        "ln_7"
+      ],
+      "bend": {
+        "x": 775,
+        "y": 1175
+      },
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_62",
+      "fromId": "st_kras",
+      "toId": "st_shl",
+      "lineIds": [
+        "ln_5",
+        "ln_7"
+      ],
+      "bend": {
+        "x": 1155,
+        "y": 1400
+      },
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_63",
+      "fromId": "st_aztp",
+      "toId": "st_shl",
+      "lineIds": [
+        "ln_5",
+        "ln_7"
+      ],
+      "bend": {
+        "x": 1205,
+        "y": 1275
+      },
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_64",
+      "fromId": "st_aztp",
+      "toId": "st_koks",
+      "lineIds": [
+        "ln_5",
+        "ln_7"
+      ],
+      "bend": {
+        "x": 1255,
+        "y": 1190
+      },
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_65",
+      "fromId": "st_koks",
+      "toId": "st_tech",
+      "lineIds": [
+        "ln_5",
+        "ln_7"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_66",
+      "fromId": "st_nlmk",
+      "toId": "st_tech",
+      "lineIds": [
+        "ln_5",
+        "ln_7"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_67",
+      "fromId": "st_nlmk",
+      "toId": "st_tres",
+      "lineIds": [
+        "ln_5",
+        "ln_7"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_68",
+      "fromId": "st_zav",
+      "toId": "st_tres",
+      "lineIds": [
+        "ln_5",
+        "ln_7"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_69",
+      "fromId": "st_zav",
+      "toId": "st_best",
+      "lineIds": [
+        "ln_5"
+      ],
+      "bend": {
+        "x": 1695,
+        "y": 1075
+      },
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_70",
+      "fromId": "st_best",
+      "toId": "st_sto",
+      "lineIds": [
+        "ln_5"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_71",
+      "fromId": "st_sto",
+      "toId": "st_fer",
+      "lineIds": [
+        "ln_5"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_72",
+      "fromId": "st_avt2",
+      "toId": "st_fer",
+      "lineIds": [
+        "ln_5"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_73",
+      "fromId": "st_avt2",
+      "toId": "st_novb",
+      "lineIds": [
+        "ln_5"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_74",
+      "fromId": "st_viad",
+      "toId": "st_novb",
+      "lineIds": [
+        "ln_5"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_75",
+      "fromId": "st_viad",
+      "toId": "st_stan",
+      "lineIds": [
+        "ln_5"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_76",
+      "fromId": "st_novb",
+      "toId": "st_fer",
+      "lineIds": [
+        "ln_5"
+      ],
+      "bend": {
+        "x": 1915,
+        "y": 1120
+      },
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_77",
+      "fromId": "st_msch",
+      "toId": "st_best",
+      "lineIds": [
+        "ln_5"
+      ],
+      "bend": {
+        "x": 1685,
+        "y": 990
+      },
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_78",
+      "fromId": "st_msch",
+      "toId": "st_tres",
+      "lineIds": [
+        "ln_5",
+        "ln_7"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_79",
+      "fromId": "st_28m",
+      "toId": "st_evr",
+      "lineIds": [
+        "ln_7"
+      ],
+      "bend": {
+        "x": 260,
+        "y": 1125
+      },
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_80",
+      "fromId": "st_evryn",
+      "toId": "st_evr",
+      "lineIds": [
+        "ln_7"
+      ],
+      "bend": {
+        "x": 280,
+        "y": 1255
+      },
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_81",
+      "fromId": "st_mer",
+      "toId": "st_tep",
+      "lineIds": [
+        "ln_7"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_82",
+      "fromId": "st_msch",
+      "toId": "st_zav",
+      "lineIds": [
+        "ln_7"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_83",
+      "fromId": "st_21m",
+      "toId": "st_tep",
+      "lineIds": [
+        "ln_7"
+      ],
+      "bend": {
+        "x": 700,
+        "y": 1120
+      },
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_84",
+      "fromId": "st_volg",
+      "toId": "st_che",
+      "lineIds": [
+        "ln_15"
+      ],
+      "bend": {
+        "x": 1585,
+        "y": 1665
+      },
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    }
+  ],
+  "transfers": [],
+  "rivers": [
+    {
+      "id": "rv_voronezh",
+      "name": "р. Воронеж",
+      "width": 38,
+      "color": "#0ea5e9",
+      "points": [
+        {
+          "x": 1510,
+          "y": 120
+        },
+        {
+          "x": 1465,
+          "y": 420
+        },
+        {
+          "x": 1395,
+          "y": 720
+        },
+        {
+          "x": 1175,
+          "y": 1030
+        },
+        {
+          "x": 990,
+          "y": 1325
+        },
+        {
+          "x": 785,
+          "y": 1620
+        },
+        {
+          "x": 585,
+          "y": 1920
+        }
+      ]
+    }
+  ],
+  "landmarks": [
+    {
+      "id": "lm_ppob",
+      "kind": "zone",
+      "name": "Парк Победы",
+      "x": 455,
+      "y": 745,
+      "w": 138,
+      "h": 46,
+      "angle": 0,
+      "color": "rgba(34, 197, 94, 0.14)"
+    },
+    {
+      "id": "lm_pmol",
+      "kind": "zone",
+      "name": "Парк Молодёжный",
+      "x": 230,
+      "y": 830,
+      "w": 145,
+      "h": 46,
+      "angle": 0,
+      "color": "rgba(34, 197, 94, 0.14)"
+    },
+    {
+      "id": "lm_nlmk",
+      "kind": "zone",
+      "name": "Промзона НЛМК",
+      "x": 1550,
+      "y": 1215,
+      "w": 175,
+      "h": 52,
+      "angle": 0,
+      "color": "rgba(148, 163, 184, 0.16)"
+    },
+    {
+      "id": "lm_most",
+      "kind": "bridge",
+      "name": "Октябрьский мост",
+      "x": 990,
+      "y": 1325,
+      "w": 145,
+      "h": 30,
+      "angle": 42,
+      "color": "rgba(56, 189, 248, 0.18)"
+    },
+    {
+      "id": "lm_orsc",
+      "kind": "text",
+      "name": "База ОРСа (по треб.)",
+      "x": 1580,
+      "y": 1850,
+      "w": 150,
+      "h": 28,
+      "angle": 0,
+      "color": ""
+    }
+  ],
+  "terminalOverrides": {}
+}
