@@ -5,42 +5,6 @@
   "updatedAt": 0,
   "lines": [
     {
-      "id": "ln_1",
-      "route": "1",
-      "name": "Маршрут № 1",
-      "type": "tram",
-      "color": "#4ADE80",
-      "customColor": false,
-      "visible": true
-    },
-    {
-      "id": "ln_1k",
-      "route": "1к",
-      "name": "Маршрут № 1к",
-      "type": "tram",
-      "color": "#E11D48",
-      "customColor": false,
-      "visible": true
-    },
-    {
-      "id": "ln_2",
-      "route": "2",
-      "name": "Маршрут № 2",
-      "type": "tram",
-      "color": "#2563EB",
-      "customColor": false,
-      "visible": true
-    },
-    {
-      "id": "ln_15",
-      "route": "15",
-      "name": "Маршрут № 15",
-      "type": "tram",
-      "color": "#FDE047",
-      "customColor": false,
-      "visible": true
-    },
-    {
       "id": "ln_4",
       "route": "4",
       "name": "Маршрут № 4",
@@ -66,6 +30,42 @@
       "color": "#0C4A6E",
       "customColor": false,
       "visible": true
+    },
+    {
+      "id": "ln_2",
+      "route": "2",
+      "name": "Маршрут № 2",
+      "type": "tram",
+      "color": "#2563EB",
+      "customColor": false,
+      "visible": true
+    },
+    {
+      "id": "ln_15",
+      "route": "15",
+      "name": "Маршрут № 15",
+      "type": "tram",
+      "color": "#FDE047",
+      "customColor": false,
+      "visible": true
+    },
+    {
+      "id": "ln_1",
+      "route": "1",
+      "name": "Маршрут № 1",
+      "type": "tram",
+      "color": "#4ADE80",
+      "customColor": false,
+      "visible": true
+    },
+    {
+      "id": "ln_1k",
+      "route": "1к",
+      "name": "Маршрут № 1к",
+      "type": "tram",
+      "color": "#E11D48",
+      "customColor": false,
+      "visible": true
     }
   ],
   "stations": [
@@ -77,8 +77,10 @@
       "y": 540,
       "labelDir": "left",
       "isHub": true,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_kam",
@@ -88,8 +90,10 @@
       "y": 400,
       "labelDir": "tr",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_hud",
@@ -99,8 +103,10 @@
       "y": 400,
       "labelDir": "top",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_kos",
@@ -110,8 +116,10 @@
       "y": 310,
       "labelDir": "tr",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_mar",
@@ -121,8 +129,10 @@
       "y": 240,
       "labelDir": "tr",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_ktz",
@@ -132,8 +142,10 @@
       "y": 170,
       "labelDir": "top",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_shv",
@@ -143,8 +155,10 @@
       "y": 240,
       "labelDir": "tl",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_mos",
@@ -154,8 +168,10 @@
       "y": 300,
       "labelDir": "tl",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_9mkr",
@@ -165,8 +181,10 @@
       "y": 365,
       "labelDir": "tl",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_k9m",
@@ -176,8 +194,10 @@
       "y": 465,
       "labelDir": "right",
       "isHub": true,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_poly",
@@ -187,8 +207,10 @@
       "y": 600,
       "labelDir": "right",
       "isHub": true,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_polu",
@@ -198,8 +220,10 @@
       "y": 680,
       "labelDir": "right",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_ppob",
@@ -209,8 +233,10 @@
       "y": 750,
       "labelDir": "right",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_24m",
@@ -220,8 +246,10 @@
       "y": 810,
       "labelDir": "tr",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_ber",
@@ -231,8 +259,10 @@
       "y": 865,
       "labelDir": "tr",
       "isHub": true,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_okt",
@@ -242,107 +272,231 @@
       "y": 920,
       "labelDir": "right",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_kat",
       "name": "Улица Катукова",
       "stopKey": "Улица Катукова",
       "x": 750,
-      "y": 985,
+      "y": 980,
       "labelDir": "right",
       "isHub": true,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_mer",
       "name": "Улица Меркулова",
       "stopKey": "Улица Меркулова",
-      "x": 650,
-      "y": 1045,
-      "labelDir": "tl",
+      "x": 688,
+      "y": 1098,
+      "labelDir": "left",
       "isHub": false,
+      "isJunction": false,
       "oneWay": true,
-      "oneWayAngle": 34
+      "oneWayAngle": 73,
+      "oneWayLineIds": []
     },
     {
       "id": "st_21m",
       "name": "21-й микрорайон",
       "stopKey": "21-й микрорайон",
-      "x": 770,
-      "y": 1125,
+      "x": 750,
+      "y": 1140,
       "labelDir": "tr",
       "isHub": true,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
+    },
+    {
+      "id": "j_el_top",
+      "name": "Развилка Елецкий верх",
+      "stopKey": "",
+      "x": 210,
+      "y": 368,
+      "labelDir": "auto",
+      "isHub": false,
+      "isJunction": true,
+      "oneWay": false,
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
+    },
+    {
+      "id": "j_el_bot",
+      "name": "Развилка Елецкий низ",
+      "stopKey": "",
+      "x": 210,
+      "y": 455,
+      "labelDir": "auto",
+      "isHub": false,
+      "isJunction": true,
+      "oneWay": false,
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
+    },
+    {
+      "id": "j_28s",
+      "name": "Развилка 28-й мкр.",
+      "stopKey": "",
+      "x": 315,
+      "y": 1118,
+      "labelDir": "auto",
+      "isHub": false,
+      "isJunction": true,
+      "oneWay": false,
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
+    },
+    {
+      "id": "j_evrs",
+      "name": "Развилка Евр. рынок",
+      "stopKey": "",
+      "x": 315,
+      "y": 1265,
+      "labelDir": "auto",
+      "isHub": false,
+      "isJunction": true,
+      "oneWay": false,
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
+    },
+    {
+      "id": "j_kat_w",
+      "name": "Развилка Катукова зап.",
+      "stopKey": "",
+      "x": 658,
+      "y": 1024,
+      "labelDir": "auto",
+      "isHub": false,
+      "isJunction": true,
+      "oneWay": false,
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
+    },
+    {
+      "id": "j_mer_in",
+      "name": "Развилка Меркулова",
+      "stopKey": "",
+      "x": 688,
+      "y": 1054,
+      "labelDir": "auto",
+      "isHub": false,
+      "isJunction": true,
+      "oneWay": false,
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
+    },
+    {
+      "id": "j_21_w",
+      "name": "Развилка 21-й мкр. зап.",
+      "stopKey": "",
+      "x": 716,
+      "y": 1140,
+      "labelDir": "auto",
+      "isHub": false,
+      "isJunction": true,
+      "oneWay": false,
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
+    },
+    {
+      "id": "j_che",
+      "name": "Развилка Чехова",
+      "stopKey": "",
+      "x": 1545,
+      "y": 1595,
+      "labelDir": "auto",
+      "isHub": false,
+      "isJunction": true,
+      "oneWay": false,
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_el",
       "name": "Микрорайон Елецкий",
       "stopKey": "Микрорайон Елецкий",
-      "x": 205,
-      "y": 350,
+      "x": 210,
+      "y": 335,
       "labelDir": "top",
       "isHub": true,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_stad",
       "name": "Стадион",
       "stopKey": "Стадион",
-      "x": 140,
-      "y": 425,
+      "x": 158,
+      "y": 412,
       "labelDir": "left",
       "isHub": false,
+      "isJunction": false,
       "oneWay": true,
-      "oneWayAngle": -67
+      "oneWayAngle": -90,
+      "oneWayLineIds": []
     },
     {
       "id": "st_s58",
       "name": "Школа № 58",
       "stopKey": "Школа № 58",
-      "x": 250,
-      "y": 455,
+      "x": 210,
+      "y": 482,
       "labelDir": "right",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_art",
       "name": "Улица Артёмова",
       "stopKey": "Улица Артёмова",
       "x": 210,
-      "y": 530,
+      "y": 545,
       "labelDir": "left",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_osk",
       "name": "Улица Осканова",
       "stopKey": "Улица Осканова",
       "x": 210,
-      "y": 605,
+      "y": 610,
       "labelDir": "left",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_hre",
       "name": "Улица Хренникова",
       "stopKey": "Улица Хренникова",
       "x": 210,
-      "y": 680,
+      "y": 675,
       "labelDir": "left",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_tce",
@@ -352,8 +506,10 @@
       "y": 740,
       "labelDir": "bl",
       "isHub": true,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_tu",
@@ -363,8 +519,10 @@
       "y": 650,
       "labelDir": "tl",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_obl",
@@ -374,8 +532,10 @@
       "y": 600,
       "labelDir": "tl",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_pmol",
@@ -385,8 +545,10 @@
       "y": 795,
       "labelDir": "tr",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_mol",
@@ -396,8 +558,10 @@
       "y": 850,
       "labelDir": "bl",
       "isHub": true,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_kriv",
@@ -407,8 +571,10 @@
       "y": 878,
       "labelDir": "top",
       "isHub": false,
+      "isJunction": false,
       "oneWay": true,
-      "oneWayAngle": 13
+      "oneWayAngle": 10,
+      "oneWayLineIds": []
     },
     {
       "id": "st_esen",
@@ -418,8 +584,10 @@
       "y": 895,
       "labelDir": "bottom",
       "isHub": false,
+      "isJunction": false,
       "oneWay": true,
-      "oneWayAngle": 2
+      "oneWayAngle": 2,
+      "oneWayLineIds": []
     },
     {
       "id": "st_shum",
@@ -429,140 +597,166 @@
       "y": 935,
       "labelDir": "left",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_bel",
       "name": "Улица Белана",
       "stopKey": "Улица Белана",
-      "x": 310,
-      "y": 1015,
+      "x": 315,
+      "y": 1010,
       "labelDir": "left",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_28m",
       "name": "28-й микрорайон",
       "stopKey": "28-й микрорайон",
-      "x": 320,
-      "y": 1105,
+      "x": 315,
+      "y": 1085,
       "labelDir": "left",
       "isHub": true,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_evr",
       "name": "Микрорайон Европейский",
       "stopKey": "Микрорайон Европейский",
-      "x": 205,
-      "y": 1185,
+      "x": 265,
+      "y": 1192,
       "labelDir": "left",
       "isHub": false,
+      "isJunction": false,
       "oneWay": true,
-      "oneWayAngle": 43
+      "oneWayAngle": 90,
+      "oneWayLineIds": []
     },
     {
       "id": "st_mis",
       "name": "Улица Мистюкова",
       "stopKey": "Улица Мистюкова",
-      "x": 390,
-      "y": 1150,
+      "x": 365,
+      "y": 1164,
       "labelDir": "right",
       "isHub": false,
+      "isJunction": false,
       "oneWay": true,
-      "oneWayAngle": -125
+      "oneWayAngle": -90,
+      "oneWayLineIds": []
     },
     {
       "id": "st_sher",
       "name": "Улица Шерстобитова",
       "stopKey": "Улица Шерстобитова",
-      "x": 405,
-      "y": 1215,
-      "labelDir": "left",
+      "x": 365,
+      "y": 1222,
+      "labelDir": "right",
       "isHub": false,
+      "isJunction": false,
       "oneWay": true,
-      "oneWayAngle": -82
+      "oneWayAngle": -90,
+      "oneWayLineIds": []
     },
     {
       "id": "st_evryn",
       "name": "Европейский рынок",
       "stopKey": "Европейский рынок",
-      "x": 365,
-      "y": 1285,
+      "x": 315,
+      "y": 1298,
       "labelDir": "bottom",
       "isHub": true,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_koc",
       "name": "Улица Коцаря",
       "stopKey": "Улица Коцаря",
-      "x": 465,
-      "y": 1265,
+      "x": 420,
+      "y": 1272,
       "labelDir": "bottom",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_30m",
       "name": "30-й микрорайон",
       "stopKey": "30-й микрорайон",
-      "x": 525,
-      "y": 1220,
+      "x": 470,
+      "y": 1222,
       "labelDir": "br",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_pol7",
       "name": "Поликлиника № 7",
       "stopKey": "Поликлиника № 7",
-      "x": 580,
-      "y": 1175,
+      "x": 515,
+      "y": 1168,
       "labelDir": "br",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_tep",
       "name": "Улица Теперика",
       "stopKey": "Улица Теперика",
-      "x": 635,
-      "y": 1130,
+      "x": 558,
+      "y": 1114,
       "labelDir": "tl",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_tank",
       "name": "Памятник танкистам",
       "stopKey": "Памятник танкистам",
       "x": 880,
-      "y": 1125,
+      "y": 1140,
       "labelDir": "right",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_syr",
       "name": "Село Сырское",
       "stopKey": "Село Сырское",
       "x": 880,
-      "y": 1205,
+      "y": 1210,
       "labelDir": "right",
       "isHub": true,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_most",
@@ -572,8 +766,10 @@
       "y": 1285,
       "labelDir": "tr",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_rech",
@@ -583,8 +779,10 @@
       "y": 1365,
       "labelDir": "bl",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_kras",
@@ -594,8 +792,10 @@
       "y": 1445,
       "labelDir": "bl",
       "isHub": true,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_ltz",
@@ -605,8 +805,10 @@
       "y": 1525,
       "labelDir": "tr",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_klim",
@@ -616,8 +818,10 @@
       "y": 1595,
       "labelDir": "bl",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_3sen",
@@ -627,63 +831,75 @@
       "y": 1595,
       "labelDir": "top",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_rsu",
       "name": "РСУ",
       "stopKey": "РСУ",
-      "x": 1490,
+      "x": 1485,
       "y": 1595,
       "labelDir": "top",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_che",
       "name": "Улица Чехова",
       "stopKey": "Улица Чехова",
-      "x": 1625,
+      "x": 1645,
       "y": 1595,
       "labelDir": "right",
       "isHub": true,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_volg",
       "name": "Волгоградская улица",
       "stopKey": "Волгоградская улица",
-      "x": 1545,
+      "x": 1595,
       "y": 1690,
       "labelDir": "bl",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_izv",
       "name": "Известковое отделение",
       "stopKey": "Известковое отделение",
       "x": 1665,
-      "y": 1690,
+      "y": 1745,
       "labelDir": "right",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_kkc",
       "name": "Кислородно-конвертерный цех (ККЦ)",
       "stopKey": "Кислородно-конвертерный цех (ККЦ)",
       "x": 1665,
-      "y": 1800,
+      "y": 1825,
       "labelDir": "right",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_dp6",
@@ -693,8 +909,10 @@
       "y": 1935,
       "labelDir": "right",
       "isHub": true,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_shl",
@@ -704,8 +922,10 @@
       "y": 1335,
       "labelDir": "br",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_aztp",
@@ -715,8 +935,10 @@
       "y": 1225,
       "labelDir": "tl",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_koks",
@@ -726,8 +948,10 @@
       "y": 1165,
       "labelDir": "tl",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_tech",
@@ -737,8 +961,10 @@
       "y": 1105,
       "labelDir": "tl",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_nlmk",
@@ -748,8 +974,10 @@
       "y": 1005,
       "labelDir": "top",
       "isHub": true,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_tres",
@@ -759,8 +987,10 @@
       "y": 1128,
       "labelDir": "bottom",
       "isHub": true,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_msch",
@@ -770,8 +1000,10 @@
       "y": 970,
       "labelDir": "top",
       "isHub": false,
+      "isJunction": false,
       "oneWay": true,
-      "oneWayAngle": 128
+      "oneWayAngle": 128,
+      "oneWayLineIds": []
     },
     {
       "id": "st_zav",
@@ -781,8 +1013,10 @@
       "y": 1110,
       "labelDir": "bottom",
       "isHub": true,
+      "isJunction": false,
       "oneWay": true,
-      "oneWayAngle": -26
+      "oneWayAngle": -26,
+      "oneWayLineIds": []
     },
     {
       "id": "st_best",
@@ -792,8 +1026,10 @@
       "y": 1025,
       "labelDir": "top",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_sto",
@@ -803,8 +1039,10 @@
       "y": 1085,
       "labelDir": "bottom",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_fer",
@@ -814,52 +1052,62 @@
       "y": 1045,
       "labelDir": "top",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_avt2",
       "name": "Автобаза № 2",
       "stopKey": "Автобаза № 2",
-      "x": 1955,
+      "x": 1930,
       "y": 1080,
       "labelDir": "tr",
       "isHub": false,
+      "isJunction": false,
       "oneWay": true,
-      "oneWayAngle": 41
+      "oneWayAngle": 55,
+      "oneWayLineIds": []
     },
     {
       "id": "st_novb",
       "name": "Новобетонная улица",
       "stopKey": "Новобетонная улица",
-      "x": 2005,
+      "x": 1955,
       "y": 1155,
-      "labelDir": "right",
+      "labelDir": "left",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_viad",
       "name": "Виадук",
       "stopKey": "Виадук",
-      "x": 2005,
+      "x": 1955,
       "y": 1265,
       "labelDir": "right",
       "isHub": false,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_stan",
       "name": "Стан-2000",
       "stopKey": "Стан-2000",
-      "x": 2005,
+      "x": 1955,
       "y": 1390,
       "labelDir": "right",
       "isHub": true,
+      "isJunction": false,
       "oneWay": false,
-      "oneWayAngle": 0
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     }
   ],
   "corridors": [
@@ -868,8 +1116,8 @@
       "fromId": "st_9mkr",
       "toId": "st_k9m",
       "lineIds": [
-        "ln_1k",
-        "ln_2"
+        "ln_2",
+        "ln_1k"
       ],
       "bend": null,
       "curveMode": "smooth",
@@ -880,8 +1128,8 @@
       "fromId": "st_mos",
       "toId": "st_9mkr",
       "lineIds": [
-        "ln_1k",
-        "ln_2"
+        "ln_2",
+        "ln_1k"
       ],
       "bend": null,
       "curveMode": "smooth",
@@ -892,8 +1140,8 @@
       "fromId": "st_shv",
       "toId": "st_mos",
       "lineIds": [
-        "ln_1k",
-        "ln_2"
+        "ln_2",
+        "ln_1k"
       ],
       "bend": null,
       "curveMode": "smooth",
@@ -904,8 +1152,8 @@
       "fromId": "st_ktz",
       "toId": "st_shv",
       "lineIds": [
-        "ln_1k",
-        "ln_2"
+        "ln_2",
+        "ln_1k"
       ],
       "bend": null,
       "curveMode": "smooth",
@@ -916,8 +1164,8 @@
       "fromId": "st_ktz",
       "toId": "st_mar",
       "lineIds": [
-        "ln_1k",
-        "ln_2"
+        "ln_2",
+        "ln_1k"
       ],
       "bend": null,
       "curveMode": "smooth",
@@ -928,8 +1176,8 @@
       "fromId": "st_mar",
       "toId": "st_kos",
       "lineIds": [
-        "ln_1k",
-        "ln_2"
+        "ln_2",
+        "ln_1k"
       ],
       "bend": null,
       "curveMode": "smooth",
@@ -940,8 +1188,8 @@
       "fromId": "st_kos",
       "toId": "st_hud",
       "lineIds": [
-        "ln_1k",
-        "ln_2"
+        "ln_2",
+        "ln_1k"
       ],
       "bend": null,
       "curveMode": "smooth",
@@ -952,10 +1200,13 @@
       "fromId": "st_hud",
       "toId": "st_kam",
       "lineIds": [
-        "ln_1k",
-        "ln_2"
+        "ln_2",
+        "ln_1k"
       ],
-      "bend": null,
+      "bend": {
+        "x": 1215,
+        "y": 400
+      },
       "curveMode": "smooth",
       "manualMinutes": {}
     },
@@ -964,8 +1215,8 @@
       "fromId": "st_kam",
       "toId": "st_ryn",
       "lineIds": [
-        "ln_1k",
-        "ln_2"
+        "ln_2",
+        "ln_1k"
       ],
       "bend": {
         "x": 1320,
@@ -979,12 +1230,12 @@
       "fromId": "st_k9m",
       "toId": "st_poly",
       "lineIds": [
-        "ln_1",
-        "ln_1k",
+        "ln_4",
+        "ln_5",
         "ln_2",
         "ln_15",
-        "ln_4",
-        "ln_5"
+        "ln_1",
+        "ln_1k"
       ],
       "bend": {
         "x": 630,
@@ -998,11 +1249,11 @@
       "fromId": "st_poly",
       "toId": "st_polu",
       "lineIds": [
-        "ln_1",
-        "ln_1k",
+        "ln_5",
         "ln_2",
         "ln_15",
-        "ln_5"
+        "ln_1",
+        "ln_1k"
       ],
       "bend": null,
       "curveMode": "smooth",
@@ -1013,11 +1264,11 @@
       "fromId": "st_polu",
       "toId": "st_ppob",
       "lineIds": [
-        "ln_1",
-        "ln_1k",
+        "ln_5",
         "ln_2",
         "ln_15",
-        "ln_5"
+        "ln_1",
+        "ln_1k"
       ],
       "bend": null,
       "curveMode": "smooth",
@@ -1028,11 +1279,11 @@
       "fromId": "st_ppob",
       "toId": "st_24m",
       "lineIds": [
-        "ln_1",
-        "ln_1k",
+        "ln_5",
         "ln_2",
         "ln_15",
-        "ln_5"
+        "ln_1",
+        "ln_1k"
       ],
       "bend": {
         "x": 600,
@@ -1046,11 +1297,11 @@
       "fromId": "st_24m",
       "toId": "st_ber",
       "lineIds": [
-        "ln_1",
-        "ln_1k",
+        "ln_5",
         "ln_2",
         "ln_15",
-        "ln_5"
+        "ln_1",
+        "ln_1k"
       ],
       "bend": null,
       "curveMode": "smooth",
@@ -1061,12 +1312,12 @@
       "fromId": "st_ber",
       "toId": "st_okt",
       "lineIds": [
-        "ln_1",
-        "ln_1k",
+        "ln_4",
+        "ln_5",
         "ln_2",
         "ln_15",
-        "ln_4",
-        "ln_5"
+        "ln_1",
+        "ln_1k"
       ],
       "bend": null,
       "curveMode": "smooth",
@@ -1077,12 +1328,12 @@
       "fromId": "st_okt",
       "toId": "st_kat",
       "lineIds": [
-        "ln_1",
-        "ln_1k",
+        "ln_4",
+        "ln_5",
         "ln_2",
         "ln_15",
-        "ln_4",
-        "ln_5"
+        "ln_1",
+        "ln_1k"
       ],
       "bend": null,
       "curveMode": "smooth",
@@ -1093,11 +1344,11 @@
       "fromId": "st_kat",
       "toId": "st_21m",
       "lineIds": [
-        "ln_1",
-        "ln_1k",
+        "ln_5",
         "ln_2",
         "ln_15",
-        "ln_5"
+        "ln_1",
+        "ln_1k"
       ],
       "bend": null,
       "curveMode": "smooth",
@@ -1108,9 +1359,9 @@
       "fromId": "st_21m",
       "toId": "st_tank",
       "lineIds": [
+        "ln_15",
         "ln_1",
-        "ln_1k",
-        "ln_15"
+        "ln_1k"
       ],
       "bend": null,
       "curveMode": "smooth",
@@ -1121,9 +1372,9 @@
       "fromId": "st_tank",
       "toId": "st_syr",
       "lineIds": [
+        "ln_15",
         "ln_1",
-        "ln_1k",
-        "ln_15"
+        "ln_1k"
       ],
       "bend": null,
       "curveMode": "smooth",
@@ -1134,11 +1385,11 @@
       "fromId": "st_syr",
       "toId": "st_most",
       "lineIds": [
-        "ln_1",
-        "ln_1k",
-        "ln_15",
         "ln_5",
-        "ln_7"
+        "ln_7",
+        "ln_15",
+        "ln_1",
+        "ln_1k"
       ],
       "bend": null,
       "curveMode": "smooth",
@@ -1149,11 +1400,11 @@
       "fromId": "st_most",
       "toId": "st_rech",
       "lineIds": [
-        "ln_1",
-        "ln_1k",
-        "ln_15",
         "ln_5",
-        "ln_7"
+        "ln_7",
+        "ln_15",
+        "ln_1",
+        "ln_1k"
       ],
       "bend": null,
       "curveMode": "smooth",
@@ -1164,11 +1415,11 @@
       "fromId": "st_rech",
       "toId": "st_kras",
       "lineIds": [
-        "ln_1",
-        "ln_1k",
-        "ln_15",
         "ln_5",
-        "ln_7"
+        "ln_7",
+        "ln_15",
+        "ln_1",
+        "ln_1k"
       ],
       "bend": null,
       "curveMode": "smooth",
@@ -1179,9 +1430,9 @@
       "fromId": "st_kras",
       "toId": "st_ltz",
       "lineIds": [
+        "ln_15",
         "ln_1",
-        "ln_1k",
-        "ln_15"
+        "ln_1k"
       ],
       "bend": null,
       "curveMode": "smooth",
@@ -1192,9 +1443,9 @@
       "fromId": "st_ltz",
       "toId": "st_klim",
       "lineIds": [
+        "ln_15",
         "ln_1",
-        "ln_1k",
-        "ln_15"
+        "ln_1k"
       ],
       "bend": null,
       "curveMode": "smooth",
@@ -1205,9 +1456,9 @@
       "fromId": "st_klim",
       "toId": "st_3sen",
       "lineIds": [
+        "ln_15",
         "ln_1",
-        "ln_1k",
-        "ln_15"
+        "ln_1k"
       ],
       "bend": null,
       "curveMode": "smooth",
@@ -1218,9 +1469,9 @@
       "fromId": "st_3sen",
       "toId": "st_rsu",
       "lineIds": [
+        "ln_15",
         "ln_1",
-        "ln_1k",
-        "ln_15"
+        "ln_1k"
       ],
       "bend": null,
       "curveMode": "smooth",
@@ -1229,8 +1480,10 @@
     {
       "id": "c_27",
       "fromId": "st_rsu",
-      "toId": "st_che",
+      "toId": "j_che",
       "lineIds": [
+        "ln_15",
+        "ln_1",
         "ln_1k"
       ],
       "bend": null,
@@ -1239,10 +1492,11 @@
     },
     {
       "id": "c_28",
-      "fromId": "st_obl",
-      "toId": "st_poly",
+      "fromId": "j_che",
+      "toId": "st_che",
       "lineIds": [
-        "ln_4"
+        "ln_15",
+        "ln_1k"
       ],
       "bend": null,
       "curveMode": "smooth",
@@ -1251,18 +1505,21 @@
     {
       "id": "c_29",
       "fromId": "st_obl",
-      "toId": "st_tu",
+      "toId": "st_poly",
       "lineIds": [
         "ln_4"
       ],
-      "bend": null,
+      "bend": {
+        "x": 560,
+        "y": 600
+      },
       "curveMode": "smooth",
       "manualMinutes": {}
     },
     {
       "id": "c_30",
       "fromId": "st_tu",
-      "toId": "st_tce",
+      "toId": "st_obl",
       "lineIds": [
         "ln_4"
       ],
@@ -1272,6 +1529,17 @@
     },
     {
       "id": "c_31",
+      "fromId": "st_tce",
+      "toId": "st_tu",
+      "lineIds": [
+        "ln_4"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_32",
       "fromId": "st_hre",
       "toId": "st_tce",
       "lineIds": [
@@ -1280,13 +1548,13 @@
       ],
       "bend": {
         "x": 215,
-        "y": 730
+        "y": 725
       },
       "curveMode": "smooth",
       "manualMinutes": {}
     },
     {
-      "id": "c_32",
+      "id": "c_33",
       "fromId": "st_osk",
       "toId": "st_hre",
       "lineIds": [
@@ -1298,7 +1566,7 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_33",
+      "id": "c_34",
       "fromId": "st_art",
       "toId": "st_osk",
       "lineIds": [
@@ -1310,7 +1578,7 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_34",
+      "id": "c_35",
       "fromId": "st_s58",
       "toId": "st_art",
       "lineIds": [
@@ -1322,8 +1590,23 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_35",
+      "id": "c_36",
       "fromId": "st_stad",
+      "toId": "j_el_bot",
+      "lineIds": [
+        "ln_4",
+        "ln_7"
+      ],
+      "bend": {
+        "x": 158,
+        "y": 448
+      },
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_37",
+      "fromId": "j_el_bot",
       "toId": "st_s58",
       "lineIds": [
         "ln_4",
@@ -1334,37 +1617,46 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_36",
-      "fromId": "st_el",
-      "toId": "st_stad",
-      "lineIds": [
-        "ln_4",
-        "ln_7"
-      ],
-      "bend": {
-        "x": 165,
-        "y": 365
-      },
-      "curveMode": "smooth",
-      "manualMinutes": {}
-    },
-    {
-      "id": "c_37",
-      "fromId": "st_el",
-      "toId": "st_s58",
-      "lineIds": [
-        "ln_4",
-        "ln_7"
-      ],
-      "bend": {
-        "x": 240,
-        "y": 395
-      },
-      "curveMode": "smooth",
-      "manualMinutes": {}
-    },
-    {
       "id": "c_38",
+      "fromId": "st_el",
+      "toId": "j_el_top",
+      "lineIds": [
+        "ln_4",
+        "ln_7"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_39",
+      "fromId": "st_stad",
+      "toId": "j_el_top",
+      "lineIds": [
+        "ln_4",
+        "ln_7"
+      ],
+      "bend": {
+        "x": 158,
+        "y": 375
+      },
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_40",
+      "fromId": "j_el_top",
+      "toId": "j_el_bot",
+      "lineIds": [
+        "ln_4",
+        "ln_7"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_41",
       "fromId": "st_tce",
       "toId": "st_pmol",
       "lineIds": [
@@ -1376,7 +1668,7 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_39",
+      "id": "c_42",
       "fromId": "st_pmol",
       "toId": "st_mol",
       "lineIds": [
@@ -1388,18 +1680,21 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_40",
+      "id": "c_43",
       "fromId": "st_mol",
       "toId": "st_kriv",
       "lineIds": [
         "ln_4"
       ],
-      "bend": null,
+      "bend": {
+        "x": 455,
+        "y": 870
+      },
       "curveMode": "smooth",
       "manualMinutes": {}
     },
     {
-      "id": "c_41",
+      "id": "c_44",
       "fromId": "st_kriv",
       "toId": "st_esen",
       "lineIds": [
@@ -1410,9 +1705,9 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_42",
-      "fromId": "st_ber",
-      "toId": "st_esen",
+      "id": "c_45",
+      "fromId": "st_esen",
+      "toId": "st_ber",
       "lineIds": [
         "ln_4"
       ],
@@ -1424,18 +1719,36 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_43",
-      "fromId": "st_kat",
-      "toId": "st_tep",
+      "id": "c_46",
+      "fromId": "j_kat_w",
+      "toId": "st_kat",
       "lineIds": [
-        "ln_4"
+        "ln_4",
+        "ln_5"
       ],
-      "bend": null,
+      "bend": {
+        "x": 718,
+        "y": 1002
+      },
       "curveMode": "smooth",
       "manualMinutes": {}
     },
     {
-      "id": "c_44",
+      "id": "c_47",
+      "fromId": "j_kat_w",
+      "toId": "st_tep",
+      "lineIds": [
+        "ln_4"
+      ],
+      "bend": {
+        "x": 590,
+        "y": 1058
+      },
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_48",
       "fromId": "st_tep",
       "toId": "st_pol7",
       "lineIds": [
@@ -1447,7 +1760,7 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_45",
+      "id": "c_49",
       "fromId": "st_pol7",
       "toId": "st_30m",
       "lineIds": [
@@ -1459,7 +1772,7 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_46",
+      "id": "c_50",
       "fromId": "st_30m",
       "toId": "st_koc",
       "lineIds": [
@@ -1471,20 +1784,23 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_47",
+      "id": "c_51",
       "fromId": "st_evryn",
       "toId": "st_koc",
       "lineIds": [
         "ln_4",
         "ln_7"
       ],
-      "bend": null,
+      "bend": {
+        "x": 385,
+        "y": 1295
+      },
       "curveMode": "smooth",
       "manualMinutes": {}
     },
     {
-      "id": "c_48",
-      "fromId": "st_sher",
+      "id": "c_52",
+      "fromId": "j_evrs",
       "toId": "st_evryn",
       "lineIds": [
         "ln_4",
@@ -1495,7 +1811,22 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_49",
+      "id": "c_53",
+      "fromId": "st_sher",
+      "toId": "j_evrs",
+      "lineIds": [
+        "ln_4",
+        "ln_7"
+      ],
+      "bend": {
+        "x": 365,
+        "y": 1246
+      },
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_54",
       "fromId": "st_mis",
       "toId": "st_sher",
       "lineIds": [
@@ -1507,9 +1838,9 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_50",
+      "id": "c_55",
       "fromId": "st_28m",
-      "toId": "st_mis",
+      "toId": "j_28s",
       "lineIds": [
         "ln_4",
         "ln_7"
@@ -1519,7 +1850,22 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_51",
+      "id": "c_56",
+      "fromId": "j_28s",
+      "toId": "st_mis",
+      "lineIds": [
+        "ln_4",
+        "ln_7"
+      ],
+      "bend": {
+        "x": 365,
+        "y": 1136
+      },
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_57",
       "fromId": "st_bel",
       "toId": "st_28m",
       "lineIds": [
@@ -1531,7 +1877,7 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_52",
+      "id": "c_58",
       "fromId": "st_shum",
       "toId": "st_bel",
       "lineIds": [
@@ -1543,7 +1889,7 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_53",
+      "id": "c_59",
       "fromId": "st_mol",
       "toId": "st_shum",
       "lineIds": [
@@ -1558,70 +1904,100 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_54",
-      "fromId": "st_rsu",
+      "id": "c_60",
+      "fromId": "j_che",
       "toId": "st_volg",
       "lineIds": [
-        "ln_1",
-        "ln_15"
+        "ln_15",
+        "ln_1"
       ],
       "bend": {
-        "x": 1485,
-        "y": 1650
+        "x": 1582,
+        "y": 1598
       },
       "curveMode": "smooth",
       "manualMinutes": {}
     },
     {
-      "id": "c_55",
+      "id": "c_61",
       "fromId": "st_volg",
       "toId": "st_izv",
       "lineIds": [
-        "ln_1",
-        "ln_15"
+        "ln_15",
+        "ln_1"
       ],
       "bend": null,
       "curveMode": "smooth",
       "manualMinutes": {}
     },
     {
-      "id": "c_56",
+      "id": "c_62",
       "fromId": "st_izv",
       "toId": "st_kkc",
       "lineIds": [
-        "ln_1",
-        "ln_15"
+        "ln_15",
+        "ln_1"
       ],
       "bend": null,
       "curveMode": "smooth",
       "manualMinutes": {}
     },
     {
-      "id": "c_57",
+      "id": "c_63",
       "fromId": "st_kkc",
       "toId": "st_dp6",
       "lineIds": [
-        "ln_1",
-        "ln_15"
+        "ln_15",
+        "ln_1"
       ],
-      "bend": null,
+      "bend": {
+        "x": 1665,
+        "y": 1885
+      },
       "curveMode": "smooth",
       "manualMinutes": {}
     },
     {
-      "id": "c_58",
-      "fromId": "st_kat",
-      "toId": "st_mer",
+      "id": "c_64",
+      "fromId": "j_kat_w",
+      "toId": "j_mer_in",
       "lineIds": [
         "ln_5"
       ],
+      "bend": {
+        "x": 682,
+        "y": 1038
+      },
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_65",
+      "fromId": "j_mer_in",
+      "toId": "st_mer",
+      "lineIds": [
+        "ln_5",
+        "ln_7"
+      ],
       "bend": null,
       "curveMode": "smooth",
       "manualMinutes": {}
     },
     {
-      "id": "c_59",
+      "id": "c_66",
       "fromId": "st_mer",
+      "toId": "j_21_w",
+      "lineIds": [
+        "ln_5",
+        "ln_7"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_67",
+      "fromId": "j_21_w",
       "toId": "st_21m",
       "lineIds": [
         "ln_5",
@@ -1632,7 +2008,7 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_60",
+      "id": "c_68",
       "fromId": "st_21m",
       "toId": "st_syr",
       "lineIds": [
@@ -1641,13 +2017,13 @@
       ],
       "bend": {
         "x": 775,
-        "y": 1175
+        "y": 1185
       },
       "curveMode": "smooth",
       "manualMinutes": {}
     },
     {
-      "id": "c_61",
+      "id": "c_69",
       "fromId": "st_shl",
       "toId": "st_kras",
       "lineIds": [
@@ -1662,7 +2038,7 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_62",
+      "id": "c_70",
       "fromId": "st_aztp",
       "toId": "st_shl",
       "lineIds": [
@@ -1677,7 +2053,7 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_63",
+      "id": "c_71",
       "fromId": "st_koks",
       "toId": "st_aztp",
       "lineIds": [
@@ -1692,7 +2068,7 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_64",
+      "id": "c_72",
       "fromId": "st_tech",
       "toId": "st_koks",
       "lineIds": [
@@ -1704,19 +2080,22 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_65",
+      "id": "c_73",
       "fromId": "st_nlmk",
       "toId": "st_tech",
       "lineIds": [
         "ln_5",
         "ln_7"
       ],
-      "bend": null,
+      "bend": {
+        "x": 1405,
+        "y": 1055
+      },
       "curveMode": "smooth",
       "manualMinutes": {}
     },
     {
-      "id": "c_66",
+      "id": "c_74",
       "fromId": "st_nlmk",
       "toId": "st_tres",
       "lineIds": [
@@ -1728,7 +2107,7 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_67",
+      "id": "c_75",
       "fromId": "st_tres",
       "toId": "st_zav",
       "lineIds": [
@@ -1740,9 +2119,9 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_68",
-      "fromId": "st_best",
-      "toId": "st_zav",
+      "id": "c_76",
+      "fromId": "st_zav",
+      "toId": "st_best",
       "lineIds": [
         "ln_5"
       ],
@@ -1754,7 +2133,7 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_69",
+      "id": "c_77",
       "fromId": "st_best",
       "toId": "st_sto",
       "lineIds": [
@@ -1765,9 +2144,9 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_70",
-      "fromId": "st_fer",
-      "toId": "st_sto",
+      "id": "c_78",
+      "fromId": "st_sto",
+      "toId": "st_fer",
       "lineIds": [
         "ln_5"
       ],
@@ -1776,7 +2155,7 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_71",
+      "id": "c_79",
       "fromId": "st_fer",
       "toId": "st_avt2",
       "lineIds": [
@@ -1787,7 +2166,7 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_72",
+      "id": "c_80",
       "fromId": "st_avt2",
       "toId": "st_novb",
       "lineIds": [
@@ -1798,18 +2177,21 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_73",
+      "id": "c_81",
       "fromId": "st_novb",
       "toId": "st_viad",
       "lineIds": [
         "ln_5"
       ],
-      "bend": null,
+      "bend": {
+        "x": 1935,
+        "y": 1205
+      },
       "curveMode": "smooth",
       "manualMinutes": {}
     },
     {
-      "id": "c_74",
+      "id": "c_82",
       "fromId": "st_viad",
       "toId": "st_stan",
       "lineIds": [
@@ -1820,21 +2202,21 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_75",
+      "id": "c_83",
       "fromId": "st_fer",
       "toId": "st_novb",
       "lineIds": [
         "ln_5"
       ],
       "bend": {
-        "x": 1915,
+        "x": 1895,
         "y": 1120
       },
       "curveMode": "smooth",
       "manualMinutes": {}
     },
     {
-      "id": "c_76",
+      "id": "c_84",
       "fromId": "st_msch",
       "toId": "st_best",
       "lineIds": [
@@ -1848,7 +2230,7 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_77",
+      "id": "c_85",
       "fromId": "st_msch",
       "toId": "st_tres",
       "lineIds": [
@@ -1860,37 +2242,37 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_78",
-      "fromId": "st_28m",
+      "id": "c_86",
+      "fromId": "j_28s",
       "toId": "st_evr",
       "lineIds": [
         "ln_7"
       ],
       "bend": {
-        "x": 260,
-        "y": 1125
+        "x": 265,
+        "y": 1136
       },
       "curveMode": "smooth",
       "manualMinutes": {}
     },
     {
-      "id": "c_79",
+      "id": "c_87",
       "fromId": "st_evr",
-      "toId": "st_evryn",
+      "toId": "j_evrs",
       "lineIds": [
         "ln_7"
       ],
       "bend": {
-        "x": 280,
-        "y": 1255
+        "x": 265,
+        "y": 1246
       },
       "curveMode": "smooth",
       "manualMinutes": {}
     },
     {
-      "id": "c_80",
-      "fromId": "st_mer",
-      "toId": "st_tep",
+      "id": "c_88",
+      "fromId": "st_tep",
+      "toId": "j_mer_in",
       "lineIds": [
         "ln_7"
       ],
@@ -1899,40 +2281,29 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_81",
+      "id": "c_89",
       "fromId": "st_msch",
       "toId": "st_zav",
       "lineIds": [
         "ln_7"
       ],
-      "bend": null,
-      "curveMode": "smooth",
-      "manualMinutes": {}
-    },
-    {
-      "id": "c_82",
-      "fromId": "st_tep",
-      "toId": "st_21m",
-      "lineIds": [
-        "ln_7"
-      ],
       "bend": {
-        "x": 700,
-        "y": 1120
+        "x": 1692,
+        "y": 1040
       },
       "curveMode": "smooth",
       "manualMinutes": {}
     },
     {
-      "id": "c_83",
-      "fromId": "st_che",
-      "toId": "st_volg",
+      "id": "c_90",
+      "fromId": "st_tep",
+      "toId": "j_21_w",
       "lineIds": [
-        "ln_15"
+        "ln_7"
       ],
       "bend": {
-        "x": 1585,
-        "y": 1665
+        "x": 642,
+        "y": 1138
       },
       "curveMode": "smooth",
       "manualMinutes": {}
