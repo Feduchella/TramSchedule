@@ -2,7 +2,7 @@
   "version": 2,
   "title": "Липецкий трамвай и электробус",
   "gridStep": 20,
-  "updatedAt": 1794764600,
+  "updatedAt": 1794765641,
   "lines": [
     {
       "id": "ln_4",
@@ -1436,10 +1436,15 @@
       "x": 1560,
       "y": 1700,
       "labelDir": "auto",
+      "angle": null,
+      "markerStyle": "auto",
+      "cornerMode": "fillet",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": true,
-      "cornerMode": "fillet",
-      "cornerRadius": 22
+      "oneWay": false,
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_csep2zw",
@@ -1448,10 +1453,15 @@
       "x": 1600,
       "y": 1940,
       "labelDir": "auto",
+      "angle": null,
+      "markerStyle": "auto",
+      "cornerMode": "fillet",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": true,
-      "cornerMode": "fillet",
-      "cornerRadius": 22
+      "oneWay": false,
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_xm39nlc",
@@ -1460,10 +1470,15 @@
       "x": 1700,
       "y": 1820,
       "labelDir": "auto",
+      "angle": null,
+      "markerStyle": "auto",
+      "cornerMode": "fillet",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": true,
-      "cornerMode": "fillet",
-      "cornerRadius": 22
+      "oneWay": false,
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_8atwomi",
@@ -1472,10 +1487,15 @@
       "x": 1600,
       "y": 1820,
       "labelDir": "auto",
+      "angle": null,
+      "markerStyle": "auto",
+      "cornerMode": "fillet",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": true,
-      "cornerMode": "fillet",
-      "cornerRadius": 22
+      "oneWay": false,
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_5c24hhe",
@@ -1484,10 +1504,15 @@
       "x": 1800,
       "y": 1940,
       "labelDir": "auto",
+      "angle": null,
+      "markerStyle": "auto",
+      "cornerMode": "fillet",
+      "cornerRadius": 14,
       "isHub": false,
       "isJunction": true,
-      "cornerMode": "fillet",
-      "cornerRadius": 14
+      "oneWay": false,
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     },
     {
       "id": "st_agmjfyv",
@@ -1496,10 +1521,15 @@
       "x": 1800,
       "y": 2000,
       "labelDir": "auto",
+      "angle": null,
+      "markerStyle": "auto",
+      "cornerMode": "fillet",
+      "cornerRadius": 14,
       "isHub": false,
       "isJunction": true,
-      "cornerMode": "fillet",
-      "cornerRadius": 14
+      "oneWay": false,
+      "oneWayAngle": 0,
+      "oneWayLineIds": []
     }
   ],
   "corridors": [
@@ -5876,8 +5906,11 @@
         "ln_1",
         "ln_15"
       ],
+      "customLineOrder": null,
       "bend": null,
+      "bends": [],
       "curveMode": "smooth",
+      "cornerRadius": 22,
       "manualMinutes": {},
       "_a": {
         "id": "st_volg",
@@ -5922,8 +5955,11 @@
         "ln_1",
         "ln_15"
       ],
+      "customLineOrder": null,
       "bend": null,
+      "bends": [],
       "curveMode": "smooth",
+      "cornerRadius": 22,
       "manualMinutes": {},
       "_a": {
         "id": "st_1700icb",
@@ -5932,10 +5968,15 @@
         "x": 1560,
         "y": 1700,
         "labelDir": "auto",
+        "angle": null,
+        "markerStyle": "auto",
+        "cornerMode": "fillet",
+        "cornerRadius": 22,
         "isHub": false,
         "isJunction": true,
-        "cornerMode": "fillet",
-        "cornerRadius": 22
+        "oneWay": false,
+        "oneWayAngle": 0,
+        "oneWayLineIds": []
       },
       "_b": {
         "id": "j_che",
@@ -5963,8 +6004,11 @@
         "ln_1",
         "ln_15"
       ],
+      "customLineOrder": null,
       "bend": null,
+      "bends": [],
       "curveMode": "smooth",
+      "cornerRadius": 22,
       "manualMinutes": {},
       "_a": {
         "id": "st_1700icb",
@@ -5973,10 +6017,15 @@
         "x": 1560,
         "y": 1700,
         "labelDir": "auto",
+        "angle": null,
+        "markerStyle": "auto",
+        "cornerMode": "fillet",
+        "cornerRadius": 22,
         "isHub": false,
         "isJunction": true,
-        "cornerMode": "fillet",
-        "cornerRadius": 22
+        "oneWay": false,
+        "oneWayAngle": 0,
+        "oneWayLineIds": []
       },
       "_b": {
         "id": "st_volg",
@@ -6004,8 +6053,11 @@
         "ln_1",
         "ln_15"
       ],
+      "customLineOrder": null,
       "bend": null,
+      "bends": [],
       "curveMode": "smooth",
+      "cornerRadius": 22,
       "manualMinutes": {},
       "_a": {
         "id": "st_kkc",
@@ -6031,10 +6083,15 @@
         "x": 1700,
         "y": 1820,
         "labelDir": "auto",
+        "angle": null,
+        "markerStyle": "auto",
+        "cornerMode": "fillet",
+        "cornerRadius": 22,
         "isHub": false,
         "isJunction": true,
-        "cornerMode": "fillet",
-        "cornerRadius": 22
+        "oneWay": false,
+        "oneWayAngle": 0,
+        "oneWayLineIds": []
       }
     },
     {
@@ -6045,8 +6102,11 @@
         "ln_1",
         "ln_15"
       ],
+      "customLineOrder": null,
       "bend": null,
+      "bends": [],
       "curveMode": "smooth",
+      "cornerRadius": 22,
       "manualMinutes": {},
       "_a": {
         "id": "st_xm39nlc",
@@ -6055,10 +6115,15 @@
         "x": 1700,
         "y": 1820,
         "labelDir": "auto",
+        "angle": null,
+        "markerStyle": "auto",
+        "cornerMode": "fillet",
+        "cornerRadius": 22,
         "isHub": false,
         "isJunction": true,
-        "cornerMode": "fillet",
-        "cornerRadius": 22
+        "oneWay": false,
+        "oneWayAngle": 0,
+        "oneWayLineIds": []
       },
       "_b": {
         "id": "st_8atwomi",
@@ -6067,10 +6132,15 @@
         "x": 1600,
         "y": 1820,
         "labelDir": "auto",
+        "angle": null,
+        "markerStyle": "auto",
+        "cornerMode": "fillet",
+        "cornerRadius": 22,
         "isHub": false,
         "isJunction": true,
-        "cornerMode": "fillet",
-        "cornerRadius": 22
+        "oneWay": false,
+        "oneWayAngle": 0,
+        "oneWayLineIds": []
       }
     },
     {
@@ -6081,8 +6151,11 @@
         "ln_1",
         "ln_15"
       ],
+      "customLineOrder": null,
       "bend": null,
+      "bends": [],
       "curveMode": "smooth",
+      "cornerRadius": 22,
       "manualMinutes": {},
       "_a": {
         "id": "st_8atwomi",
@@ -6091,10 +6164,15 @@
         "x": 1600,
         "y": 1820,
         "labelDir": "auto",
+        "angle": null,
+        "markerStyle": "auto",
+        "cornerMode": "fillet",
+        "cornerRadius": 22,
         "isHub": false,
         "isJunction": true,
-        "cornerMode": "fillet",
-        "cornerRadius": 22
+        "oneWay": false,
+        "oneWayAngle": 0,
+        "oneWayLineIds": []
       },
       "_b": {
         "id": "st_csep2zw",
@@ -6103,10 +6181,15 @@
         "x": 1600,
         "y": 1940,
         "labelDir": "auto",
+        "angle": null,
+        "markerStyle": "auto",
+        "cornerMode": "fillet",
+        "cornerRadius": 22,
         "isHub": false,
         "isJunction": true,
-        "cornerMode": "fillet",
-        "cornerRadius": 22
+        "oneWay": false,
+        "oneWayAngle": 0,
+        "oneWayLineIds": []
       }
     },
     {
@@ -6117,8 +6200,11 @@
         "ln_1",
         "ln_15"
       ],
+      "customLineOrder": null,
       "bend": null,
+      "bends": [],
       "curveMode": "smooth",
+      "cornerRadius": 22,
       "manualMinutes": {},
       "_a": {
         "id": "st_5c24hhe",
@@ -6127,10 +6213,15 @@
         "x": 1800,
         "y": 1940,
         "labelDir": "auto",
+        "angle": null,
+        "markerStyle": "auto",
+        "cornerMode": "fillet",
+        "cornerRadius": 14,
         "isHub": false,
         "isJunction": true,
-        "cornerMode": "fillet",
-        "cornerRadius": 14
+        "oneWay": false,
+        "oneWayAngle": 0,
+        "oneWayLineIds": []
       },
       "_b": {
         "id": "st_agmjfyv",
@@ -6139,10 +6230,15 @@
         "x": 1800,
         "y": 2000,
         "labelDir": "auto",
+        "angle": null,
+        "markerStyle": "auto",
+        "cornerMode": "fillet",
+        "cornerRadius": 14,
         "isHub": false,
         "isJunction": true,
-        "cornerMode": "fillet",
-        "cornerRadius": 14
+        "oneWay": false,
+        "oneWayAngle": 0,
+        "oneWayLineIds": []
       }
     },
     {
@@ -6153,8 +6249,11 @@
         "ln_1",
         "ln_15"
       ],
+      "customLineOrder": null,
       "bend": null,
+      "bends": [],
       "curveMode": "smooth",
+      "cornerRadius": 22,
       "manualMinutes": {},
       "_a": {
         "id": "st_agmjfyv",
@@ -6163,10 +6262,15 @@
         "x": 1800,
         "y": 2000,
         "labelDir": "auto",
+        "angle": null,
+        "markerStyle": "auto",
+        "cornerMode": "fillet",
+        "cornerRadius": 14,
         "isHub": false,
         "isJunction": true,
-        "cornerMode": "fillet",
-        "cornerRadius": 14
+        "oneWay": false,
+        "oneWayAngle": 0,
+        "oneWayLineIds": []
       },
       "_b": {
         "id": "st_dp6",
@@ -6194,8 +6298,11 @@
         "ln_1",
         "ln_15"
       ],
+      "customLineOrder": null,
       "bend": null,
+      "bends": [],
       "curveMode": "smooth",
+      "cornerRadius": 22,
       "manualMinutes": {},
       "_a": {
         "id": "st_csep2zw",
@@ -6204,10 +6311,15 @@
         "x": 1600,
         "y": 1940,
         "labelDir": "auto",
+        "angle": null,
+        "markerStyle": "auto",
+        "cornerMode": "fillet",
+        "cornerRadius": 22,
         "isHub": false,
         "isJunction": true,
-        "cornerMode": "fillet",
-        "cornerRadius": 22
+        "oneWay": false,
+        "oneWayAngle": 0,
+        "oneWayLineIds": []
       },
       "_b": {
         "id": "st_5c24hhe",
@@ -6216,10 +6328,15 @@
         "x": 1800,
         "y": 1940,
         "labelDir": "auto",
+        "angle": null,
+        "markerStyle": "auto",
+        "cornerMode": "fillet",
+        "cornerRadius": 14,
         "isHub": false,
         "isJunction": true,
-        "cornerMode": "fillet",
-        "cornerRadius": 14
+        "oneWay": false,
+        "oneWayAngle": 0,
+        "oneWayLineIds": []
       }
     }
   ],
@@ -6272,7 +6389,20 @@
       "w": 138,
       "h": 46,
       "angle": 0,
-      "color": "rgba(34, 197, 94, 0.14)"
+      "keepTextHorizontal": false,
+      "shape": "rect",
+      "points": [],
+      "cornerMode": "fillet",
+      "cornerRadius": 10,
+      "color": "rgba(34, 197, 94, 0.14)",
+      "borderColor": "",
+      "borderWidth": 1.2,
+      "borderStyle": "solid",
+      "textColor": "",
+      "fontSize": null,
+      "fontBold": null,
+      "fontItalic": false,
+      "textUnderline": false
     },
     {
       "id": "lm_pmol",
@@ -6283,7 +6413,20 @@
       "w": 145,
       "h": 46,
       "angle": 0,
-      "color": "rgba(34, 197, 94, 0.14)"
+      "keepTextHorizontal": false,
+      "shape": "rect",
+      "points": [],
+      "cornerMode": "fillet",
+      "cornerRadius": 10,
+      "color": "rgba(34, 197, 94, 0.14)",
+      "borderColor": "",
+      "borderWidth": 1.2,
+      "borderStyle": "solid",
+      "textColor": "",
+      "fontSize": null,
+      "fontBold": null,
+      "fontItalic": false,
+      "textUnderline": false
     },
     {
       "id": "lm_nlmk",
@@ -6294,7 +6437,20 @@
       "w": 175,
       "h": 52,
       "angle": 0,
-      "color": "rgba(148, 163, 184, 0.16)"
+      "keepTextHorizontal": false,
+      "shape": "rect",
+      "points": [],
+      "cornerMode": "fillet",
+      "cornerRadius": 10,
+      "color": "rgba(148, 163, 184, 0.16)",
+      "borderColor": "",
+      "borderWidth": 1.2,
+      "borderStyle": "solid",
+      "textColor": "",
+      "fontSize": null,
+      "fontBold": null,
+      "fontItalic": false,
+      "textUnderline": false
     },
     {
       "id": "lm_most",
@@ -6305,7 +6461,20 @@
       "w": 145,
       "h": 30,
       "angle": 42,
-      "color": "rgba(56, 189, 248, 0.18)"
+      "keepTextHorizontal": false,
+      "shape": "rect",
+      "points": [],
+      "cornerMode": "fillet",
+      "cornerRadius": 10,
+      "color": "rgba(56, 189, 248, 0.18)",
+      "borderColor": "",
+      "borderWidth": 1.2,
+      "borderStyle": "solid",
+      "textColor": "",
+      "fontSize": null,
+      "fontBold": null,
+      "fontItalic": false,
+      "textUnderline": false
     },
     {
       "id": "lm_orsc",
@@ -6316,7 +6485,20 @@
       "w": 150,
       "h": 28,
       "angle": 0,
-      "color": ""
+      "keepTextHorizontal": false,
+      "shape": "rect",
+      "points": [],
+      "cornerMode": "fillet",
+      "cornerRadius": 10,
+      "color": "",
+      "borderColor": "",
+      "borderWidth": 1.2,
+      "borderStyle": "solid",
+      "textColor": "",
+      "fontSize": null,
+      "fontBold": null,
+      "fontItalic": false,
+      "textUnderline": false
     }
   ],
   "terminalOverrides": {}
