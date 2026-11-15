@@ -76,7 +76,9 @@
       "x": 1300,
       "y": 540,
       "labelDir": "left",
-      "isHub": true
+      "isHub": true,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_kam",
@@ -85,7 +87,9 @@
       "x": 1255,
       "y": 400,
       "labelDir": "tr",
-      "isHub": false
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_hud",
@@ -94,7 +98,9 @@
       "x": 1125,
       "y": 400,
       "labelDir": "top",
-      "isHub": false
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_kos",
@@ -103,7 +109,9 @@
       "x": 1035,
       "y": 310,
       "labelDir": "tr",
-      "isHub": false
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_mar",
@@ -112,7 +120,9 @@
       "x": 965,
       "y": 240,
       "labelDir": "tr",
-      "isHub": false
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_ktz",
@@ -121,7 +131,9 @@
       "x": 895,
       "y": 170,
       "labelDir": "top",
-      "isHub": true
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_shv",
@@ -130,7 +142,9 @@
       "x": 825,
       "y": 240,
       "labelDir": "tl",
-      "isHub": false
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_mos",
@@ -139,7 +153,9 @@
       "x": 765,
       "y": 300,
       "labelDir": "tl",
-      "isHub": false
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_9mkr",
@@ -148,7 +164,9 @@
       "x": 710,
       "y": 365,
       "labelDir": "tl",
-      "isHub": false
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_k9m",
@@ -157,7 +175,9 @@
       "x": 695,
       "y": 465,
       "labelDir": "right",
-      "isHub": true
+      "isHub": true,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_poly",
@@ -166,7 +186,9 @@
       "x": 610,
       "y": 600,
       "labelDir": "right",
-      "isHub": true
+      "isHub": true,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_polu",
@@ -175,7 +197,9 @@
       "x": 590,
       "y": 680,
       "labelDir": "right",
-      "isHub": false
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_ppob",
@@ -184,7 +208,9 @@
       "x": 590,
       "y": 750,
       "labelDir": "right",
-      "isHub": false
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_24m",
@@ -193,7 +219,9 @@
       "x": 640,
       "y": 810,
       "labelDir": "tr",
-      "isHub": false
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_ber",
@@ -202,7 +230,9 @@
       "x": 695,
       "y": 865,
       "labelDir": "tr",
-      "isHub": true
+      "isHub": true,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_okt",
@@ -211,7 +241,9 @@
       "x": 750,
       "y": 920,
       "labelDir": "right",
-      "isHub": false
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_kat",
@@ -220,7 +252,9 @@
       "x": 750,
       "y": 985,
       "labelDir": "right",
-      "isHub": true
+      "isHub": true,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_mer",
@@ -229,7 +263,9 @@
       "x": 650,
       "y": 1045,
       "labelDir": "tl",
-      "isHub": false
+      "isHub": false,
+      "oneWay": true,
+      "oneWayAngle": 34
     },
     {
       "id": "st_21m",
@@ -238,7 +274,9 @@
       "x": 770,
       "y": 1125,
       "labelDir": "tr",
-      "isHub": true
+      "isHub": true,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_el",
@@ -247,7 +285,9 @@
       "x": 205,
       "y": 350,
       "labelDir": "top",
-      "isHub": true
+      "isHub": true,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_stad",
@@ -256,7 +296,9 @@
       "x": 140,
       "y": 425,
       "labelDir": "left",
-      "isHub": false
+      "isHub": false,
+      "oneWay": true,
+      "oneWayAngle": -67
     },
     {
       "id": "st_s58",
@@ -265,7 +307,9 @@
       "x": 250,
       "y": 455,
       "labelDir": "right",
-      "isHub": false
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_art",
@@ -274,7 +318,9 @@
       "x": 210,
       "y": 530,
       "labelDir": "left",
-      "isHub": false
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_osk",
@@ -283,7 +329,9 @@
       "x": 210,
       "y": 605,
       "labelDir": "left",
-      "isHub": false
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_hre",
@@ -292,7 +340,9 @@
       "x": 210,
       "y": 680,
       "labelDir": "left",
-      "isHub": false
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_tce",
@@ -301,7 +351,9 @@
       "x": 280,
       "y": 740,
       "labelDir": "bl",
-      "isHub": true
+      "isHub": true,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_tu",
@@ -310,7 +362,9 @@
       "x": 410,
       "y": 650,
       "labelDir": "tl",
-      "isHub": false
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_obl",
@@ -319,7 +373,9 @@
       "x": 500,
       "y": 600,
       "labelDir": "tl",
-      "isHub": false
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_pmol",
@@ -328,7 +384,9 @@
       "x": 340,
       "y": 795,
       "labelDir": "tr",
-      "isHub": false
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_mol",
@@ -337,7 +395,9 @@
       "x": 400,
       "y": 850,
       "labelDir": "bl",
-      "isHub": true
+      "isHub": true,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_kriv",
@@ -346,7 +406,9 @@
       "x": 495,
       "y": 878,
       "labelDir": "top",
-      "isHub": false
+      "isHub": false,
+      "oneWay": true,
+      "oneWayAngle": 13
     },
     {
       "id": "st_esen",
@@ -355,7 +417,9 @@
       "x": 595,
       "y": 895,
       "labelDir": "bottom",
-      "isHub": false
+      "isHub": false,
+      "oneWay": true,
+      "oneWayAngle": 2
     },
     {
       "id": "st_shum",
@@ -364,7 +428,9 @@
       "x": 355,
       "y": 935,
       "labelDir": "left",
-      "isHub": false
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_bel",
@@ -373,7 +439,9 @@
       "x": 310,
       "y": 1015,
       "labelDir": "left",
-      "isHub": false
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_28m",
@@ -382,7 +450,9 @@
       "x": 320,
       "y": 1105,
       "labelDir": "left",
-      "isHub": true
+      "isHub": true,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_evr",
@@ -391,7 +461,9 @@
       "x": 205,
       "y": 1185,
       "labelDir": "left",
-      "isHub": false
+      "isHub": false,
+      "oneWay": true,
+      "oneWayAngle": 43
     },
     {
       "id": "st_mis",
@@ -400,7 +472,9 @@
       "x": 390,
       "y": 1150,
       "labelDir": "right",
-      "isHub": false
+      "isHub": false,
+      "oneWay": true,
+      "oneWayAngle": -125
     },
     {
       "id": "st_sher",
@@ -409,7 +483,9 @@
       "x": 405,
       "y": 1215,
       "labelDir": "left",
-      "isHub": false
+      "isHub": false,
+      "oneWay": true,
+      "oneWayAngle": -82
     },
     {
       "id": "st_evryn",
@@ -418,7 +494,9 @@
       "x": 365,
       "y": 1285,
       "labelDir": "bottom",
-      "isHub": true
+      "isHub": true,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_koc",
@@ -427,7 +505,9 @@
       "x": 465,
       "y": 1265,
       "labelDir": "bottom",
-      "isHub": false
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_30m",
@@ -436,7 +516,9 @@
       "x": 525,
       "y": 1220,
       "labelDir": "br",
-      "isHub": false
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_pol7",
@@ -445,7 +527,9 @@
       "x": 580,
       "y": 1175,
       "labelDir": "br",
-      "isHub": false
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_tep",
@@ -454,7 +538,9 @@
       "x": 635,
       "y": 1130,
       "labelDir": "tl",
-      "isHub": false
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_tank",
@@ -463,7 +549,9 @@
       "x": 880,
       "y": 1125,
       "labelDir": "right",
-      "isHub": false
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_syr",
@@ -472,7 +560,9 @@
       "x": 880,
       "y": 1205,
       "labelDir": "right",
-      "isHub": true
+      "isHub": true,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_most",
@@ -481,7 +571,9 @@
       "x": 950,
       "y": 1285,
       "labelDir": "tr",
-      "isHub": false
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_rech",
@@ -490,7 +582,9 @@
       "x": 1030,
       "y": 1365,
       "labelDir": "bl",
-      "isHub": false
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_kras",
@@ -499,7 +593,9 @@
       "x": 1125,
       "y": 1445,
       "labelDir": "bl",
-      "isHub": true
+      "isHub": true,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_ltz",
@@ -508,7 +604,9 @@
       "x": 1215,
       "y": 1525,
       "labelDir": "tr",
-      "isHub": false
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_klim",
@@ -517,7 +615,9 @@
       "x": 1290,
       "y": 1595,
       "labelDir": "bl",
-      "isHub": false
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_3sen",
@@ -526,7 +626,9 @@
       "x": 1390,
       "y": 1595,
       "labelDir": "top",
-      "isHub": false
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_rsu",
@@ -535,7 +637,9 @@
       "x": 1490,
       "y": 1595,
       "labelDir": "top",
-      "isHub": false
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_che",
@@ -544,7 +648,9 @@
       "x": 1625,
       "y": 1595,
       "labelDir": "right",
-      "isHub": true
+      "isHub": true,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_volg",
@@ -553,7 +659,9 @@
       "x": 1545,
       "y": 1690,
       "labelDir": "bl",
-      "isHub": false
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_izv",
@@ -562,7 +670,9 @@
       "x": 1665,
       "y": 1690,
       "labelDir": "right",
-      "isHub": false
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_kkc",
@@ -571,7 +681,9 @@
       "x": 1665,
       "y": 1800,
       "labelDir": "right",
-      "isHub": false
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_dp6",
@@ -580,7 +692,9 @@
       "x": 1815,
       "y": 1935,
       "labelDir": "right",
-      "isHub": true
+      "isHub": true,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_shl",
@@ -589,7 +703,9 @@
       "x": 1195,
       "y": 1335,
       "labelDir": "br",
-      "isHub": false
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_aztp",
@@ -598,7 +714,9 @@
       "x": 1245,
       "y": 1225,
       "labelDir": "tl",
-      "isHub": false
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_koks",
@@ -607,7 +725,9 @@
       "x": 1305,
       "y": 1165,
       "labelDir": "tl",
-      "isHub": false
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_tech",
@@ -616,7 +736,9 @@
       "x": 1365,
       "y": 1105,
       "labelDir": "tl",
-      "isHub": false
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_nlmk",
@@ -625,7 +747,9 @@
       "x": 1465,
       "y": 1005,
       "labelDir": "top",
-      "isHub": true
+      "isHub": true,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_tres",
@@ -634,7 +758,9 @@
       "x": 1520,
       "y": 1128,
       "labelDir": "bottom",
-      "isHub": true
+      "isHub": true,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_msch",
@@ -643,7 +769,9 @@
       "x": 1645,
       "y": 970,
       "labelDir": "top",
-      "isHub": false
+      "isHub": false,
+      "oneWay": true,
+      "oneWayAngle": 128
     },
     {
       "id": "st_zav",
@@ -652,7 +780,9 @@
       "x": 1660,
       "y": 1110,
       "labelDir": "bottom",
-      "isHub": true
+      "isHub": true,
+      "oneWay": true,
+      "oneWayAngle": -26
     },
     {
       "id": "st_best",
@@ -661,7 +791,9 @@
       "x": 1760,
       "y": 1025,
       "labelDir": "top",
-      "isHub": false
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_sto",
@@ -670,7 +802,9 @@
       "x": 1820,
       "y": 1085,
       "labelDir": "bottom",
-      "isHub": false
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_fer",
@@ -679,7 +813,9 @@
       "x": 1885,
       "y": 1045,
       "labelDir": "top",
-      "isHub": false
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_avt2",
@@ -688,7 +824,9 @@
       "x": 1955,
       "y": 1080,
       "labelDir": "tr",
-      "isHub": false
+      "isHub": false,
+      "oneWay": true,
+      "oneWayAngle": 41
     },
     {
       "id": "st_novb",
@@ -697,7 +835,9 @@
       "x": 2005,
       "y": 1155,
       "labelDir": "right",
-      "isHub": false
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_viad",
@@ -706,7 +846,9 @@
       "x": 2005,
       "y": 1265,
       "labelDir": "right",
-      "isHub": false
+      "isHub": false,
+      "oneWay": false,
+      "oneWayAngle": 0
     },
     {
       "id": "st_stan",
@@ -715,7 +857,9 @@
       "x": 2005,
       "y": 1390,
       "labelDir": "right",
-      "isHub": true
+      "isHub": true,
+      "oneWay": false,
+      "oneWayAngle": 0
     }
   ],
   "corridors": [
@@ -733,8 +877,8 @@
     },
     {
       "id": "c_2",
-      "fromId": "st_9mkr",
-      "toId": "st_mos",
+      "fromId": "st_mos",
+      "toId": "st_9mkr",
       "lineIds": [
         "ln_1k",
         "ln_2"
@@ -745,8 +889,8 @@
     },
     {
       "id": "c_3",
-      "fromId": "st_mos",
-      "toId": "st_shv",
+      "fromId": "st_shv",
+      "toId": "st_mos",
       "lineIds": [
         "ln_1k",
         "ln_2"
@@ -805,8 +949,8 @@
     },
     {
       "id": "c_8",
-      "fromId": "st_kam",
-      "toId": "st_hud",
+      "fromId": "st_hud",
+      "toId": "st_kam",
       "lineIds": [
         "ln_1k",
         "ln_2"
@@ -851,22 +995,7 @@
     },
     {
       "id": "c_11",
-      "fromId": "st_polu",
-      "toId": "st_poly",
-      "lineIds": [
-        "ln_1",
-        "ln_1k",
-        "ln_2",
-        "ln_15",
-        "ln_5"
-      ],
-      "bend": null,
-      "curveMode": "smooth",
-      "manualMinutes": {}
-    },
-    {
-      "id": "c_12",
-      "fromId": "st_ppob",
+      "fromId": "st_poly",
       "toId": "st_polu",
       "lineIds": [
         "ln_1",
@@ -880,9 +1009,24 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_13",
-      "fromId": "st_24m",
+      "id": "c_12",
+      "fromId": "st_polu",
       "toId": "st_ppob",
+      "lineIds": [
+        "ln_1",
+        "ln_1k",
+        "ln_2",
+        "ln_15",
+        "ln_5"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
+      "id": "c_13",
+      "fromId": "st_ppob",
+      "toId": "st_24m",
       "lineIds": [
         "ln_1",
         "ln_1k",
@@ -946,8 +1090,8 @@
     },
     {
       "id": "c_17",
-      "fromId": "st_21m",
-      "toId": "st_kat",
+      "fromId": "st_kat",
+      "toId": "st_21m",
       "lineIds": [
         "ln_1",
         "ln_1k",
@@ -987,8 +1131,8 @@
     },
     {
       "id": "c_20",
-      "fromId": "st_most",
-      "toId": "st_syr",
+      "fromId": "st_syr",
+      "toId": "st_most",
       "lineIds": [
         "ln_1",
         "ln_1k",
@@ -1017,8 +1161,8 @@
     },
     {
       "id": "c_22",
-      "fromId": "st_kras",
-      "toId": "st_rech",
+      "fromId": "st_rech",
+      "toId": "st_kras",
       "lineIds": [
         "ln_1",
         "ln_1k",
@@ -1071,8 +1215,8 @@
     },
     {
       "id": "c_26",
-      "fromId": "st_rsu",
-      "toId": "st_3sen",
+      "fromId": "st_3sen",
+      "toId": "st_rsu",
       "lineIds": [
         "ln_1",
         "ln_1k",
@@ -1117,8 +1261,8 @@
     },
     {
       "id": "c_30",
-      "fromId": "st_tce",
-      "toId": "st_tu",
+      "fromId": "st_tu",
+      "toId": "st_tce",
       "lineIds": [
         "ln_4"
       ],
@@ -1128,8 +1272,8 @@
     },
     {
       "id": "c_31",
-      "fromId": "st_tce",
-      "toId": "st_hre",
+      "fromId": "st_hre",
+      "toId": "st_tce",
       "lineIds": [
         "ln_4",
         "ln_7"
@@ -1167,8 +1311,8 @@
     },
     {
       "id": "c_34",
-      "fromId": "st_art",
-      "toId": "st_s58",
+      "fromId": "st_s58",
+      "toId": "st_art",
       "lineIds": [
         "ln_4",
         "ln_7"
@@ -1221,8 +1365,8 @@
     },
     {
       "id": "c_38",
-      "fromId": "st_pmol",
-      "toId": "st_tce",
+      "fromId": "st_tce",
+      "toId": "st_pmol",
       "lineIds": [
         "ln_4",
         "ln_7"
@@ -1233,8 +1377,8 @@
     },
     {
       "id": "c_39",
-      "fromId": "st_mol",
-      "toId": "st_pmol",
+      "fromId": "st_pmol",
+      "toId": "st_mol",
       "lineIds": [
         "ln_4",
         "ln_7"
@@ -1256,8 +1400,8 @@
     },
     {
       "id": "c_41",
-      "fromId": "st_esen",
-      "toId": "st_kriv",
+      "fromId": "st_kriv",
+      "toId": "st_esen",
       "lineIds": [
         "ln_4"
       ],
@@ -1292,8 +1436,8 @@
     },
     {
       "id": "c_44",
-      "fromId": "st_pol7",
-      "toId": "st_tep",
+      "fromId": "st_tep",
+      "toId": "st_pol7",
       "lineIds": [
         "ln_4",
         "ln_7"
@@ -1304,8 +1448,8 @@
     },
     {
       "id": "c_45",
-      "fromId": "st_30m",
-      "toId": "st_pol7",
+      "fromId": "st_pol7",
+      "toId": "st_30m",
       "lineIds": [
         "ln_4",
         "ln_7"
@@ -1340,8 +1484,8 @@
     },
     {
       "id": "c_48",
-      "fromId": "st_evryn",
-      "toId": "st_sher",
+      "fromId": "st_sher",
+      "toId": "st_evryn",
       "lineIds": [
         "ln_4",
         "ln_7"
@@ -1376,8 +1520,8 @@
     },
     {
       "id": "c_51",
-      "fromId": "st_28m",
-      "toId": "st_bel",
+      "fromId": "st_bel",
+      "toId": "st_28m",
       "lineIds": [
         "ln_4",
         "ln_7"
@@ -1388,8 +1532,8 @@
     },
     {
       "id": "c_52",
-      "fromId": "st_bel",
-      "toId": "st_shum",
+      "fromId": "st_shum",
+      "toId": "st_bel",
       "lineIds": [
         "ln_4",
         "ln_7"
@@ -1415,8 +1559,8 @@
     },
     {
       "id": "c_54",
-      "fromId": "st_volg",
-      "toId": "st_rsu",
+      "fromId": "st_rsu",
+      "toId": "st_volg",
       "lineIds": [
         "ln_1",
         "ln_15"
@@ -1454,8 +1598,8 @@
     },
     {
       "id": "c_57",
-      "fromId": "st_dp6",
-      "toId": "st_kkc",
+      "fromId": "st_kkc",
+      "toId": "st_dp6",
       "lineIds": [
         "ln_1",
         "ln_15"
@@ -1466,17 +1610,6 @@
     },
     {
       "id": "c_58",
-      "fromId": "st_k9m",
-      "toId": "st_polu",
-      "lineIds": [
-        "ln_5"
-      ],
-      "bend": null,
-      "curveMode": "smooth",
-      "manualMinutes": {}
-    },
-    {
-      "id": "c_59",
       "fromId": "st_kat",
       "toId": "st_mer",
       "lineIds": [
@@ -1487,9 +1620,9 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_60",
-      "fromId": "st_21m",
-      "toId": "st_mer",
+      "id": "c_59",
+      "fromId": "st_mer",
+      "toId": "st_21m",
       "lineIds": [
         "ln_5",
         "ln_7"
@@ -1499,7 +1632,7 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_61",
+      "id": "c_60",
       "fromId": "st_21m",
       "toId": "st_syr",
       "lineIds": [
@@ -1514,9 +1647,9 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_62",
-      "fromId": "st_kras",
-      "toId": "st_shl",
+      "id": "c_61",
+      "fromId": "st_shl",
+      "toId": "st_kras",
       "lineIds": [
         "ln_5",
         "ln_7"
@@ -1529,7 +1662,7 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_63",
+      "id": "c_62",
       "fromId": "st_aztp",
       "toId": "st_shl",
       "lineIds": [
@@ -1544,9 +1677,9 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_64",
-      "fromId": "st_aztp",
-      "toId": "st_koks",
+      "id": "c_63",
+      "fromId": "st_koks",
+      "toId": "st_aztp",
       "lineIds": [
         "ln_5",
         "ln_7"
@@ -1559,8 +1692,20 @@
       "manualMinutes": {}
     },
     {
+      "id": "c_64",
+      "fromId": "st_tech",
+      "toId": "st_koks",
+      "lineIds": [
+        "ln_5",
+        "ln_7"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
       "id": "c_65",
-      "fromId": "st_koks",
+      "fromId": "st_nlmk",
       "toId": "st_tech",
       "lineIds": [
         "ln_5",
@@ -1573,7 +1718,7 @@
     {
       "id": "c_66",
       "fromId": "st_nlmk",
-      "toId": "st_tech",
+      "toId": "st_tres",
       "lineIds": [
         "ln_5",
         "ln_7"
@@ -1584,8 +1729,8 @@
     },
     {
       "id": "c_67",
-      "fromId": "st_nlmk",
-      "toId": "st_tres",
+      "fromId": "st_tres",
+      "toId": "st_zav",
       "lineIds": [
         "ln_5",
         "ln_7"
@@ -1596,20 +1741,8 @@
     },
     {
       "id": "c_68",
-      "fromId": "st_zav",
-      "toId": "st_tres",
-      "lineIds": [
-        "ln_5",
-        "ln_7"
-      ],
-      "bend": null,
-      "curveMode": "smooth",
-      "manualMinutes": {}
-    },
-    {
-      "id": "c_69",
-      "fromId": "st_zav",
-      "toId": "st_best",
+      "fromId": "st_best",
+      "toId": "st_zav",
       "lineIds": [
         "ln_5"
       ],
@@ -1621,7 +1754,7 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_70",
+      "id": "c_69",
       "fromId": "st_best",
       "toId": "st_sto",
       "lineIds": [
@@ -1632,9 +1765,20 @@
       "manualMinutes": {}
     },
     {
+      "id": "c_70",
+      "fromId": "st_fer",
+      "toId": "st_sto",
+      "lineIds": [
+        "ln_5"
+      ],
+      "bend": null,
+      "curveMode": "smooth",
+      "manualMinutes": {}
+    },
+    {
       "id": "c_71",
-      "fromId": "st_sto",
-      "toId": "st_fer",
+      "fromId": "st_fer",
+      "toId": "st_avt2",
       "lineIds": [
         "ln_5"
       ],
@@ -1645,7 +1789,7 @@
     {
       "id": "c_72",
       "fromId": "st_avt2",
-      "toId": "st_fer",
+      "toId": "st_novb",
       "lineIds": [
         "ln_5"
       ],
@@ -1655,8 +1799,8 @@
     },
     {
       "id": "c_73",
-      "fromId": "st_avt2",
-      "toId": "st_novb",
+      "fromId": "st_novb",
+      "toId": "st_viad",
       "lineIds": [
         "ln_5"
       ],
@@ -1667,17 +1811,6 @@
     {
       "id": "c_74",
       "fromId": "st_viad",
-      "toId": "st_novb",
-      "lineIds": [
-        "ln_5"
-      ],
-      "bend": null,
-      "curveMode": "smooth",
-      "manualMinutes": {}
-    },
-    {
-      "id": "c_75",
-      "fromId": "st_viad",
       "toId": "st_stan",
       "lineIds": [
         "ln_5"
@@ -1687,9 +1820,9 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_76",
-      "fromId": "st_novb",
-      "toId": "st_fer",
+      "id": "c_75",
+      "fromId": "st_fer",
+      "toId": "st_novb",
       "lineIds": [
         "ln_5"
       ],
@@ -1701,7 +1834,7 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_77",
+      "id": "c_76",
       "fromId": "st_msch",
       "toId": "st_best",
       "lineIds": [
@@ -1715,7 +1848,7 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_78",
+      "id": "c_77",
       "fromId": "st_msch",
       "toId": "st_tres",
       "lineIds": [
@@ -1727,7 +1860,7 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_79",
+      "id": "c_78",
       "fromId": "st_28m",
       "toId": "st_evr",
       "lineIds": [
@@ -1741,9 +1874,9 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_80",
-      "fromId": "st_evryn",
-      "toId": "st_evr",
+      "id": "c_79",
+      "fromId": "st_evr",
+      "toId": "st_evryn",
       "lineIds": [
         "ln_7"
       ],
@@ -1755,7 +1888,7 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_81",
+      "id": "c_80",
       "fromId": "st_mer",
       "toId": "st_tep",
       "lineIds": [
@@ -1766,7 +1899,7 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_82",
+      "id": "c_81",
       "fromId": "st_msch",
       "toId": "st_zav",
       "lineIds": [
@@ -1777,9 +1910,9 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_83",
-      "fromId": "st_21m",
-      "toId": "st_tep",
+      "id": "c_82",
+      "fromId": "st_tep",
+      "toId": "st_21m",
       "lineIds": [
         "ln_7"
       ],
@@ -1791,9 +1924,9 @@
       "manualMinutes": {}
     },
     {
-      "id": "c_84",
-      "fromId": "st_volg",
-      "toId": "st_che",
+      "id": "c_83",
+      "fromId": "st_che",
+      "toId": "st_volg",
       "lineIds": [
         "ln_15"
       ],
