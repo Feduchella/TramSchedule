@@ -78,6 +78,8 @@
       "labelDir": "left",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": true,
       "isJunction": false,
       "oneWay": false,
@@ -93,6 +95,8 @@
       "labelDir": "tr",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -108,6 +112,8 @@
       "labelDir": "top",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -123,6 +129,8 @@
       "labelDir": "tr",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -138,6 +146,8 @@
       "labelDir": "tr",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -153,6 +163,8 @@
       "labelDir": "top",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -168,6 +180,8 @@
       "labelDir": "tl",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -183,6 +197,8 @@
       "labelDir": "tl",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -198,6 +214,8 @@
       "labelDir": "tl",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -213,6 +231,8 @@
       "labelDir": "right",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": true,
       "isJunction": false,
       "oneWay": false,
@@ -228,6 +248,8 @@
       "labelDir": "right",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": true,
       "isJunction": false,
       "oneWay": false,
@@ -243,6 +265,8 @@
       "labelDir": "right",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -258,6 +282,8 @@
       "labelDir": "right",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -273,6 +299,8 @@
       "labelDir": "tr",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -288,6 +316,8 @@
       "labelDir": "tr",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": true,
       "isJunction": false,
       "oneWay": false,
@@ -303,6 +333,8 @@
       "labelDir": "right",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -318,6 +350,8 @@
       "labelDir": "right",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": true,
       "isJunction": false,
       "oneWay": false,
@@ -328,15 +362,17 @@
       "id": "st_mer",
       "name": "Улица Меркулова",
       "stopKey": "Улица Меркулова",
-      "x": 688,
-      "y": 1098,
+      "x": 696,
+      "y": 1112,
       "labelDir": "left",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": true,
-      "oneWayAngle": 73,
+      "oneWayAngle": 67,
       "oneWayLineIds": []
     },
     {
@@ -348,6 +384,8 @@
       "labelDir": "tr",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": true,
       "isJunction": false,
       "oneWay": false,
@@ -363,6 +401,8 @@
       "labelDir": "auto",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": true,
       "oneWay": false,
@@ -378,6 +418,8 @@
       "labelDir": "auto",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": true,
       "oneWay": false,
@@ -393,6 +435,8 @@
       "labelDir": "auto",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": true,
       "oneWay": false,
@@ -408,6 +452,8 @@
       "labelDir": "auto",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": true,
       "oneWay": false,
@@ -418,11 +464,13 @@
       "id": "j_kat_w",
       "name": "Развилка Катукова зап.",
       "stopKey": "",
-      "x": 658,
-      "y": 1024,
+      "x": 696,
+      "y": 1018,
       "labelDir": "auto",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": true,
       "oneWay": false,
@@ -433,11 +481,13 @@
       "id": "j_mer_in",
       "name": "Развилка Меркулова",
       "stopKey": "",
-      "x": 688,
-      "y": 1054,
+      "x": 692,
+      "y": 1074,
       "labelDir": "auto",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": true,
       "oneWay": false,
@@ -448,11 +498,13 @@
       "id": "j_21_w",
       "name": "Развилка 21-й мкр. зап.",
       "stopKey": "",
-      "x": 716,
+      "x": 720,
       "y": 1140,
       "labelDir": "auto",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": true,
       "oneWay": false,
@@ -468,6 +520,8 @@
       "labelDir": "auto",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": true,
       "oneWay": false,
@@ -483,6 +537,8 @@
       "labelDir": "top",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": true,
       "isJunction": false,
       "oneWay": false,
@@ -498,6 +554,8 @@
       "labelDir": "left",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": true,
@@ -513,6 +571,8 @@
       "labelDir": "right",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -528,6 +588,8 @@
       "labelDir": "left",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -543,6 +605,8 @@
       "labelDir": "left",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -558,6 +622,8 @@
       "labelDir": "left",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -573,6 +639,8 @@
       "labelDir": "bl",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": true,
       "isJunction": false,
       "oneWay": false,
@@ -588,6 +656,8 @@
       "labelDir": "tl",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -603,6 +673,8 @@
       "labelDir": "tl",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -618,6 +690,8 @@
       "labelDir": "tr",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -633,6 +707,8 @@
       "labelDir": "bl",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": true,
       "isJunction": false,
       "oneWay": false,
@@ -648,6 +724,8 @@
       "labelDir": "top",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": true,
@@ -663,6 +741,8 @@
       "labelDir": "bottom",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": true,
@@ -678,6 +758,8 @@
       "labelDir": "left",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -693,6 +775,8 @@
       "labelDir": "left",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -708,6 +792,8 @@
       "labelDir": "left",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": true,
       "isJunction": false,
       "oneWay": false,
@@ -723,6 +809,8 @@
       "labelDir": "left",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": true,
@@ -738,6 +826,8 @@
       "labelDir": "right",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": true,
@@ -753,6 +843,8 @@
       "labelDir": "right",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": true,
@@ -768,6 +860,8 @@
       "labelDir": "bottom",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": true,
       "isJunction": false,
       "oneWay": false,
@@ -783,6 +877,8 @@
       "labelDir": "bottom",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -798,6 +894,8 @@
       "labelDir": "br",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -813,6 +911,8 @@
       "labelDir": "br",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -828,6 +928,8 @@
       "labelDir": "tl",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -843,6 +945,8 @@
       "labelDir": "right",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "fillet",
+      "cornerRadius": 24,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -858,6 +962,8 @@
       "labelDir": "right",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": true,
       "isJunction": false,
       "oneWay": false,
@@ -873,6 +979,8 @@
       "labelDir": "tr",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -888,6 +996,8 @@
       "labelDir": "bl",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -903,6 +1013,8 @@
       "labelDir": "bl",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": true,
       "isJunction": false,
       "oneWay": false,
@@ -918,6 +1030,8 @@
       "labelDir": "tr",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -933,6 +1047,8 @@
       "labelDir": "bl",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -948,6 +1064,8 @@
       "labelDir": "top",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -963,6 +1081,8 @@
       "labelDir": "top",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -978,6 +1098,8 @@
       "labelDir": "right",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": true,
       "isJunction": false,
       "oneWay": false,
@@ -993,6 +1115,8 @@
       "labelDir": "left",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -1008,6 +1132,8 @@
       "labelDir": "right",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "fillet",
+      "cornerRadius": 26,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -1023,6 +1149,8 @@
       "labelDir": "right",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -1038,6 +1166,8 @@
       "labelDir": "right",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": true,
       "isJunction": false,
       "oneWay": false,
@@ -1053,6 +1183,8 @@
       "labelDir": "br",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -1068,6 +1200,8 @@
       "labelDir": "tl",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -1083,6 +1217,8 @@
       "labelDir": "tl",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -1098,6 +1234,8 @@
       "labelDir": "tl",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -1113,6 +1251,8 @@
       "labelDir": "top",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": true,
       "isJunction": false,
       "oneWay": false,
@@ -1128,6 +1268,8 @@
       "labelDir": "bottom",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": true,
       "isJunction": false,
       "oneWay": false,
@@ -1143,6 +1285,8 @@
       "labelDir": "top",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": true,
@@ -1158,6 +1302,8 @@
       "labelDir": "bottom",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": true,
       "isJunction": false,
       "oneWay": true,
@@ -1173,6 +1319,8 @@
       "labelDir": "top",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -1188,6 +1336,8 @@
       "labelDir": "bottom",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -1203,6 +1353,8 @@
       "labelDir": "top",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -1218,6 +1370,8 @@
       "labelDir": "tr",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": true,
@@ -1233,6 +1387,8 @@
       "labelDir": "left",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -1248,6 +1404,8 @@
       "labelDir": "right",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": false,
       "isJunction": false,
       "oneWay": false,
@@ -1263,6 +1421,8 @@
       "labelDir": "right",
       "angle": null,
       "markerStyle": "auto",
+      "cornerMode": "sharp",
+      "cornerRadius": 22,
       "isHub": true,
       "isJunction": false,
       "oneWay": false,
@@ -1279,7 +1439,7 @@
         "ln_2",
         "ln_1k"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -1294,7 +1454,7 @@
         "ln_2",
         "ln_1k"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -1309,7 +1469,7 @@
         "ln_2",
         "ln_1k"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -1324,7 +1484,7 @@
         "ln_2",
         "ln_1k"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -1339,7 +1499,7 @@
         "ln_2",
         "ln_1k"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -1354,7 +1514,7 @@
         "ln_2",
         "ln_1k"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -1369,7 +1529,7 @@
         "ln_2",
         "ln_1k"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -1384,7 +1544,7 @@
         "ln_2",
         "ln_1k"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": {
         "x": 1215,
         "y": 400
@@ -1402,7 +1562,7 @@
         "ln_2",
         "ln_1k"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": {
         "x": 1320,
         "y": 425
@@ -1423,7 +1583,7 @@
         "ln_1",
         "ln_1k"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": {
         "x": 630,
         "y": 525
@@ -1443,7 +1603,7 @@
         "ln_1",
         "ln_1k"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -1460,7 +1620,7 @@
         "ln_1",
         "ln_1k"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -1477,7 +1637,7 @@
         "ln_1",
         "ln_1k"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": {
         "x": 600,
         "y": 790
@@ -1497,7 +1657,7 @@
         "ln_1",
         "ln_1k"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -1515,7 +1675,7 @@
         "ln_1",
         "ln_1k"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -1533,7 +1693,7 @@
         "ln_1",
         "ln_1k"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -1550,7 +1710,7 @@
         "ln_1",
         "ln_1k"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -1565,7 +1725,7 @@
         "ln_1",
         "ln_1k"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -1580,7 +1740,7 @@
         "ln_1",
         "ln_1k"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -1597,7 +1757,7 @@
         "ln_1",
         "ln_1k"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -1614,7 +1774,7 @@
         "ln_1",
         "ln_1k"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -1631,7 +1791,7 @@
         "ln_1",
         "ln_1k"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -1646,7 +1806,7 @@
         "ln_1",
         "ln_1k"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -1661,7 +1821,7 @@
         "ln_1",
         "ln_1k"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -1676,7 +1836,7 @@
         "ln_1",
         "ln_1k"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -1691,7 +1851,7 @@
         "ln_1",
         "ln_1k"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -1706,7 +1866,7 @@
         "ln_1",
         "ln_1k"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -1721,7 +1881,7 @@
         "ln_15",
         "ln_1k"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -1735,7 +1895,7 @@
       "lineIds": [
         "ln_4"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": {
         "x": 560,
         "y": 600
@@ -1752,7 +1912,7 @@
       "lineIds": [
         "ln_4"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -1766,7 +1926,7 @@
       "lineIds": [
         "ln_4"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -1781,7 +1941,7 @@
         "ln_4",
         "ln_7"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": {
         "x": 215,
         "y": 725
@@ -1799,7 +1959,7 @@
         "ln_4",
         "ln_7"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -1814,7 +1974,7 @@
         "ln_4",
         "ln_7"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -1829,7 +1989,7 @@
         "ln_4",
         "ln_7"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -1844,7 +2004,7 @@
         "ln_4",
         "ln_7"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": {
         "x": 158,
         "y": 448
@@ -1862,7 +2022,7 @@
         "ln_4",
         "ln_7"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -1877,7 +2037,7 @@
         "ln_4",
         "ln_7"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -1892,7 +2052,7 @@
         "ln_4",
         "ln_7"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": {
         "x": 158,
         "y": 375
@@ -1910,7 +2070,7 @@
         "ln_4",
         "ln_7"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -1925,7 +2085,7 @@
         "ln_4",
         "ln_7"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -1940,7 +2100,7 @@
         "ln_4",
         "ln_7"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -1954,7 +2114,7 @@
       "lineIds": [
         "ln_4"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": {
         "x": 455,
         "y": 870
@@ -1971,7 +2131,7 @@
       "lineIds": [
         "ln_4"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -1985,7 +2145,7 @@
       "lineIds": [
         "ln_4"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": {
         "x": 650,
         "y": 890
@@ -2003,10 +2163,10 @@
         "ln_4",
         "ln_5"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": {
-        "x": 718,
-        "y": 1002
+        "x": 724,
+        "y": 998
       },
       "bends": [],
       "curveMode": "smooth",
@@ -2015,15 +2175,15 @@
     },
     {
       "id": "c_47",
-      "fromId": "j_kat_w",
-      "toId": "st_tep",
+      "fromId": "st_tep",
+      "toId": "j_kat_w",
       "lineIds": [
         "ln_4"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": {
-        "x": 590,
-        "y": 1058
+        "x": 626,
+        "y": 1066
       },
       "bends": [],
       "curveMode": "smooth",
@@ -2038,7 +2198,7 @@
         "ln_4",
         "ln_7"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -2053,7 +2213,7 @@
         "ln_4",
         "ln_7"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -2068,7 +2228,7 @@
         "ln_4",
         "ln_7"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -2083,7 +2243,7 @@
         "ln_4",
         "ln_7"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": {
         "x": 385,
         "y": 1295
@@ -2101,7 +2261,7 @@
         "ln_4",
         "ln_7"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -2116,7 +2276,7 @@
         "ln_4",
         "ln_7"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": {
         "x": 365,
         "y": 1246
@@ -2134,7 +2294,7 @@
         "ln_4",
         "ln_7"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -2149,7 +2309,7 @@
         "ln_4",
         "ln_7"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -2164,7 +2324,7 @@
         "ln_4",
         "ln_7"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": {
         "x": 365,
         "y": 1136
@@ -2182,7 +2342,7 @@
         "ln_4",
         "ln_7"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -2197,7 +2357,7 @@
         "ln_4",
         "ln_7"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -2212,7 +2372,7 @@
         "ln_4",
         "ln_7"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": {
         "x": 380,
         "y": 890
@@ -2230,7 +2390,7 @@
         "ln_15",
         "ln_1"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -2245,7 +2405,7 @@
         "ln_15",
         "ln_1"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": {
         "x": 1560,
         "y": 1745
@@ -2263,7 +2423,7 @@
         "ln_15",
         "ln_1"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -2278,7 +2438,7 @@
         "ln_15",
         "ln_1"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": {
         "x": 1665,
         "y": 1935
@@ -2295,11 +2455,8 @@
       "lineIds": [
         "ln_5"
       ],
-      "customLineOrder": false,
-      "bend": {
-        "x": 682,
-        "y": 1038
-      },
+      "customLineOrder": null,
+      "bend": null,
       "bends": [],
       "curveMode": "smooth",
       "cornerRadius": 22,
@@ -2313,7 +2470,7 @@
         "ln_5",
         "ln_7"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -2328,7 +2485,7 @@
         "ln_5",
         "ln_7"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -2343,7 +2500,7 @@
         "ln_5",
         "ln_7"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -2358,7 +2515,7 @@
         "ln_5",
         "ln_7"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": {
         "x": 775,
         "y": 1185
@@ -2376,7 +2533,7 @@
         "ln_5",
         "ln_7"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": {
         "x": 1155,
         "y": 1400
@@ -2394,7 +2551,7 @@
         "ln_5",
         "ln_7"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": {
         "x": 1205,
         "y": 1275
@@ -2412,7 +2569,7 @@
         "ln_5",
         "ln_7"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": {
         "x": 1255,
         "y": 1190
@@ -2430,7 +2587,7 @@
         "ln_5",
         "ln_7"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -2445,7 +2602,7 @@
         "ln_5",
         "ln_7"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": {
         "x": 1405,
         "y": 1055
@@ -2463,7 +2620,7 @@
         "ln_5",
         "ln_7"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -2478,7 +2635,7 @@
         "ln_5",
         "ln_7"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -2492,7 +2649,7 @@
       "lineIds": [
         "ln_5"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": {
         "x": 1695,
         "y": 1075
@@ -2509,7 +2666,7 @@
       "lineIds": [
         "ln_5"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -2523,7 +2680,7 @@
       "lineIds": [
         "ln_5"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -2537,7 +2694,7 @@
       "lineIds": [
         "ln_5"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -2551,7 +2708,7 @@
       "lineIds": [
         "ln_5"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -2565,7 +2722,7 @@
       "lineIds": [
         "ln_5"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": {
         "x": 1935,
         "y": 1205
@@ -2582,7 +2739,7 @@
       "lineIds": [
         "ln_5"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -2596,7 +2753,7 @@
       "lineIds": [
         "ln_5"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": {
         "x": 1895,
         "y": 1120
@@ -2613,7 +2770,7 @@
       "lineIds": [
         "ln_5"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": {
         "x": 1685,
         "y": 990
@@ -2631,7 +2788,7 @@
         "ln_5",
         "ln_7"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -2645,7 +2802,7 @@
       "lineIds": [
         "ln_7"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": {
         "x": 265,
         "y": 1136
@@ -2662,7 +2819,7 @@
       "lineIds": [
         "ln_7"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": {
         "x": 265,
         "y": 1246
@@ -2679,7 +2836,7 @@
       "lineIds": [
         "ln_7"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": null,
       "bends": [],
       "curveMode": "smooth",
@@ -2693,7 +2850,7 @@
       "lineIds": [
         "ln_7"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": {
         "x": 1692,
         "y": 1040
@@ -2710,7 +2867,7 @@
       "lineIds": [
         "ln_7"
       ],
-      "customLineOrder": false,
+      "customLineOrder": null,
       "bend": {
         "x": 642,
         "y": 1138
